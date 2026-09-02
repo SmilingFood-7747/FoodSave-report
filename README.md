@@ -36,20 +36,20 @@ Faculta de Ingeniería
 <th>Integrantes</th>
 </tr>
 <tr>
-<td>U20</td>
-<td></td>
+<td>U202326295</td>
+<td>Huayra Moreyra José Maria</td>
 </tr>
 <tr>
-<td>U20</td>
-<td></td>
+<td>U202321590</td>
+<td>Xin Yu Shi Lin</td>
 </tr>
 <tr>
-<td>U20</td>
-<td></td>
+<td>U20221e121</td>
+<td>Giuliano Angel Peláez Vargas</td>
 </tr>
 <tr>
-<td>U20</td>
-<td></td>
+<td>U202316246</td>
+<td>Martínez Ramos Bryan Felix</td>
 </tr>
 <tr>
 <td>U202213185</td>
