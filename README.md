@@ -207,9 +207,28 @@ Faculta de Ingeniería
 
 ## 2.1. Competidores
 
+FoodSave analiza a Cirkula como competidor directo peruano, Too Good To Go como referente internacional de marketplace de excedentes y Sinba como competidor indirecto de gestión y valorización de residuos.
+
 ### 2.1.1. Análisis competitivo
+ **¿Por qué llevar a cabo este análisis?**
+
+Para identificar cómo FoodSave puede diferenciar su propuesta de publicación y reserva transparente de excedentes frente a alternativas existentes, sin asumir que el modelo es inexistente en Perú.
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+| Perfil | Criterio | FoodSave | Cirkula | Too Good To Go | Sinba |
+|---|---|---|---|---|---|
+| Overview | Tipo de solución | Marketplace propuesto para excedentes aptos para consumo. | Marketplace peruano de excedentes de alimentos. | Marketplace internacional de alimentos no vendidos. | Gestión y valorización de residuos. |
+| Perfil de Marketing | Ventaja competitiva: ¿qué valor ofrece a los clientes? | Transparencia de producto, ingredientes/alérgenos, precio original, unidades y horario; código de recojo. | Descuentos en excedentes de establecimientos de comida. | Reserva y recojo de excedentes a precio reducido; bolsas sorpresa como formato frecuente. | Segregación, recolección y transformación de residuos. |
+| Perfil de Marketing | Mercado objetivo | Restaurantes A1 de Lima Metropolitana y clientes cercanos. | Negocios de comida y usuarios que adquieren ofertas en Lima. | Negocios de comida, panaderías, tiendas y usuarios de los países donde opera. | Empresas, restaurantes, hogares y organizaciones que gestionan residuos. |
+| Perfil de Marketing | Estrategias de marketing | Piloto acotado por zona; información clara y medición de publicaciones, reservas y recojos. | Pendiente de verificar con fuentes y observación de sus canales públicos. | Pendiente de verificar con fuentes y observación de sus canales públicos. | Pendiente de verificar con fuentes y observación de sus canales públicos. |
+| Perfil de Producto | Productos y servicios | Landing Page, catálogo, publicación de ofertas, reservas, código de recojo y mapa. | Aplicación/plataforma de ofertas de comida con descuento. | Aplicación/plataforma de reservas y recojo de excedentes. | Servicios de gestión y valorización de residuos. |
+| Perfil de Producto | Precios y costos | Comisión hipotética de 5 % a 10 %, por validar; no presentar como política vigente. | Pendiente de verificar. | Pendiente de verificar según mercado. | Pendiente de verificar. |
+| Perfil de Producto | Canales de distribución (Web y/o Móvil) | Landing Page y Web Application responsivas. | Pendiente de verificar. | Pendiente de verificar. | Pendiente de verificar. |
+| Análisis SWOT | Fortalezas | Foco acotado, información transparente y arquitectura orientada a servicios. | Pendiente de sustentar con fuentes. | Pendiente de sustentar con fuentes. | Pendiente de sustentar con fuentes. |
+| Análisis SWOT | Debilidades | Marca nueva, sin red de comercios ni evidencia de demanda. | Pendiente de sustentar con fuentes. | Pendiente de sustentar con fuentes. | Pendiente de sustentar con fuentes. |
+| Análisis SWOT | Oportunidades | Alianzas locales, ahorro y consumo responsable. | Pendiente de sustentar con fuentes. | Pendiente de sustentar con fuentes. | Pendiente de sustentar con fuentes. |
+| Análisis SWOT | Amenazas | Competidor ya establecido, poca oferta inicial, no recojos y obligaciones sanitarias. | Pendiente de sustentar con fuentes. | Pendiente de sustentar con fuentes. | Pendiente de sustentar con fuentes. |
 
 ## 2.2. Entrevistas
 
