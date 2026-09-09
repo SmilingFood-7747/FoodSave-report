@@ -182,26 +182,123 @@ Faculta de Ingeniería
 # Capítulo I: Introducción
  
 ## 1.1. Startup Profile
-
 ### 1.1.1. Descripción de la Startup
 
+FoodSave es una startup peruana de tecnología orientada a la reducción del desperdicio de alimentos y al acceso a comida de calidad a precios accesibles. Nacemos frente a una problemática frecuente en el sector gastronómico: muchos restaurantes generan excedentes de alimentos preparados durante las últimas horas de atención que, pese a mantenerse aptos para el consumo, terminan siendo desechados debido a la demanda impredecible.
+
+Nuestra propuesta tecnológica es FoodSave, una plataforma móvil que conecta restaurantes con consumidores para dar una segunda oportunidad a estos excedentes mediante ofertas de último horario, generando beneficios tanto económicos como sociales.
+
+La aplicación se basa en tres funcionalidades principales:
+
+* Publicación de platos disponibles con descuentos durante las últimas horas de atención.
+* Reserva y compra de alimentos desde la aplicación para recoger en el local o consumir en el restaurante.
+* Notificaciones en tiempo real sobre nuevas ofertas cercanas según la ubicación del usuario.
+
+MISIÓN: Reducir el desperdicio de alimentos mediante una plataforma digital que conecte restaurantes con consumidores, promoviendo una alimentación más accesible, sostenible y económicamente beneficiosa para ambas partes.
+
+VISIÓN: Convertirnos en la plataforma líder en aprovechamiento de excedentes gastronómicos en Latinoamérica, impulsando una cultura de consumo responsable y ayudando a los restaurantes a transformar el desperdicio en oportunidades.
+ 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-## 1.2. Solution Profile
 
+|                     Foto de perfil                      | Nombre Completo                      | Carrera                | Descripción                                                                                                         |
+| :-----------------------------------------------------: | :----------------------------------- | :--------------------- | :------------------------------------------------------------------------------------------------------------------ |
+| Foto1  |     |  |  |
+| Foto2  | Bryan Félix Martínez Ramos | Ingeneria de software | Soy Bryan Martinez, actualmente estudio la carrera de ingeniera de software en la universidad peruana de ciencias aplicadas, me encuentro a mitad de carrera. Tengo conocimientos de diferentes lenguajes de programación aprendidos durante la carrera como SQL,C++,C# Python y otros, ademas de otros habilidades como Excel, ingles y otros. Soy alguien que siempre trata de apoyar y resolver lo mas que pueda en los trabajos grupales, no me gusta que mis compañeros tengan que cargar con mis actividades y siempre estoy dispuesto a apoyar lo mas que puedo Me entusiasma el aprendizaje que obtendré con el curso de Appweb y las nuevas habilidades que aprenderé con este trabajo grupal |
+| Foto3 |  |  |   |
+| Foto4 |  |  |  |
+| Foto5  |  |  |                       
+---
+ 
+## 1.2. Solution Profile
+ 
 ### 1.2.1. Antecedentes y problemática
 
-### 1.2.2. Lean UX Process
+Para comprender las necesidades de nuestros usuarios, aplicamos la metodología 5W's & 2H's, una herramienta que permite analizar el problema desde siete perspectivas clave: qué sucede, cuándo ocurre, dónde se presenta, quiénes son los afectados, por qué ocurre, cómo impacta y qué evidencia respalda la problemática.
 
+What (Qué) — ¿Cuál es el problema?
+
+En el Perú, muchos restaurantes generan excedentes de alimentos preparados que permanecen aptos para el consumo, pero que no logran venderse durante las últimas horas de atención. Como consecuencia, estos platos terminan siendo desperdiciados, representando una pérdida económica para el restaurante y una oportunidad desaprovechada para los consumidores.
+
+When (Cuándo) — ¿Cuándo sucede el problema?
+
+La situación ocurre principalmente durante las últimas horas antes del cierre, cuando los restaurantes pueden estimar qué platos preparados no serán vendidos.
+
+¿Cuándo utilizará el cliente el producto?
+
+Los restaurantes publicarán sus ofertas al finalizar la jornada comercial, mientras que los usuarios utilizarán la aplicación para descubrir, reservar y adquirir platos disponibles ese mismo día.
+
+Where (Dónde) — ¿Dónde está el cliente cuando usa el producto?
+
+La solución está dirigida inicialmente a restaurantes ubicados en distritos urbanos de Lima, especialmente en zonas con una amplia oferta gastronómica. Los consumidores utilizarán la aplicación desde cualquier lugar cercano para encontrar ofertas disponibles en establecimientos próximos.
+
+Who (Quién) — ¿A quiénes les sucede el problema?
+
+El problema afecta principalmente a restaurantes de gama media y alta, que buscan reducir pérdidas por alimentos no vendidos, y a personas de ingresos medios interesadas en acceder a comida de calidad a un precio más accesible.
+
+Why (Por qué) — ¿Cuál es la causa del problema?
+
+La principal causa es la demanda impredecible en los restaurantes. Aunque los establecimientos preparan alimentos para garantizar disponibilidad durante el servicio, no siempre logran vender toda su producción antes del cierre.
+
+How (Cómo) — ¿Cómo afecta este problema?
+
+El desperdicio de alimentos genera pérdidas económicas para los restaurantes, incrementa el impacto ambiental asociado a los residuos alimentarios y limita el acceso de los consumidores a opciones gastronómicas de calidad a precios más asequibles.
+
+How Much (Cuánto) — ¿Qué datos respaldan la problemática?
+
+Según un estudio publicado en 2022 en la revista científica Sustainability, realizado por investigadores de la Universidad Privada del Norte (UPN), la Universidad Nacional Jorge Basadre Grohmann (UNJBG) y otras instituciones, se analizaron 67 restaurantes de Lima y Tacna para estudiar la gestión de residuos y excedentes de alimentos. El estudio encontró que el 56,7 % de los restaurantes no medía la cantidad de residuos orgánicos generados, mientras que el 58,2 % destinaba los excedentes de comida preparada al personal y el 28,4 % los desechaba mediante rellenos sanitarios. Además, el estudio identificó la demanda impredecible y el exceso de comidas preparadas como una de las fuentes de generación de residuos
+ 
+### 1.2.2. Lean UX Process
+ 
 #### 1.2.2.1. Lean UX Problem Statements
 
+Problem Statement 1: Los restaurantes generan excedentes de alimentos preparados que no siempre logran vender antes del cierre. Actualmente, existen pocas alternativas para ofrecer estos productos a consumidores durante las últimas horas de atención, por lo que una parte de estos alimentos termina siendo desperdiciada a pesar de mantenerse apta para el consumo.
+
+Problem Statement 2: Los restaurantes tienen dificultades para recuperar parte del valor económico de los alimentos que no logran vender durante su jornada. La falta de un canal que permita ofrecer estos productos de manera rápida y dirigida a consumidores cercanos limita las posibilidades de reducir las pérdidas asociadas a los excedentes.
+
+Problem Statement 3: Los consumidores de ingresos medios tienen un acceso limitado a determinados restaurantes debido al precio habitual de sus productos. A pesar de ello, existe una oportunidad de acceder a alimentos de estos establecimientos a precios más accesibles cuando existen excedentes disponibles al final de la jornada.
+ 
 #### 1.2.2.2. Lean UX Assumptions
 
+Business Assumptions:
+
+* Creemos que los restaurantes estarán interesados en utilizar un canal digital que les permita vender alimentos excedentes antes de que sean desperdiciados.
+* Suponemos que los restaurantes estarán dispuestos a ofrecer descuentos sobre sus excedentes si esto les permite recuperar parte del valor de productos que no fueron vendidos.
+* Consideramos que los consumidores estarán interesados en adquirir alimentos de restaurantes de mayor nivel cuando estos se encuentren disponibles a precios significativamente más accesibles.
+* Creemos que una plataforma que conecte la oferta de excedentes con consumidores cercanos puede generar beneficios tanto económicos para los restaurantes como de accesibilidad para los usuarios.
+
+Business Outcomes:
+
+* Reducir la cantidad de alimentos preparados que terminan siendo desperdiciados en los restaurantes afiliados.
+* Permitir que los restaurantes recuperen parte del valor económico de sus excedentes.
+* Incrementar la participación de restaurantes en la comercialización de alimentos de última oportunidad.
+* Generar una nueva alternativa de acceso a comida de calidad a precios más accesibles.
+
+User Benefits:
+
+* Los restaurantes podrán obtener ingresos adicionales por alimentos que de otra manera podrían ser desperdiciados.
+* Los restaurantes contarán con un canal adicional para dar salida a sus excedentes durante las últimas horas de atención.
+* Los consumidores podrán acceder a platos de restaurantes de mayor nivel a precios reducidos.
+* Los consumidores podrán encontrar ofertas de alimentos disponibles cerca de su ubicación.
+ 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-#### 1.2.2.4. Lean UX Canvas
+Hypothesis Statement 1: Creemos que los restaurantes estarán dispuestos a publicar sus excedentes de alimentos durante las últimas horas de atención si pueden ofrecerlos de manera rápida a consumidores interesados. Sabremos que esto es cierto cuando los restaurantes entrevistados manifiesten interés en utilizar este tipo de canal para comercializar sus excedentes.
 
+Hypothesis Statement 2: Creemos que los consumidores estarán interesados en adquirir platos de restaurantes de mayor nivel cuando estos sean ofrecidos a precios significativamente inferiores a los habituales. Sabremos que esto es cierto cuando los consumidores entrevistados demuestren interés en adquirir este tipo de ofertas.
+
+Hypothesis Statement 3: Creemos que facilitar la búsqueda de ofertas cercanas permitirá que los consumidores encuentren y aprovechen con mayor facilidad los excedentes disponibles. Sabremos que esto es cierto cuando los usuarios puedan encontrar una oferta disponible, comprender sus condiciones y realizar una reserva durante las pruebas de la plataforma.
+ 
+#### 1.2.2.4. Lean UX Canvas
+ 
 ## 1.3. Segmentos objetivo
+
+| Segmento objetivo | Características demográficas | Información estadística de sustento |
+|-------------------|------------------------------|--------------------------------------|
+| Restaurantes de clase media y alta | Tipo de negocio: Restaurantes con servicio presencial. Nivel: Establecimientos de clase media y alta. Ubicación: Principalmente zonas urbanas de Lima Metropolitana. Interés: Reducir el desperdicio de alimentos y recuperar parte del valor de productos no vendidos. | Un estudio publicado en 2022 en la revista científica Sustainability, realizado en 67 restaurantes de Lima y Tacna, encontró que el 56,7 % no medía la cantidad de residuos orgánicos generados, mientras que el 28,4 % enviaba los excedentes de comida preparada a rellenos sanitarios. |
+|Personas que consumen en restaurantes con frecuencia y buscan opciones de calidad a precios accesibles.| Edad: Jóvenes y adultos. Ubicación: Lima Metropolitana, principalmente zonas cercanas a establecimientos afiliados. Comportamiento: Consumo frecuente de comida en restaurantes. Interés: Encontrar platos de calidad a precios reducidos y aprovechar ofertas disponibles. | Según el Instituto Peruano de Economía (IPE, 2025), el gasto en alimentación fuera del hogar representa una parte importante del presupuesto de los hogares peruanos, mientras que la inseguridad alimentaria y las restricciones económicas hacen relevante buscar alternativas de consumo más accesibles. |
+
+
 
 # Capítulo II: Requirements Elicitation & Analysis
 
