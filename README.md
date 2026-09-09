@@ -234,6 +234,32 @@ Para identificar cómo FoodSave puede diferenciar su propuesta de publicación y
 
 ### 2.2.1. Diseño de entrevistas
 
+User: Restaurantes de clase media y alta
+
+1.- ¿Qué suelen hacer con los alimentos o platos preparados que no logran vender al finalizar el día?
+2.- ¿Con qué frecuencia suelen tener alimentos preparados que no llegan a venderse durante la jornada?
+3.- ¿Cuáles considera que son las principales razones por las que se generan estos excedentes?
+4.- ¿Qué impacto económico representa para el restaurante tener productos preparados que finalmente no se venden?
+5.- ¿Actualmente utilizan alguna estrategia para aprovechar o vender los alimentos que podrían quedar al finalizar el día?
+6.- ¿Estarían dispuestos a ofrecer estos alimentos a un precio reducido antes del cierre? ¿Por qué?
+7.- ¿Qué factores tomarían en cuenta para determinar el descuento de estos productos?
+8.- ¿Qué tan útil sería contar con una plataforma que les permita publicar ofertas de estos alimentos y llegar a consumidores interesados?
+9.- ¿Preferirían que los clientes recojan el pedido para llevar o permitirían también su consumo dentro del establecimiento? ¿Por qué?
+10 ¿Qué aspectos o condiciones considerarían importantes antes de utilizar una plataforma de este tipo?
+
+User: Personas que consumen en restaurantes con frecuencia y buscan opciones de calidad a precios accesibles
+
+1.- ¿Con qué frecuencia consumes alimentos en restaurantes durante la semana?
+2.- ¿Qué factores consideras más importantes al momento de elegir un restaurante o un plato?
+3.- ¿Qué tanto influye el precio en tu decisión de consumir en un determinado restaurante?
+4.- ¿Sueles buscar promociones o descuentos cuando decides comer en un restaurante? ¿De qué manera los encuentras?
+5.- ¿Estarías dispuesto a comprar a un precio reducido un plato preparado durante el mismo día que no llegó a venderse? ¿Por qué?
+6.- ¿Qué información necesitarías conocer sobre un plato antes de decidir comprarlo bajo esta modalidad?
+7.- ¿Qué nivel de descuento considerarías atractivo para decidir comprar este tipo de oferta?
+8.- ¿Estarías dispuesto a acudir a un restaurante dentro de un horario determinado para aprovechar una oferta disponible?
+9.- ¿Preferirías recoger el pedido para llevar o consumirlo directamente en el restaurante? ¿Por qué?
+10.- ¿Qué aspecto te generaría mayor preocupación o desconfianza al adquirir alimentos mediante este tipo de ofertas?
+
 ### 2.2.2. Registro de entrevistas
 
 ### 2.2.3. Análisis de entrevistas
