@@ -283,7 +283,7 @@ User: Personas que consumen en restaurantes con frecuencia y buscan opciones de 
 
 ## 2.4. Big Picture Event Storming
 
-<img src="img/Big-Picture-Event-Storming.png" >
+![Figura . Big Picture Event Storming de FoodSave](img/Big_Picture_Event_Storming.png)
 
 ## 2.5. Ubiquitous Language
 
