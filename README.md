@@ -283,6 +283,8 @@ User: Personas que consumen en restaurantes con frecuencia y buscan opciones de 
 
 ## 2.4. Big Picture Event Storming
 
+![Figura . Big Picture Event Storming de FoodSave](img/Big-Picture-Event-Storming.png)
+
 ## 2.5. Ubiquitous Language
 
 Para esta sección se planteó un diccionario de términos técnicos que son aplicados en el dominio de nuestro proyecto.
