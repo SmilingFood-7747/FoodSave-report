@@ -285,6 +285,18 @@ User: Personas que consumen en restaurantes con frecuencia y buscan opciones de 
 
 ## 2.5. Ubiquitous Language
 
+Para esta sección se planteó un diccionario de términos técnicos que son aplicados en el dominio de nuestro proyecto.
+
+| Término | Definición |
+|---|---|
+| Offer (Oferta) | Publicación temporal de un producto con precio reducido, unidades disponibles y hora límite de recojo. |
+| Surplus (Excedente) | Unidad de alimento apta para consumo que el negocio estima que no venderá al precio regular durante la jornada. |
+| Reservation (Reserva) | Compromiso de compra de una oferta dentro de su ventana de recojo. |
+| Pickup (Recojo) | Entrega de una reserva al cliente en el establecimiento y horario definidos. |
+| Pickup Code (Código de recojo) | Código que permite al negocio validar una reserva activa al momento de la entrega. |
+| Pickup Window (Ventana de recojo) | Intervalo dentro del cual el cliente puede recoger una reserva. |
+| Expired Offer (Oferta vencida) | Oferta cuya hora límite pasó y ya no acepta nuevas reservas. |
+
 # Capítulo III: Requirements Specification
 
 ## 3.1. User Stories
