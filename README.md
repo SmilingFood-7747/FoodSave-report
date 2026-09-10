@@ -230,6 +230,13 @@ Para identificar cómo FoodSave puede diferenciar su propuesta de publicación y
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+| Hallazgo competitivo | Estrategia preliminar de FoodSave | Táctica verificable |
+|---|---|---|
+| Existen marketplaces de excedentes. | Diferenciarse por transparencia y control operativo, no por afirmar exclusividad. | Exigir producto, ingredientes/alérgenos cuando correspondan, precios, unidades y hora límite al publicar. |
+| La reserva no garantiza el recojo. | Hacer visible el compromiso y el límite de recojo. | Generar código único y mostrar la hora límite en reserva y catálogo. |
+| La oferta inicial es crítica para el marketplace. | Iniciar con un segmento y zona acotados. | Medir negocios contactados, ofertas publicadas, reservas, cancelaciones y recojos. |
+| Los residuos son una alternativa posterior a la prevención. | Priorizar venta de alimentos aptos antes de su disposición. | Comunicar la responsabilidad sanitaria del establecimiento y no prometer garantías que FoodSave no puede verificar. |
+
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
