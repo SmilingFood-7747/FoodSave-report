@@ -561,8 +561,22 @@ En el siguiente cuadro definimos los roles y responsabilidades del equipo de Foo
 ## Anexos
 
 ### Anexo A. Contenido con Videos
+|Sección|Características del video|Imagen evidencia|
+|---|---|---|
+|Entrevistas| **Cantidad de videos:** 6 <br> **Nomenclatura:** upc-pre-202620-1asi0729-7747-SmilingFood-needfinding-av1  <br> **Duración:** cada entrevista dura entre 3 a 10 minutos <br> **URL:** |  |
+|Video Exposición AV1| **Cantidad de videos:** 1 <br> **Nomenclatura:** upc-pre-202620-1asi0729-7747-SmilingFood-expo-av1  <br> **Duración:**  minutos <br> **URL:**  |  |
 
 <!-- Salto de Pagina -->
 <div style="page-break-after: always;"></div>
 
-### Anexo B. 
+### Anexo B. Diseño y Prototipo
+
+<!-- Salto de Pagina -->
+<div style="page-break-after: always;"></div>
+
+### Anexo C. Trello
+
+<!-- Salto de Pagina -->
+<div style="page-break-after: always;"></div>
+
+### Anexo D. Deployment de landing page
