@@ -281,9 +281,17 @@ User: Personas que consumen en restaurantes con frecuencia y buscan opciones de 
 
 ### 2.3.4. Empathy Mapping
 
+#### Empathy Mapping - Segmento 1 (Cliente)
+
+![Figura . Big Picture Event Storming de FoodSave](img/Empathy-Mapping.png)
+
+#### Empathy Mapping - Segmento 2 (Negocios)
+
+![Figura . Big Picture Event Storming de FoodSave](img/Empathy-Mapping-2.png)
+
 ## 2.4. Big Picture Event Storming
 
-![Figura . Big Picture Event Storming de FoodSave](img/Big_Picture_Event_Storming.png)
+![Figura . Big Picture Event Storming de FoodSave](img/Big-Picture-Event-Storming.png)
 
 ## 2.5. Ubiquitous Language
 
