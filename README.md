@@ -271,6 +271,11 @@ User: Personas que consumen en restaurantes con frecuencia y buscan opciones de 
 
 ### 2.2.3. Análisis de entrevistas
 
+| Segmento | Característica o hallazgo | Entrevistas | Cálculo con denominador | Implicación para el diseño |
+|---|---|---|---|---|
+| Negocio afiliado |  |  |  |  |
+| Cliente comprador |  |  |  |  |
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
