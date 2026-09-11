@@ -82,102 +82,107 @@ Faculta de Ingeniería
 
 # Tabla de Contenidos
 
-- [Capítulo I: Introducción](./Capitulo_1.md)
-  - [1.1. Startup Profile](./Capitulo_1.md#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](./Capitulo_1.md#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](./Capitulo_1.md#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](./Capitulo_1.md#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](./Capitulo_1.md#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](./Capitulo_1.md#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](./Capitulo_1.md#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](./Capitulo_1.md#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](./Capitulo_1.md#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](./Capitulo_1.md#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](./Capitulo_1.md#13-segmentos-objetivo)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
-- [Capítulo II: Requirements Elicitation & Analysis](./Capitulo_2.md)
-  - [2.1. Competidores](./Capitulo_2.md#21-competidores)
-    - [2.1.1. Análisis competitivo](./Capitulo_2.md#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](./Capitulo_2.md#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](./Capitulo_2.md#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](./Capitulo_2.md#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](./Capitulo_2.md#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](./Capitulo_2.md#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](./Capitulo_2.md#23-needfinding)
-    - [2.3.1. User Personas](./Capitulo_2.md#231-user-personas)
-    - [2.3.2. User Task Matrix](./Capitulo_2.md#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](./Capitulo_2.md#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](./Capitulo_2.md#234-empathy-mapping)
-  - [2.4. Big Picture Event Storming](./Capitulo_2.md#24-big-picture-event-storming)
-  - [2.5. Ubiquitous Language](./Capitulo_2.md#25-ubiquitous-language)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 
-- [Capítulo III: Requirements Specification](./Capitulo_3.md)
-  - [3.1. User Stories](./Capitulo_3.md#31-user-stories)
-  - [3.2. Impact Mapping](./Capitulo_3.md#32-impact-mapping)
-  - [3.3. Product Backlog](./Capitulo_3.md#33-product-backlog)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
 
-- [Capítulo IV: Product Design](./Capitulo_4.md)
-  - [4.1. Style Guidelines](./Capitulo_4.md#41-style-guidelines)
-    - [4.1.1. General Style Guidelines](./Capitulo_4.md#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines](./Capitulo_4.md#412-web-style-guidelines)
-  - [4.2. Information Architecture](./Capitulo_4.md#42-information-architecture)
-    - [4.2.1. Organization Systems](./Capitulo_4.md#421-organization-systems)
-    - [4.2.2. Labeling Systems](./Capitulo_4.md#422-labeling-systems)
-    - [4.2.3. SEO Tags and Meta Tags](./Capitulo_4.md#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems](./Capitulo_4.md#424-searching-systems)
-    - [4.2.5. Navigation Systems](./Capitulo_4.md#425-navigation-systems)
-  - [4.3. Landing Page UI Design](./Capitulo_4.md#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe](./Capitulo_4.md#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up](./Capitulo_4.md#432-landing-page-mock-up)
-  - [4.4. Web Applications UX/UI Design](./Capitulo_4.md#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes](./Capitulo_4.md#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams](./Capitulo_4.md#442-web-applications-wireflow-diagrams)
-    - [4.4.2. Web Applications Mock-ups](./Capitulo_4.md#442-web-applications-mock-ups)
-    - [4.4.3. Web Applications User Flow Diagrams](./Capitulo_4.md#443-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping](./Capitulo_4.md#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture](./Capitulo_4.md#46-domain-driven-software-architecture)
-    - [4.6.1. Design-Level Event Storming](./Capitulo_4.md#461-design-level-event-storming)
-    - [4.6.2. Software Architecture Context Diagram](./Capitulo_4.md#462-software-architecture-context-diagram)
-    - [4.6.3. Software Architecture Container Diagrams](./Capitulo_4.md#463-software-architecture-container-diagrams)
-    - [4.6.4. Software Architecture Components Diagrams](./Capitulo_4.md#464-software-architecture-components-diagrams)
-  - [4.7. Software Object-Oriented Design](./Capitulo_4.md#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams](./Capitulo_4.md#471-class-diagrams)
-  - [4.8. Database Design](./Capitulo_4.md#48-database-design)
-    - [4.8.1. Database Diagrams](./Capitulo_4.md#481-database-diagrams)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
+    - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
 
-- [Capítulo V: Product Implementation, Validation & Deployment](./Capitulo_5.md)
-  - [5.1. Software Configuration Management](./Capitulo_5.md#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration](./Capitulo_5.md#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management](./Capitulo_5.md#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](./Capitulo_5.md#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration](./Capitulo_5.md#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](./Capitulo_5.md#52-landing-page-services--applications-implementation)
-    - [5.2.X. Sprint n](./Capitulo_5.md#52x-sprint-n)
-      - [5.2.X.1. Sprint Planning n](./Capitulo_5.md#52x1-sprint-planning-n)
-      - [5.2.X.2. Aspect Leaders and Collaborators](./Capitulo_5.md#52x2-aspect-leaders-and-collaborators)
-      - [5.2.X.3. Sprint Backlog n](./Capitulo_5.md#52x3-sprint-backlog-n)
-      - [5.2.X.4. Development Evidence for Sprint Review](./Capitulo_5.md#52x4-development-evidence-for-sprint-review)
-      - [5.2.X.5. Execution Evidence for Sprint Review](./Capitulo_5.md#52x5-execution-evidence-for-sprint-review)
-      - [5.2.X.6. Services Documentation Evidence for Sprint Review](./Capitulo_5.md#52x6-services-documentation-evidence-for-sprint-review)
-      - [5.2.X.7. Software Deployment Evidence for Sprint Review](./Capitulo_5.md#52x7-software-deployment-evidence-for-sprint-review)
-      - [5.2.X.8. Team Collaboration Insights during Sprint](./Capitulo_5.md#52x8-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews](./Capitulo_5.md#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas](./Capitulo_5.md#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas](./Capitulo_5.md#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](./Capitulo_5.md#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product](./Capitulo_5.md#54-video-about-the-product)
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint n](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog n](#5213-sprint-backlog-n)
+      - [5.2.1.4. Development Evidence for Sprint Review](#52x4-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 
-- [Anexos](./Anexos.md)
-- [Conclusiones y Bibliografía](./Conclusiones-Bibliografia.md)
+
+- [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+
+- [Bibliografía](#bibliografía)
+
+- [Anexos](#anexos)
+  - [Anexo A. Contenido con Videos](#anexo-a-contenido-con-videos)
 
 <!-- Salto de Pagina -->
 <div style="page-break-after: always;"></div>
 
 ## Student Outcome
-| Criterio específico | Acciones realizadas | Conclusiones |
-|---|---|---|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta |*AV1* <br>  |    |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | *AV1*<br> |  |
+| Entregable | Criterio específico | Acciones realizadas | Conclusiones |
+|---|---|---|---|
+|*AV1*| Trabaja en equipo para proporcionar liderazgo en forma conjunta |  - **Huayra José:**<br>- **Xin Lin:**<br>- **Peláez Giuliano:**<br>- **Martínez Bryan:**<br>- **Medina Ingrid:** |    |
+|*AV1*| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |  - **Huayra José:**<br>- **Xin Lin:**<br>- **Peláez Giuliano:**<br>- **Martínez Bryan:**<br>- **Medina Ingrid:** |  |
+
+
+<!-- Salto de Pagina -->
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción
  
@@ -205,7 +210,7 @@ VISIÓN: Convertirnos en la plataforma líder en aprovechamiento de excedentes g
 | :-----------------------------------------------------: | :----------------------------------- | :--------------------- | :------------------------------------------------------------------------------------------------------------------ |
 | Foto1  |     |  |  |
 | Foto2  | Bryan Félix Martínez Ramos | Ingeneria de software | Soy Bryan Martinez, actualmente estudio la carrera de ingeniera de software en la universidad peruana de ciencias aplicadas, me encuentro a mitad de carrera. Tengo conocimientos de diferentes lenguajes de programación aprendidos durante la carrera como SQL,C++,C# Python y otros, ademas de otros habilidades como Excel, ingles y otros. Soy alguien que siempre trata de apoyar y resolver lo mas que pueda en los trabajos grupales, no me gusta que mis compañeros tengan que cargar con mis actividades y siempre estoy dispuesto a apoyar lo mas que puedo Me entusiasma el aprendizaje que obtendré con el curso de Appweb y las nuevas habilidades que aprenderé con este trabajo grupal |
-| Foto3 |  |  |   |
+| <img src="img/capitulo1/integrantes/Ingrid.jpg" alt="foto integrante" style="width: 150px; margin-right: 20px; border-radius: 10%;"> | Ingrid Melani Medina Merma | Ingenieria de Software | Soy estudiante de la carrera de Ingeniería de Software. Poseo conocimiento en programas de edición y lenguajes como el c++, un poco de python y typescript, tengo una buena adaptabilidad y un gusto por aprender y ayudar en lo que pueda|
 | Foto4 |  |  |  |
 | Foto5  |  |  |                       
 ---
@@ -216,35 +221,35 @@ VISIÓN: Convertirnos en la plataforma líder en aprovechamiento de excedentes g
 
 Para comprender las necesidades de nuestros usuarios, aplicamos la metodología 5W's & 2H's, una herramienta que permite analizar el problema desde siete perspectivas clave: qué sucede, cuándo ocurre, dónde se presenta, quiénes son los afectados, por qué ocurre, cómo impacta y qué evidencia respalda la problemática.
 
-What (Qué) — ¿Cuál es el problema?
+**What (Qué) — ¿Cuál es el problema?**
 
 En el Perú, muchos restaurantes generan excedentes de alimentos preparados que permanecen aptos para el consumo, pero que no logran venderse durante las últimas horas de atención. Como consecuencia, estos platos terminan siendo desperdiciados, representando una pérdida económica para el restaurante y una oportunidad desaprovechada para los consumidores.
 
-When (Cuándo) — ¿Cuándo sucede el problema?
+**When (Cuándo) — ¿Cuándo sucede el problema?**
 
 La situación ocurre principalmente durante las últimas horas antes del cierre, cuando los restaurantes pueden estimar qué platos preparados no serán vendidos.
 
-¿Cuándo utilizará el cliente el producto?
+**¿Cuándo utilizará el cliente el producto?**
 
 Los restaurantes publicarán sus ofertas al finalizar la jornada comercial, mientras que los usuarios utilizarán la aplicación para descubrir, reservar y adquirir platos disponibles ese mismo día.
 
-Where (Dónde) — ¿Dónde está el cliente cuando usa el producto?
+**Where (Dónde) — ¿Dónde está el cliente cuando usa el producto?**
 
 La solución está dirigida inicialmente a restaurantes ubicados en distritos urbanos de Lima, especialmente en zonas con una amplia oferta gastronómica. Los consumidores utilizarán la aplicación desde cualquier lugar cercano para encontrar ofertas disponibles en establecimientos próximos.
 
-Who (Quién) — ¿A quiénes les sucede el problema?
+**Who (Quién) — ¿A quiénes les sucede el problema?**
 
 El problema afecta principalmente a restaurantes de gama media y alta, que buscan reducir pérdidas por alimentos no vendidos, y a personas de ingresos medios interesadas en acceder a comida de calidad a un precio más accesible.
 
-Why (Por qué) — ¿Cuál es la causa del problema?
+**Why (Por qué) — ¿Cuál es la causa del problema?**
 
 La principal causa es la demanda impredecible en los restaurantes. Aunque los establecimientos preparan alimentos para garantizar disponibilidad durante el servicio, no siempre logran vender toda su producción antes del cierre.
 
-How (Cómo) — ¿Cómo afecta este problema?
+**How (Cómo) — ¿Cómo afecta este problema?**
 
 El desperdicio de alimentos genera pérdidas económicas para los restaurantes, incrementa el impacto ambiental asociado a los residuos alimentarios y limita el acceso de los consumidores a opciones gastronómicas de calidad a precios más asequibles.
 
-How Much (Cuánto) — ¿Qué datos respaldan la problemática?
+**How Much (Cuánto) — ¿Qué datos respaldan la problemática?**
 
 Según un estudio publicado en 2022 en la revista científica Sustainability, realizado por investigadores de la Universidad Privada del Norte (UPN), la Universidad Nacional Jorge Basadre Grohmann (UNJBG) y otras instituciones, se analizaron 67 restaurantes de Lima y Tacna para estudiar la gestión de residuos y excedentes de alimentos. El estudio encontró que el 56,7 % de los restaurantes no medía la cantidad de residuos orgánicos generados, mientras que el 58,2 % destinaba los excedentes de comida preparada al personal y el 28,4 % los desechaba mediante rellenos sanitarios. Además, el estudio identificó la demanda impredecible y el exceso de comidas preparadas como una de las fuentes de generación de residuos
  
@@ -252,29 +257,29 @@ Según un estudio publicado en 2022 en la revista científica Sustainability, re
  
 #### 1.2.2.1. Lean UX Problem Statements
 
-Problem Statement 1: Los restaurantes generan excedentes de alimentos preparados que no siempre logran vender antes del cierre. Actualmente, existen pocas alternativas para ofrecer estos productos a consumidores durante las últimas horas de atención, por lo que una parte de estos alimentos termina siendo desperdiciada a pesar de mantenerse apta para el consumo.
+**Problem Statement 1:** Los restaurantes generan excedentes de alimentos preparados que no siempre logran vender antes del cierre. Actualmente, existen pocas alternativas para ofrecer estos productos a consumidores durante las últimas horas de atención, por lo que una parte de estos alimentos termina siendo desperdiciada a pesar de mantenerse apta para el consumo.
 
-Problem Statement 2: Los restaurantes tienen dificultades para recuperar parte del valor económico de los alimentos que no logran vender durante su jornada. La falta de un canal que permita ofrecer estos productos de manera rápida y dirigida a consumidores cercanos limita las posibilidades de reducir las pérdidas asociadas a los excedentes.
+**Problem Statement 2:** Los restaurantes tienen dificultades para recuperar parte del valor económico de los alimentos que no logran vender durante su jornada. La falta de un canal que permita ofrecer estos productos de manera rápida y dirigida a consumidores cercanos limita las posibilidades de reducir las pérdidas asociadas a los excedentes.
 
-Problem Statement 3: Los consumidores de ingresos medios tienen un acceso limitado a determinados restaurantes debido al precio habitual de sus productos. A pesar de ello, existe una oportunidad de acceder a alimentos de estos establecimientos a precios más accesibles cuando existen excedentes disponibles al final de la jornada.
+**Problem Statement 3:** Los consumidores de ingresos medios tienen un acceso limitado a determinados restaurantes debido al precio habitual de sus productos. A pesar de ello, existe una oportunidad de acceder a alimentos de estos establecimientos a precios más accesibles cuando existen excedentes disponibles al final de la jornada.
  
 #### 1.2.2.2. Lean UX Assumptions
 
-Business Assumptions:
+**Business Assumptions:**
 
 * Creemos que los restaurantes estarán interesados en utilizar un canal digital que les permita vender alimentos excedentes antes de que sean desperdiciados.
 * Suponemos que los restaurantes estarán dispuestos a ofrecer descuentos sobre sus excedentes si esto les permite recuperar parte del valor de productos que no fueron vendidos.
 * Consideramos que los consumidores estarán interesados en adquirir alimentos de restaurantes de mayor nivel cuando estos se encuentren disponibles a precios significativamente más accesibles.
 * Creemos que una plataforma que conecte la oferta de excedentes con consumidores cercanos puede generar beneficios tanto económicos para los restaurantes como de accesibilidad para los usuarios.
 
-Business Outcomes:
+**Business Outcomes:**
 
 * Reducir la cantidad de alimentos preparados que terminan siendo desperdiciados en los restaurantes afiliados.
 * Permitir que los restaurantes recuperen parte del valor económico de sus excedentes.
 * Incrementar la participación de restaurantes en la comercialización de alimentos de última oportunidad.
 * Generar una nueva alternativa de acceso a comida de calidad a precios más accesibles.
 
-User Benefits:
+**User Benefits:**
 
 * Los restaurantes podrán obtener ingresos adicionales por alimentos que de otra manera podrían ser desperdiciados.
 * Los restaurantes contarán con un canal adicional para dar salida a sus excedentes durante las últimas horas de atención.
@@ -283,13 +288,14 @@ User Benefits:
  
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Hypothesis Statement 1: Creemos que los restaurantes estarán dispuestos a publicar sus excedentes de alimentos durante las últimas horas de atención si pueden ofrecerlos de manera rápida a consumidores interesados. Sabremos que esto es cierto cuando los restaurantes entrevistados manifiesten interés en utilizar este tipo de canal para comercializar sus excedentes.
+**Hypothesis Statement 1:** Creemos que los restaurantes estarán dispuestos a publicar sus excedentes de alimentos durante las últimas horas de atención si pueden ofrecerlos de manera rápida a consumidores interesados. Sabremos que esto es cierto cuando los restaurantes entrevistados manifiesten interés en utilizar este tipo de canal para comercializar sus excedentes.
 
-Hypothesis Statement 2: Creemos que los consumidores estarán interesados en adquirir platos de restaurantes de mayor nivel cuando estos sean ofrecidos a precios significativamente inferiores a los habituales. Sabremos que esto es cierto cuando los consumidores entrevistados demuestren interés en adquirir este tipo de ofertas.
+**Hypothesis Statement 2:** Creemos que los consumidores estarán interesados en adquirir platos de restaurantes de mayor nivel cuando estos sean ofrecidos a precios significativamente inferiores a los habituales. Sabremos que esto es cierto cuando los consumidores entrevistados demuestren interés en adquirir este tipo de ofertas.
 
-Hypothesis Statement 3: Creemos que facilitar la búsqueda de ofertas cercanas permitirá que los consumidores encuentren y aprovechen con mayor facilidad los excedentes disponibles. Sabremos que esto es cierto cuando los usuarios puedan encontrar una oferta disponible, comprender sus condiciones y realizar una reserva durante las pruebas de la plataforma.
+**Hypothesis Statement 3:** Creemos que facilitar la búsqueda de ofertas cercanas permitirá que los consumidores encuentren y aprovechen con mayor facilidad los excedentes disponibles. Sabremos que esto es cierto cuando los usuarios puedan encontrar una oferta disponible, comprender sus condiciones y realizar una reserva durante las pruebas de la plataforma.
  
 #### 1.2.2.4. Lean UX Canvas
+
  
 ## 1.3. Segmentos objetivo
 
@@ -408,33 +414,28 @@ Hypothesis Statement 3: Creemos que facilitar la búsqueda de ofertas cercanas p
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
-### 5.2.X. Sprint n
+### 5.2.1. Sprint 1
 
-#### 5.2.X.1. Sprint Planning n
+#### 5.2.1.1. Sprint Planning 1
 
-#### 5.2.X.2. Aspect Leaders and Collaborators
+#### 5.2.1.2. Aspect Leaders and Collaborators
 
-#### 5.2.X.3. Sprint Backlog n
+#### 5.2.1.3. Sprint Backlog 1
 
-#### 5.2.X.4. Development Evidence for Sprint Review
+#### 5.2.1.4. Development Evidence for Sprint Review
 
-#### 5.2.X.5. Execution Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review
 
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-#### 5.2.X.8. Team Collaboration Insights during Sprint
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
-## 5.3. Validation Interviews
 
-### 5.3.1. Diseño de Entrevistas
 
-### 5.3.2. Registro de Entrevistas
-
-### 5.3.3. Evaluaciones según heurísticas
-
-## 5.4. Video About-the-Product
+<!-- Salto de Pagina -->
+<div style="page-break-after: always;"></div>
 
 ## Conclusiones
 
@@ -444,11 +445,21 @@ Hypothesis Statement 3: Creemos que facilitar la búsqueda de ofertas cercanas p
 
 #### Recomendaciones
 
+
+
+<!-- Salto de Pagina -->
+<div style="page-break-after: always;"></div>
+
 ## Bibliografía
+
+
+<!-- Salto de Pagina -->
+<div style="page-break-after: always;"></div>
 
 ## Anexos
 
 ### Anexo A. Contenido con Videos
+
 
 <!-- Salto de Pagina -->
 <div style="page-break-after: always;"></div>
