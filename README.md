@@ -214,22 +214,127 @@ FoodSave analiza a Cirkula como competidor directo peruano, Too Good To Go como 
 
 Para identificar cómo FoodSave puede diferenciar su propuesta de publicación y reserva transparente de excedentes frente a alternativas existentes, sin asumir que el modelo es inexistente en Perú.
 
-| Perfil | Criterio | FoodSave | Cirkula | Too Good To Go | Sinba |
-|---|---|---|---|---|---|
-| Overview | Tipo de solución | Marketplace propuesto para excedentes aptos para consumo. | Marketplace peruano de excedentes de alimentos. | Marketplace internacional de alimentos no vendidos. | Gestión y valorización de residuos. |
-| Perfil de Marketing | Ventaja competitiva: ¿Qué valor ofrece a los clientes? | Transparencia de producto, ingredientes/alérgenos, precio original, unidades y horario; código de recojo. | Descuentos en excedentes de establecimientos de comida. | Reserva y recojo de excedentes a precio reducido; bolsas sorpresa como formato frecuente. | Segregación, recolección y transformación de residuos. |
-| Perfil de Marketing | Mercado objetivo | Restaurantes A1 de Lima Metropolitana y clientes cercanos. | Negocios de comida y usuarios que adquieren ofertas en Lima. | Negocios de comida, panaderías, tiendas y usuarios de los países donde opera. | Empresas, restaurantes, hogares y organizaciones que gestionan residuos. |
-| Perfil de Marketing | Estrategias de marketing |  | Comunica el beneficio “come, ahorra, ayuda”, para negocios promueve recuperar costos, captar tráfico y reducir desperdicio. | Promueve las **Surprise Bags**, el descubrimiento en el mapa/app y la captación de nuevos clientes para negocios asociados. | Ofrece educación y soluciones circulares para que empresas y restaurantes gestionen residuos de forma más sostenible. |
-| Perfil de Producto | Productos y servicios |  | Aplicación/plataforma de ofertas de comida con descuento. | Aplicación/plataforma de reservas y recojo de excedentes. | Servicios de gestión y valorización de residuos. |
-| Perfil de Producto | Precios y costos |  | Publicita descuentos de al menos 40 % para usuarios, la tarifa al negocio no se publica en la fuente consultada. | El usuario paga aproximadamente un tercio del precio regular, sus términos para negocios mencionan una **Partnership Fee** y una **Reservation Fee**, sin un monto único aplicable a todos los mercados. | La tarifa se cotiza según el servicio o solución circular; no se publica una lista de precios en la fuente consultada. |
-| Perfil de Producto | Canales de distribución (Web y/o Móvil) | | Sitio web y aplicación disponible en Google Play y App Store. | Aplicación y sitio web del marketplace; descubrimiento, reserva y recojo se gestionan en la app. | Web, consultoría, capacitación y operación física de reaprovechamiento de residuos; no es un marketplace de compra y recojo. |
-| Análisis SWOT | Fortalezas |  | Marca local con marketplace operativo, descuentos y una propuesta clara para comercios y usuarios. | Escala del marketplace, red internacional y proceso formal de publicación, reserva y recojo | Especialización en sostenibilidad y manejo de residuos del sector gastronómico. |
-| Análisis SWOT | Debilidades | Marca nueva, sin red de comercios ni evidencia propia de demanda al inicio. | La información pública consultada no detalla la tarifa del negocio ni el control operativo por cada establecimiento. | Su formato de **Surprise Bag** reduce la certeza sobre el contenido antes del recojo; esto abre espacio para que FoodSave pruebe ofertas detalladas. | No resuelve la venta o reserva de alimentos aptos para consumo antes de que se conviertan en residuo. |
-| Análisis SWOT | Oportunidades | Crear alianzas con restaurantes de clase media y alta y validar si la información de ingredientes, alérgenos y condiciones impulsa la reserva. | Ampliar negocios, productos y cobertura aprovechando el interés por ahorro y reducción de desperdicio. | Aplicar su experiencia de marketplace a nuevos mercados, categorías y soluciones de gestión de excedentes. | Complementar una plataforma de prevención: los residuos no aptos para consumo pueden derivarse a valorización. |
-| Análisis SWOT | Amenazas | Competidores establecidos, baja oferta inicial, reservas no recogidas y obligaciones sanitarias de cada negocio. | La entrada de nuevos marketplaces o cambios en la disponibilidad de comercios pueden afectar su diferenciación local. | La expansión y escala de un referente internacional elevan la expectativa de usuarios y negocios sobre el servicio. | Puede competir por el presupuesto de sostenibilidad de restaurantes, aunque también puede convertirse en aliado para residuos no comercializables. |
+<table style="width:100%; border-collapse:collapse; table-layout:fixed;" border="1" align="center">
+  <!-- Título principal -->
+  <tr>
+    <th colspan="6" align="center">Competitive Analysis Landscape</th>
+  </tr>
+  <!-- Justificación -->
+  <tr>
+    <td rowspan="2" align="center"><b>¿Por qué llevar a cabo este análisis?</b></td>
+    <td colspan="5" align="center">
+      Identificar fortalezas, debilidades y brechas de los competidores directos e indirectos de FoodSave. 
+    </td>
+  </tr>
+  <tr>
+    <td colspan="5">
+      <b>Objetivo:</b> Identificar el posicionamiento, la propuesta de valor y el modelo operativo de los actores que ya atienden el problema del desperdicio de alimentos, para definir en qué se diferencia FoodSave y validar los supuestos de su modelo antes de escalar. <br> 
+    </td>
+  </tr>
+  <!-- Encabezados con logos -->
+  <tr>
+    <th colspan="2" style="width:20%">(En la cabecera colocar por cada competidor nombre y logo)</th>
+    <th style="width:20%">
+      Nuestro Logo (FoodSave)
+    </th>
+    <th style="width:20%">
+      Competidor1 (Cirkula)
+    </th>
+    <th style="width:20%">
+      Competidor2 (Too Good To Go)
+    </th>   
+    <th style="width:20%">
+      Competidor3 (Sinba)
+    </th>
+  </tr>
+  <!-- PERFIL -->
+  <tr>
+    <td rowspan="2" align="center"><b>Perfil</b></td>
+    <td><b>Overview</b></td>
+    <td>Marketplace propuesto para excedentes aptos para consumo.</td>
+    <td>Marketplace peruano de excedentes de alimentos.</td>
+    <td>Marketplace internacional de alimentos no vendidos.</td>
+    <td>Gestión y valorización de residuos.</td>
+  </tr>
+  <tr>
+    <td><b>Ventaja competitiva:<br>¿Qué valor ofrece a los clientes?</b></td>
+    <td>Transparencia de producto, ingredientes/alérgenos, precio original, unidades y horario; código de recojo.</td>
+    <td>Descuentos en excedentes de establecimientos de comida.</td>
+    <td>Reserva y recojo de excedentes a precio reducido; bolsas sorpresa como formato frecuente.</td>
+    <td>Segregación, recolección y transformación de residuos.</td>
+  </tr>
+  <!-- PERFIL DE MARKETING -->
+  <tr>
+    <td rowspan="2" align="center"><b>Perfil de Marketing</b></td>
+    <td><b>Mercado objetivo</b></td>
+    <td>Restaurantes A1 de Lima Metropolitana y clientes cercanos.</td>
+    <td>Negocios de comida y usuarios que adquieren ofertas en Lima.</td>
+    <td>Negocios de comida, panaderías, tiendas y usuarios de los países donde opera.</td>
+    <td>Empresas, restaurantes, hogares y organizaciones que gestionan residuos.</td>
+  </tr>
+  <tr>
+    <td><b>Estrategias de marketing</b></td>
+    <td>Comunicar ahorro económico y reducción de desperdicio, con notificaciones geolocalizadas de ofertas cercanas.</td>
+    <td>Comunica el beneficio “come, ahorra, ayuda”, para negocios promueve recuperar costos, captar tráfico y reducir desperdicio.</td>
+    <td>Promueve las <b>Surprise Bags</b>, el descubrimiento en el mapa/app y la captación de nuevos clientes para negocios asociados.</td>
+    <td>Ofrece educación y soluciones circulares para que empresas y restaurantes gestionen residuos de forma más sostenible.</td>
+  </tr>
+  <!-- PERFIL DE PRODUCTO -->
+  <tr>
+    <td rowspan="3" align="center"><b>Perfil de Producto</b></td>
+    <td><b>Productos & Servicios</b></td>
+    <td>App con publicación de platos con descuento, reserva/compra y notificaciones en tiempo real por ubicación.</td>
+    <td>Aplicación/plataforma de ofertas de comida con descuento.</td>
+    <td>Aplicación/plataforma de reservas y recojo de excedentes.</td>
+    <td>Servicios de gestión y valorización de residuos.</td>
+  </tr>
+  <tr>
+    <td><b>Precios & Costos</b></td>
+    <td>Comisión por transacción al restaurante; usuario paga precio reducido. Pendiente de validar.</td>
+    <td>Publicita descuentos de al menos 40 % para usuarios, la tarifa al negocio no se publica en la fuente consultada.</td>
+    <td>El usuario paga aproximadamente un tercio del precio regular, sus términos para negocios mencionan una <b>Partnership Fee</b> y una <b>Reservation Fee</b>, sin un monto único aplicable a todos los mercados.</td>
+    <td>La tarifa se cotiza según el servicio o solución circular; no se publica una lista de precios en la fuente consultada.</td>
+  </tr>
+  <tr>
+    <td><b>Canales de distribución<br>(Web y/o Móvil)</b></td>
+    <td>Aplicación desarrollada en Angular, con enfoque web y potencial de extensión a app móvil(disponible para Android/iOS).</td>
+    <td>Sitio web y aplicación disponible en Google Play y App Store.</td>
+    <td>Aplicación y sitio web del marketplace; descubrimiento, reserva y recojo se gestionan en la app.</td>
+    <td>Web, consultoría, capacitación y operación física de reaprovechamiento de residuos; no es un marketplace de compra y recojo.</td>
+  </tr>
+  <!-- SWOT -->
+  <tr>
+    <td rowspan="4" align="center"><b>Análisis SWOT</b></td>
+    <td><b>Fortalezas</b></td>
+    <td>Transparencia de producto y trazabilidad (ingredientes, precio, horario) como diferenciador frente a bolsas sorpresa.</td>
+    <td>Marca local con marketplace operativo, descuentos y una propuesta clara para comercios y usuarios.</td>
+    <td>Escala del marketplace, red internacional y proceso formal de publicación, reserva y recojo</td>
+    <td>Especialización en sostenibilidad y manejo de residuos del sector gastronómico.</td>
+  </tr>
+  <tr>
+    <td><b>Debilidades</b></td>
+    <td>Marca nueva, sin red de comercios ni evidencia propia de demanda al inicio.</td>
+    <td>La información pública consultada no detalla la tarifa del negocio ni el control operativo por cada establecimiento.</td>
+    <td>Su formato de <b>Surprise Bag</b> reduce la certeza sobre el contenido antes del recojo; esto abre espacio para que FoodSave pruebe ofertas detalladas.</td>
+    <td>No resuelve la venta o reserva de alimentos aptos para consumo antes de que se conviertan en residuo.</td>
+  </tr>
+  <tr>
+    <td><b>Oportunidades</b></td>
+    <td>Crear alianzas con restaurantes de clase media y alta y validar si la información de ingredientes, alérgenos y condiciones impulsa la reserva.</td>
+    <td>Ampliar negocios, productos y cobertura aprovechando el interés por ahorro y reducción de desperdicio.</td>
+    <td>Aplicar su experiencia de marketplace a nuevos mercados, categorías y soluciones de gestión de excedentes.</td>
+    <td>Complementar una plataforma de prevención: los residuos no aptos para consumo pueden derivarse a valorización.</td>
+  </tr>
+  <tr>
+    <td><b>Amenazas</b></td>
+    <td>Competidores establecidos, baja oferta inicial, reservas no recogidas y obligaciones sanitarias de cada negocio.</td>
+    <td>La entrada de nuevos marketplaces o cambios en la disponibilidad de comercios pueden afectar su diferenciación local.</td>
+    <td>La expansión y escala de un referente internacional elevan la expectativa de usuarios y negocios sobre el servicio.</td>
+    <td>Puede competir por el presupuesto de sostenibilidad de restaurantes, aunque también puede convertirse en aliado para residuos no comercializables.</td>
+  </tr>
+</table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
-
 | Hallazgo competitivo | Estrategia preliminar de FoodSave | Táctica verificable |
 |---|---|---|
 | Existen marketplaces de excedentes. | Diferenciarse por transparencia y control operativo, no por afirmar exclusividad. | Exigir producto, ingredientes/alérgenos cuando correspondan, precios, unidades y hora límite al publicar. |
@@ -237,35 +342,36 @@ Para identificar cómo FoodSave puede diferenciar su propuesta de publicación y
 | La oferta inicial es crítica para el marketplace. | Iniciar con un segmento y zona acotados. | Medir negocios contactados, ofertas publicadas, reservas, cancelaciones y recojos. |
 | Los residuos son una alternativa posterior a la prevención. | Priorizar venta de alimentos aptos antes de su disposición. | Comunicar la responsabilidad sanitaria del establecimiento y no prometer garantías que FoodSave no puede verificar. |
 
+
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
 
-User: Restaurantes de clase media y alta
+**User: Restaurantes de clase media y alta**
 
-1.- ¿Qué suelen hacer con los alimentos o platos preparados que no logran vender al finalizar el día?
-2.- ¿Con qué frecuencia suelen tener alimentos preparados que no llegan a venderse durante la jornada?
-3.- ¿Cuáles considera que son las principales razones por las que se generan estos excedentes?
-4.- ¿Qué impacto económico representa para el restaurante tener productos preparados que finalmente no se venden?
-5.- ¿Actualmente utilizan alguna estrategia para aprovechar o vender los alimentos que podrían quedar al finalizar el día?
-6.- ¿Estarían dispuestos a ofrecer estos alimentos a un precio reducido antes del cierre? ¿Por qué?
-7.- ¿Qué factores tomarían en cuenta para determinar el descuento de estos productos?
-8.- ¿Qué tan útil sería contar con una plataforma que les permita publicar ofertas de estos alimentos y llegar a consumidores interesados?
-9.- ¿Preferirían que los clientes recojan el pedido para llevar o permitirían también su consumo dentro del establecimiento? ¿Por qué?
-10 ¿Qué aspectos o condiciones considerarían importantes antes de utilizar una plataforma de este tipo?
+1. ¿Qué suelen hacer con los alimentos o platos preparados que no logran vender al finalizar el día?
+2. ¿Con qué frecuencia suelen tener alimentos preparados que no llegan a venderse durante la jornada?
+3. ¿Cuáles considera que son las principales razones por las que se generan estos excedentes?
+4. ¿Qué impacto económico representa para el restaurante tener productos preparados que finalmente no se venden?
+5. ¿Actualmente utilizan alguna estrategia para aprovechar o vender los alimentos que podrían quedar al finalizar el día?
+6. ¿Estarían dispuestos a ofrecer estos alimentos a un precio reducido antes del cierre? ¿Por qué?
+7. ¿Qué factores tomarían en cuenta para determinar el descuento de estos productos?
+8. ¿Qué tan útil sería contar con una plataforma que les permita publicar ofertas de estos alimentos y llegar a consumidores interesados?
+9. ¿Preferirían que los clientes recojan el pedido para llevar o permitirían también su consumo dentro del establecimiento? ¿Por qué?
+10. ¿Qué aspectos o condiciones considerarían importantes antes de utilizar una plataforma de este tipo?
 
-User: Personas que consumen en restaurantes con frecuencia y buscan opciones de calidad a precios accesibles
+**User: Personas que consumen en restaurantes con frecuencia y buscan opciones de calidad a precios accesibles**
 
-1.- ¿Con qué frecuencia consumes alimentos en restaurantes durante la semana?
-2.- ¿Qué factores consideras más importantes al momento de elegir un restaurante o un plato?
-3.- ¿Qué tanto influye el precio en tu decisión de consumir en un determinado restaurante?
-4.- ¿Sueles buscar promociones o descuentos cuando decides comer en un restaurante? ¿De qué manera los encuentras?
-5.- ¿Estarías dispuesto a comprar a un precio reducido un plato preparado durante el mismo día que no llegó a venderse? ¿Por qué?
-6.- ¿Qué información necesitarías conocer sobre un plato antes de decidir comprarlo bajo esta modalidad?
-7.- ¿Qué nivel de descuento considerarías atractivo para decidir comprar este tipo de oferta?
-8.- ¿Estarías dispuesto a acudir a un restaurante dentro de un horario determinado para aprovechar una oferta disponible?
-9.- ¿Preferirías recoger el pedido para llevar o consumirlo directamente en el restaurante? ¿Por qué?
-10.- ¿Qué aspecto te generaría mayor preocupación o desconfianza al adquirir alimentos mediante este tipo de ofertas?
+1. ¿Con qué frecuencia consumes alimentos en restaurantes durante la semana?
+2. ¿Qué factores consideras más importantes al momento de elegir un restaurante o un plato?
+3. ¿Qué tanto influye el precio en tu decisión de consumir en un determinado restaurante?
+4. ¿Sueles buscar promociones o descuentos cuando decides comer en un restaurante? ¿De qué manera los encuentras?
+5. ¿Estarías dispuesto a comprar a un precio reducido un plato preparado durante el mismo día que no llegó a venderse? ¿Por qué?
+6. ¿Qué información necesitarías conocer sobre un plato antes de decidir comprarlo bajo esta modalidad?
+7. ¿Qué nivel de descuento considerarías atractivo para decidir comprar este tipo de oferta?
+8. ¿Estarías dispuesto a acudir a un restaurante dentro de un horario determinado para aprovechar una oferta disponible?
+9. ¿Preferirías recoger el pedido para llevar o consumirlo directamente en el restaurante? ¿Por qué?
+10. ¿Qué aspecto te generaría mayor preocupación o desconfianza al adquirir alimentos mediante este tipo de ofertas?
 
 ### 2.2.2. Registro de entrevistas
 
