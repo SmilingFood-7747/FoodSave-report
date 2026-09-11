@@ -306,6 +306,8 @@ Faculta de Ingeniería
 
 ## 3.2. Impact Mapping
 
+![Figura . Big Picture Event Storming de FoodSave](img/Impact-Map.png)
+
 ## 3.3. Product Backlog
 
 | # Orden | User Story ID | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
