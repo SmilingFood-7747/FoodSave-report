@@ -211,7 +211,7 @@ VISIÓN: Convertirnos en la plataforma líder en aprovechamiento de excedentes g
 | Foto1  |     |  |  |
 | Foto2  | Bryan Félix Martínez Ramos | Ingeneria de software | Soy Bryan Martinez, actualmente estudio la carrera de ingeniera de software en la universidad peruana de ciencias aplicadas, me encuentro a mitad de carrera. Tengo conocimientos de diferentes lenguajes de programación aprendidos durante la carrera como SQL,C++,C# Python y otros, ademas de otros habilidades como Excel, ingles y otros. Soy alguien que siempre trata de apoyar y resolver lo mas que pueda en los trabajos grupales, no me gusta que mis compañeros tengan que cargar con mis actividades y siempre estoy dispuesto a apoyar lo mas que puedo Me entusiasma el aprendizaje que obtendré con el curso de Appweb y las nuevas habilidades que aprenderé con este trabajo grupal |
 | <img src="img/capitulo1/integrantes/Ingrid.jpg" alt="foto integrante" style="width: 150px; margin-right: 20px; border-radius: 10%;"> | Ingrid Melani Medina Merma | Ingenieria de Software | Soy estudiante de la carrera de Ingeniería de Software. Poseo conocimiento en programas de edición y lenguajes como el c++, un poco de python y typescript, tengo una buena adaptabilidad y un gusto por aprender y ayudar en lo que pueda|
-| Foto4 |  |  |  |
+| Foto4 | Jose Maria Huayra Moreyra | Ingenieria de Software | Soy Jose Maria Huayra Moreyra, actualmente estudio la carrera de Ingenieria de Software, cursando el 6to ciclo. Tengo conocimientos basicos y medios en lenguaje C++, basico en python y un poco el javascript. Me considero una persona respetuosa, empática, amable y social con el grupo que trengo, a parte de ser responsable en el trabajo que tenemos en nuestro proyecto. |
 | Foto5  |  |  |                       
 ---
  
@@ -311,8 +311,61 @@ Según un estudio publicado en 2022 en la revista científica Sustainability, re
 ## 2.1. Competidores
 
 ### 2.1.1. Análisis competitivo
+**Análisis de Competencia del Mercado de Comercialización de Excedentes Gastronómicos**
+
+#### ¿Por qué llevar a cabo este análisis?
+
+Este análisis competitivo es esencial para comprender el panorama del mercado de plataformas dedicadas a la optimización de excedentes gastronómicos y sostenibilidad alimentaria. Nos permitirá identificar oportunidades de diferenciación, anticipar movimientos competitivos y desarrollar estrategias que posicionen a FoodSave como la solución preferida tanto para restaurantes que buscan reducir pérdidas como para consumidores en busca de acceso a alimentos de calidad a precios reducidos.
+
+#### Competidores Identificados
+
+| Aspecto | **FoodSave** | **TooGoodToGo** | **Karma** | **Facebook Marketplace Locales** | **Directorio de Promociones Locales** |
+|---|---|---|---|---|---|
+| **Perfil/Overview** | Plataforma digital peruana especializada en conectar restaurantes con consumidores para comercializar excedentes gastronómicos de última oportunidad mediante una aplicación móvil intuitiva. | Plataforma sueca global que permite a comercios (restaurantes, panaderías, tiendas) publicar excedentes de alimentos con descuentos significativos. Disponible en más de 15 países con millones de usuarios. | Aplicación sueca enfocada en sostenibilidad que conecta consumidores con negocios alimentarios para reducir desperdicio. Proporciona estadísticas de impacto ambiental al usuario. | Red social global que permite a comercios locales publicar productos, incluyendo alimentos, con funcionalidad de ventas de última oportunidad. | Plataformas de directorios y promociones locales (como Google My Business, directorios municipales) que permiten a negocios promocionar ofertas sin especialización en excedentes. |
+| **Ventaja Competitiva** | Enfoque especializado en restaurantes peruanos, conexión local y geolocalización en tiempo real, experiencia diseñada específicamente para contexto gastronómico local, reducción de desperdicio como core business. | Alcance global, tecnología robusta de IA para estimación de demanda, integración bancaria avanzada, posicionamiento como movimiento de sostenibilidad mundial. | Gamificación ambiental (impacto tracking), comunidad enfocada en sostenibilidad, diseño premium. | Alcance masivo de usuarios (3 mil millones activos), integración con múltiples métodos de pago, sin fricción en publicación. | Presencia consolidada, SEO integrado, confianza de usuarios habituales de búsqueda local. |
+| **Perfil de Marketing** | | | | | |
+| **Mercado Objetivo** | Restaurantes de clase media y alta en Lima. Consumidores urbanos de 22-45 años con ingresos medios-altos interesados en accesibilidad y sostenibilidad. | Comercios alimentarios de todas las categorías, consumidores jóvenes (18-35 años) en ciudades principales, personas conscientes del medio ambiente. | Consumidores con valores de sostenibilidad fuerte, usuarios de 25-40 años en ciudades europeas principalmente. | Usuarios de redes sociales generales, pequeños negocios sin presupuesto digital alto, mercado muy amplio pero heterogéneo. | Consumidores que usan buscadores para ofertas locales, empresas de cualquier tamaño con presencia online. |
+| **Estrategias de Marketing** | Marketing digital orientado a restaurantes (asociaciones culinarias, redes de emprendedores), publicidad en redes sociales dirigida a millennials y Gen Z, storytelling de sostenibilidad y accesibilidad, colaboraciones con influenciadores de gastronomía. | Publicidad global en redes sociales, partnerships con cadenas internacionales, contenido sobre sostenibilidad, gamificación (desafíos de desperdicio cero). | Posicionamiento como movimiento sostenible, contenido ambiental, alianzas con ONG ambientales, influencer marketing en sostenibilidad. | Publicidad de bajo costo basada en presupuesto por clic, sin estrategia específica de alimentos, marketing general de red social. | SEO y publicidad en buscadores, listados de directorios, marketing de boca en boca local. |
+| **Perfil de Producto** | | | | | |
+| **Productos & Servicios** | Aplicación móvil de búsqueda y reserva de excedentes gastronómicos, sistema de notificaciones geolocalizado en tiempo real, perfiles de restaurantes con historial, sistema de calificaciones y reseñas, integración de métodos de pago. | App móvil y web de comercialización de excedentes, notificaciones push, chatbot de atención, programa de sostenibilidad con contadores de alimentos salvados. | App móvil con búsqueda de ofertas de comida, tracking de impacto ambiental personal, programa de recompensas gamificado, integración con redes sociales. | Publicación de productos, sistema de mensajería, método de contacto directo, sin especialización. | Directorios de negocios, búsqueda por categoría, publicación de promociones genéricas. |
+| **Precios & Costos** | Modelo freemium: acceso gratuito para consumidores, comisión del 15-20% por transacción completada a restaurantes. Suscripción premium para restaurantes ($5-10 USD/mes) con herramientas avanzadas de publicación y analítica. | Modelo de comisión: toma aproximadamente 20-25% de cada venta. Acceso gratuito para consumidores. | Modelo freemium con comisión por transacción (10-15%), suscripción premium para comercios. Acceso gratuito para consumidores. | Gratuito para pequeños negocios, opciones de publicidad pagada de bajo costo (CPC/CPM). | Mayoría gratuito (directorios públicos), opciones premium de mayor visibilidad ($5-50 USD/mes según plataforma). |
+| **Canales de Distribución** | Aplicación móvil (iOS y Android), sitio web responsive, integración API con sistemas POS de restaurantes. | Aplicación móvil (iOS y Android), web, integraciones con ecosistema de pagos europeo. | Aplicación móvil (iOS y Android), presencia en app stores. | Web, apps nativas (iOS y Android), integración con redes de Meta. | Web, directorios online, apps móviles (variadas según plataforma). |
+
+#### Análisis SWOT Comparativo
+
+| Elemento | **FoodSave** | **TooGoodToGo** | **Karma** | **Facebook Marketplace** | **Directorios Locales** |
+|---|---|---|---|---|---|
+| **Fortalezas** | Especialización profunda en contexto peruano y gastronómico, equipo local que entiende dinámicas de restaurantes regionales, modelo de negocio sostenible y con propósito social diferenciador, velocidad de innovación, adaptación rápida a necesidades locales. | Trayectoria probada internacionalmente, tecnología de inteligencia artificial para estimación de demanda, base de usuarios masiva, credibilidad global, alianzas consolidadas. | Énfasis genuino en impacto ambiental diferenciador, comunidad comprometida, gamificación innovadora, diseño premium y UX reconocido. | Audiencia colosal (acceso a miles de millones de usuarios), infraestructura de pagos robusta, confianza establecida, múltiples opciones de contacto. | Consolidación en el mercado, presencia orgánica en búsquedas, confianza del usuario por familiaridad. |
+| **Debilidades** | Escala limitada a mercado peruano inicialmente, recursos limitados frente a competidores globales, penetración dependiente de adopción local, menor inversión en marketing comparado con plataformas globales. | Falta de especificidad de modelo operativo por restaurante individual, competencia de marketplace genéricos, modelos de comisión altos que pueden desincentivar pequeños restaurantes. | Presencia limitada fuera de Europa, tamaño de comunidad menor, menos integración con sistemas de pago globales en algunos países. | Falta de especialización en alimentos de excedente, contexto de comercio general genera ruido, modelos de confianza menos claros en transacciones de comida. | Falta de especialización, interfaces desactualizadas en algunos casos, menos enfoque en sostenibilidad como valor diferenciador. |
+| **Oportunidades** | Expansión a otros países latinoamericanos (Chile, Colombia, Argentina), alianzas con cadenas de restaurantes, integración con programas de sostenibilidad corporativa, expansión a otro tipo de comercios (panaderías, heladerías), desarrollo de características B2B para gestión de restaurantes. | Entrada en mercados latinoamericanos aún no explorados, mayor énfasis en impacto ambiental cuantificable, expansión a delivery propio, alianzas con gobiernos para programas de reducción de desperdicio. | Expansion en mercados asiáticos y americanos de alto poder adquisitivo, mayor integración de sostenibilidad en reportes empresariales, programa de certificación ambiental para comercios. | Desarrollo de categoría especializada de "Excedentes Alimentarios", integración de IA para búsqueda inteligente, alianzas con restaurantes premium. | Modernización de plataformas, especialización en nichos (alimentos sostenibles, ofertas de última oportunidad). |
+| **Amenazas** | Entrada de TooGoodToGo u otras plataformas internacionales con mayor presupuesto en mercado peruano, falta de adopción masiva en fase inicial, migración de usuarios a plataformas más grandes, regulaciones sobre apps de comercio o logística que no se anticipen. | Competencia de plataformas locales especializadas en cada región, saturación de mercado en ciudades principales, presión regulatoria sobre comisiones de plataformas. | Competencia global de grandes players, dificultad de escalabilidad en mercados con menor conciencia ambiental, modelos de comisión similar que reducen diferenciación. | Fragmentación de usuarios entre múltiples plataformas, menor especialización vs competidores dedicados, cambios en algoritmo que reduzcan visibilidad de publicaciones específicas. | Desaparición gradual por competencia de plataformas especializadas y cambios en hábitos de búsqueda digital. |
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+**Diferenciación Local y Especialización**
+- Posicionamiento como la solución nativa peruana especializada en restaurantes, no como plataforma genérica.
+- Desarrollo de features específicas para dinámicas gastronómicas locales (horarios de cierre variables, tipos de cocina, capacidad de atención).
+
+**Comunidad y Ecosistema**
+- Construcción de comunidad de restaurantes con eventos, talleres sobre sostenibilidad y gestión de excedentes.
+- Partnerships con asociaciones culinarias, cámaras de comercio y organizaciones ambientales locales.
+
+**Experiencia Premium Accesible**
+- Énfasis en acceso a comida de calidad a precios justos, diferenciándose de modelos que solo persiguen descuentos profundos.
+- Programa de recompensas para consumidores frecuentes que incentive uso sostenido.
+
+**Modelo de Comisión Competitivo**
+- Comisiones iniciales más bajas (12-15%) para restaurantes en fase de adopción temprana.
+- Bonificaciones por volumen para incentivar mayor participación.
+
+**Expansión Geográfica Estratégica**
+- Expansion a ciudades satélite de Lima antes de competidores globales (Arequipa, Cusco, Trujillo).
+- Adaptación del modelo a contextos locales específicos.
+
+**Impacto Ambiental Medible**
+- Generación de reportes de sostenibilidad para restaurantes y consumidores (alimentos salvados, CO2 ahorrado).
+- Posicionamiento como alternativa consciente frente a plataformas que priorizan volumen sobre sostenibilidad.
+
+---
 
 ## 2.2. Entrevistas
 
