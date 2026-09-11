@@ -308,6 +308,39 @@ Faculta de Ingeniería
 
 ## 3.3. Product Backlog
 
+| # Orden | User Story ID | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+|---:|---|---|---|---:|
+| 1 | UH01 | Conocer el modelo FoodSave | Landing Page con propuesta de valor y beneficios. | 3 |
+| 2 | UH02 | Acceder a ofertas | Llamado a la acción que dirige al catálogo. | 2 |
+| 3 | UH03 | Explorar ofertas activas | Catálogo de ofertas vigentes. | 5 |
+| 4 | UH04 | Filtrar ofertas | Distancia, categoría, horario y estado vacío. | 3 |
+| 5 | UH05 | Consultar detalle | Información completa de una oferta. | 3 |
+| 6 | UH06 | Consultar términos y privacidad | Condiciones de uso disponibles. | 2 |
+| 7 | UH07 | Elegir idioma de la interfaz | Inglés o español latinoamericano. | 2 |
+| 8 | UH08 | Registrar negocio | Registro de establecimientos. | 5 |
+| 9 | UH09 | Publicar una oferta | Creación y validación de ofertas. | 5 |
+| 10 | UH10 | Reservar oferta | Creación de reservas y código de recojo. | 8 |
+| 11 | UH11 | Confirmar recojo | Validación de código y estado de reserva. | 3 |
+| 12 | UH12 | Gestionar reserva | Consulta y cancelación según política. | 5 |
+| 13 | UH13 | Registrarse como cliente | Crear cuenta para gestionar reservas. | 5 |
+| 14 | UH14 | Iniciar sesión | Acceso seguro según el rol. | 3 |
+| 15 | UH15 | Gestionar perfil de cliente | Actualizar datos básicos. | 2 |
+| 16 | UH16 | Gestionar perfil del negocio | Dirección y condiciones públicas del negocio. | 3 |
+| 17 | UH17 | Consultar perfil público del negocio | Ubicación y condiciones de recojo. | 2 |
+| 18 | UH18 | Editar una oferta activa | Corrección de información permitida. | 5 |
+| 19 | UH19 | Pausar una oferta | Impedir nuevas reservas. | 3 |
+| 20 | UH20 | Consultar reservas del negocio | Panel de reservas activas. | 3 |
+| 21 | UH21 | Recibir aviso de nueva reserva | Notificación operativa al negocio. | 3 |
+| 22 | UH22 | Consultar historial de recojos | Estados finales por período. | 3 |
+| 23 | UH23 | Recibir confirmación de reserva | Datos de pedido, código y hora límite. | 3 |
+| 24 | UH24 | Recibir recordatorio de recojo | Aviso antes de la hora límite. | 3 |
+| 25 | UH25 | Conocer cambios de una oferta reservada | Avisos por cambios o pausa. | 3 |
+| 26 | UH26 | Identificar una oferta vencida | Estado no reservable visible. | 2 |
+| 27 | UH27 | Recibir alternativas sin resultados | Estado vacío con acciones útiles. | 3 |
+| 28 | UH28 | Solicitar ayuda | Canal y contexto de soporte. | 2 |
+| 29 | UH29 | Calificar la experiencia de recojo | Retroalimentación posterior al recojo. | 2 |
+| 30 | UH30 | Consultar resultados del negocio | Resumen de ofertas, reservas y recojos. | 5 |
+
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
