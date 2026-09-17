@@ -247,6 +247,266 @@ Faculta de Ingeniería
 
 ### 4.1.1. General Style Guidelines
 
+FoodSave es una marca digital enfocada en reducir el desperdicio de alimentos mediante una experiencia clara, útil y accesible. Su identidad visual busca comunicar sostenibilidad, alimentación, comunidad y simplicidad, evitando una estética rígida o excesivamente corporativa.
+
+#### 1. Brand Overview
+
+La marca transmite principalmente:
+
+- ♻️ Sostenibilidad: reducir el desperdicio y aprovechar mejor los recursos.
+- 🍎 Alimentación: está directamente relacionada con productos, restaurantes y consumo cotidiano.
+- 💚 Accesibilidad: la solución debe sentirse simple y cercana para cualquier persona.
+- 🤝 Comunidad: conecta negocios y consumidores alrededor de una misma intención.
+- ⚡ Simplicidad: el usuario debe entender rápidamente qué ofrece la plataforma y qué beneficio obtiene.
+
+Visualmente, FoodSave se apoya en una estética fresca, amigable, moderna y ecofriendly, con una sensación de bienestar y utilidad.
+
+#### 2. Brand Name
+
+**FoodSave** combina los conceptos de “Food” y “Save”. Esto comunica tanto la alimentación como la acción de preservar o reutilizar alimentos que de otra manera se desperdiciarían. El nombre es directo, memorable y fácil de pronunciar, reforzando una propuesta de valor clara y accesible.
+
+Recomendaciones:
+
+- Mantener el nombre como una sola palabra: **FoodSave**.
+- Usar mayúsculas y minúsculas consistentes en todos los canales.
+- Evitar abreviaturas o variantes ambiguas.
+- Mantener el uso uniforme en la landing, redes y materiales institucionales.
+
+#### 3. Typography
+
+La tipografía debe mantener un estilo moderno, limpio y amigable. Se recomienda utilizar fuentes sans-serif con proporciones equilibradas y alta legibilidad.
+
+**Headings**
+
+- H1: 48–64 px, bold / semibold
+- H2: 36–48 px, bold
+- H3: 24–32 px, semibold
+
+En versión mobile:
+
+- H1: 36–44 px
+- H2: 28–36 px
+- H3: 22–26 px
+
+**Body text**
+
+- Body large: 18–20 px
+- Body: 16–18 px
+- Small: 14 px
+- Line-height sugerido: 1.4–1.6
+
+Principio general:
+
+- Títulos = personalidad y jerarquía visual.
+- Texto de contenido = claridad y legibilidad.
+
+#### 4. Content and Tone
+
+El contenido de FoodSave debe ser simple, directo y orientado a beneficios. El mensaje ideal responde a la secuencia:
+
+**Problema → solución → beneficio → acción**
+
+Ejemplo conceptual:
+
+> Hay comida que todavía puede aprovecharse. FoodSave ayuda a rescatarla y aprovecharla.
+
+Se recomienda:
+
+- Mensajes cortos y claros.
+- Lenguaje cercano, positivo y humano.
+- Enfoque en la acción y el impacto positivo.
+- Evitar textos demasiado técnicos o corporativos.
+
+#### 5. Color Palette
+
+La identidad visual se basa en verdes frescos y neutros claros, reforzando la percepción de sostenibilidad y salud.
+
+**Primary / Brand Green**
+
+- Verde principal: `#2E7D32`
+- Uso: logo, CTA, iconos, botones, links, elementos destacados.
+
+**Secondary / Light Green**
+
+- Verde claro: `#E8F5E9`
+- Uso: fondos de tarjetas, secciones de apoyo, ilustraciones, badges.
+
+**Background**
+
+- Blanco: `#FFFFFF`
+- Off-white cálido: `#F8FAF6`
+
+**Text**
+
+- Dark: `#1F2933`
+- Muted Gray: `#667085`
+
+La lógica del color es directa:
+
+- Verde = sostenibilidad, acción y marca.
+- Blanco = limpieza, aire y claridad.
+- Dark = información y contenido.
+- Verde claro = espacio visual complementario.
+
+#### 6. Spacing
+
+El sistema de espaciado debe seguir una lógica basada en múltiplos de 8 px para mantener orden visual y legibilidad.
+
+- 4 px: micro spacing
+- 8 px: spacing pequeño
+- 16 px: estándar
+- 24 px: medio
+- 32 px: grande
+- 48 px: contenido de sección
+- 64 px: separación importante
+- 80–120 px: separación de secciones grandes
+
+Se recomienda mantener amplia separación entre bloques para que cada sección se sienta ordenada y moderna.
+
+#### 7. Buttons and Calls to Action
+
+Los botones deben sentirse accionables, amigables y claros. El diseño debe priorizar la comprensión y la urgencia de la acción.
+
+**CTA principal**
+
+- Color: verde de marca
+- Texto: blanco
+- Forma: redondeada / estilo pill
+- Radio aproximado: 8–16 px
+- Padding generoso
+- Hover: más oscuro que el estado base
+
+Ejemplos de textos sugeridos:
+
+- Get Started
+- Discover
+- Save food
+- Join
+- Find food
+- Rescue food
+
+Se recomienda evitar CTAs genéricos como “Submit” o “Click here” cuando es posible usar verbos más concretos.
+
+#### 8. Border Radius
+
+La interfaz debe sentirse suave, moderna y amigable. Se recomienda:
+
+- Botones: 8–16 px
+- Tarjetas: 16–24 px
+- Imágenes: 16–24 px
+- Contenedores: 20–32 px
+
+Esto ayuda a transmitir un estilo más cálido y approachable.
+
+#### 9. Iconography and Illustration
+
+Los íconos deben ser simples, redondeados, legibles y consistentes.
+
+Temas visuales recomendados:
+
+- 🍎 comida
+- ♻️ sostenibilidad
+- 💰 ahorro
+- 📍 ubicación
+- 🛍️ tiendas
+- ❤️ comunidad
+
+Se debe evitar iconografía demasiado técnica, rígida o excesivamente detallada.
+
+#### 10. Tone of Communication
+
+El tono de FoodSave debe ser:
+
+- Friendly: cercano y humano
+- Optimistic: enfocado en la solución y no en la culpa
+- Simple: fácil de entender
+- Action-oriented: invita a participar
+- Sustainable: promueve impacto positivo
+
+La marca debe sentirse hecha para personas, no solo para “usuarios”.
+
+#### 11. Language and Voice
+
+La voz puede describirse como:
+
+> Simple + Positive + Human + Sustainable
+
+Ejemplos recomendados:
+
+- Save food.
+- Save money.
+- Good food deserves another chance.
+- Rescue more. Waste less.
+- Discover food near you.
+
+Se deben evitar mensajes alarmistas, científicos o demasiado formales.
+
+#### 12. Brand Personality
+
+Si FoodSave fuese una persona, su personalidad sería:
+
+| Atributo | Nivel |
+| --- | --- |
+| Friendly | Alto |
+| Modern | Alto |
+| Sustainable | Alto |
+| Accessible | Alto |
+| Playful | Medio |
+| Professional | Medio |
+| Corporate | Bajo |
+| Technical | Bajo |
+
+En una frase: 
+
+> FoodSave es una marca moderna, cercana y optimista que transforma el desperdicio de alimentos en una oportunidad para ahorrar, colaborar y generar impacto positivo.
+
+#### 13. Quick Design System
+
+**BRAND**
+
+- Nombre: FoodSave
+
+**PRIMARY**
+
+- Green: `#2E7D32`
+- Light Green: `#E8F5E9`
+
+**NEUTRALS**
+
+- White: `#FFFFFF`
+- Off White: `#F8FAF6`
+- Dark: `#1F2933`
+- Gray: `#667085`
+
+**TYPOGRAPHY**
+
+- H1: 48–64 px / Bold
+- H2: 36–48 px / Bold
+- H3: 24–32 px / Semibold
+- Body: 16–18 px / Regular
+- Small: 14 px / Regular
+
+**SPACING**
+
+- 4 / 8 / 16 / 24 / 32 / 48 / 64 / 80 / 120 px
+
+**RADIUS**
+
+- Botones: 8–16 px
+- Tarjetas: 16–24 px
+- Imágenes: 16–24 px
+
+**VOICE**
+
+- Friendly
+- Simple
+- Positive
+- Human
+- Sustainable
+- Action-oriented
+
+En conclusión, la identidad visual de FoodSave debe reflejar una solución útil, moderna y centrada en las personas, con una estética que comunique responsabilidad ambiental y accesibilidad sin perder claridad ni calidez.
+
 ### 4.1.2. Web Style Guidelines
 
 ## 4.2. Information Architecture
