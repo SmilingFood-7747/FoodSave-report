@@ -507,6 +507,103 @@ En una frase:
 
 
 ### 4.1.2. Web Style Guidelines
+FoodSave es una marca digital enfocada en reducir el desperdicio de alimentos mediante una experiencia clara, útil y accesible. Su identidad visual comunica sostenibilidad, alimentación, comunidad y simplicidad, con una estética fresca, amigable y moderna.
+
+- **Paleta:** verde de marca `#2E7D32`, verde claro `#E8F5E9`, blanco `#FFFFFF`, off-white `#F8FAF6`, texto oscuro `#1F2933` y gris secundario `#667085`.
+- **Tipografía:** sans-serif legible; H1 de 48–64 px, H2 de 36–48 px, H3 de 24–32 px y cuerpo de 16–18 px.
+- **Espaciado:** sistema basado en múltiplos de 8 px.
+- **Componentes:** botones y tarjetas con bordes redondeados, iconografía simple y tono cercano.
+- **Voz:** simple, positiva, humana, sostenible y orientada a la acción.
+
+### 4.1.2. Web Style Guidelines
+
+La plataforma web de FoodSave se desarrollará bajo un enfoque **responsive**, adaptándose correctamente a computadoras, tablets y smartphones sin comprometer la estructura, legibilidad ni calidad visual del contenido. Se considerarán distintos tamaños de pantalla para asegurar que textos, imágenes, botones y demás elementos se distribuyan de manera adecuada y mantengan una navegación intuitiva.
+
+La composición de las secciones principales empleará principalmente el **patrón Z**, ya que permite establecer un recorrido visual natural. En la parte superior izquierda se ubicará el logo de FoodSave como primer elemento de identificación de la marca. A continuación, el usuario podrá recorrer horizontalmente las opciones principales de navegación y, posteriormente, desplazarse verticalmente para descubrir la propuesta de valor, los beneficios y las funcionalidades de la plataforma.
+
+La página estará organizada mediante **secciones claramente diferenciadas**, permitiendo que el usuario comprenda progresivamente el servicio. Se mantendrá una jerarquía visual consistente entre títulos, subtítulos, textos descriptivos y botones de acción. Esta organización facilitará la comprensión de la propuesta y orientará al usuario hacia acciones como descubrir alimentos disponibles, comenzar a utilizar la plataforma o conocer más sobre el servicio.
+
+El diseño utilizará la paleta cromática definida para FoodSave, basada principalmente en tonos verdes y colores neutros. El verde de marca `#2E7D32` se empleará en el logo, botones CTA, enlaces, iconos y elementos interactivos. El verde claro `#E8F5E9` se utilizará en fondos de apoyo, tarjetas, badges o secciones relacionadas con sostenibilidad. Los fondos blanco `#FFFFFF` y off-white `#F8FAF6` permitirán crear una apariencia limpia y moderna, mientras que `#1F2933` y `#667085` facilitarán la lectura del contenido principal y secundario.
+
+Asimismo, se utilizarán **espacios en blanco, sombras sutiles y bordes redondeados** para organizar el contenido y evitar una interfaz saturada. Las tarjetas, imágenes y elementos interactivos emplearán radios suaves, coherentes con la identidad amigable y accesible de FoodSave. Las sombras se aplicarán moderadamente, únicamente para generar profundidad y diferenciar elementos importantes del fondo.
+
+La tipografía conservará una apariencia moderna, sencilla y legible. Los encabezados tendrán mayor tamaño y peso visual para establecer la jerarquía de la información, mientras que los textos descriptivos utilizarán tamaños y alturas de línea adecuados para favorecer una lectura cómoda en dispositivos móviles y pantallas de mayor tamaño. El contenido se presentará mediante mensajes breves, directos y orientados a beneficios.
+
+Los elementos interactivos deberán mantener un comportamiento visual consistente en sus estados **normal, hover, focus, active y disabled**. Los botones principales utilizarán el verde de marca con texto blanco y bordes redondeados. En hover se aplicará una variación más oscura del verde; en focus se mostrará un indicador visual suficiente para facilitar la navegación con teclado; y los estados active y disabled comunicarán claramente si la acción está siendo ejecutada o no se encuentra disponible.
+
+Se emplearán los siguientes elementos de interfaz:
+
+- **Logo de FoodSave:** ubicado principalmente en la parte superior como elemento de identificación de la marca.
+- **Barra de navegación:** permitirá acceder a las secciones principales y se transformará en un menú adaptable en pantallas pequeñas.
+- **Botones CTA:** destacarán las acciones principales del usuario.
+- **Cards:** presentarán beneficios, productos, alimentos disponibles o funcionalidades de forma organizada.
+- **Iconografía:** representará alimentación, sostenibilidad, ahorro, ubicación y comunidad.
+- **Imágenes e ilustraciones:** complementarán la información y reforzarán la propuesta de FoodSave.
+- **Espacios en blanco:** separarán contenidos y mejorarán la legibilidad.
+- **Sombras sutiles:** aportarán profundidad a tarjetas, botones y contenedores.
+- **Bordes redondeados:** reforzarán una estética moderna, cálida y amigable.
+- **Responsive design:** adaptará el contenido a computadoras, tablets y smartphones.
+- **Footer:** incluirá información complementaria, redes sociales, medios de contacto y enlaces relevantes.
+
+En conjunto, el **Web Style Guidelines de FoodSave** busca construir una experiencia digital limpia, moderna, amigable y sostenible, con navegación clara, componentes consistentes, tipografía legible y llamadas a la acción visibles.
+
+## 4.2. Information Architecture
+
+### 4.2.1. Organization Systems
+
+FoodSave es principalmente una landing page informativa. Por ello, su organización se centra en presentar progresivamente la propuesta de valor, el funcionamiento, los beneficios y las formas de interacción con la plataforma. Se consideran los segmentos de consumidores y negocios proveedores de alimentos, además de los elementos comunes a ambos públicos.
+
+### Segmento 1: Usuarios / Consumidores
+
+#### Organización jerárquica
+
+- **Hero / Presentación principal:** presenta el nombre de FoodSave, su propuesta de valor y el llamado a la acción principal.
+- **Propuesta de valor:** explica cómo la plataforma ayuda a reducir el desperdicio y permite aprovechar alimentos disponibles.
+- **How It Works:** muestra ordenadamente el recorrido desde el descubrimiento de una oportunidad hasta su aprovechamiento.
+- **Beneficios de FoodSave:** organiza las ventajas relacionadas con ahorro, sostenibilidad y aprovechamiento de alimentos.
+- **Call to Action:** se distribuye estratégicamente después de presentar información suficiente para orientar la interacción.
+- **Contacto:** se ubica hacia el final para facilitar la comunicación con la marca.
+
+#### Organización secuencial
+
+- **Proceso de uso de FoodSave:** la sección *How It Works* presenta los pasos en el orden que debe seguir el usuario: encontrar una oportunidad, interactuar con ella y completar el proceso.
+- **Recorrido de la landing page:** la información avanza de arriba hacia abajo, desde la presentación de FoodSave hasta la explicación de su funcionamiento, beneficios y acciones disponibles.
+
+### Segmento 2: Negocios / Proveedores de alimentos
+
+FoodSave también considera a los negocios con excedentes de alimentos, ya que constituyen una fuente importante de productos que pueden aprovecharse en lugar de convertirse en desperdicio.
+
+#### Organización jerárquica
+
+- **Propuesta para los negocios:** explica el problema del desperdicio y cómo FoodSave ayuda a aprovechar excedentes.
+- **Beneficios para los negocios:** prioriza el aprovechamiento de excedentes, la reducción del desperdicio y la conexión con consumidores.
+- **Proceso de participación:** presenta de forma ordenada cómo un negocio puede integrarse y poner sus excedentes a disposición.
+
+### Elementos dirigidos a ambos segmentos
+
+#### Organización jerárquica
+
+- **Landing page:** primero muestra la propuesta de valor, luego el funcionamiento, los beneficios y finalmente los llamados a la acción.
+- **Identidad de marca:** logo, nombre y elementos gráficos mantienen una posición y tratamiento visual consistentes.
+- **Información sobre sostenibilidad:** forma parte del discurso principal para que consumidores y negocios comprendan el impacto de FoodSave.
+- **Footer:** agrupa contacto, navegación adicional y redes sociales al final de la página, después del contenido prioritario.
+
+#### Organización secuencial
+
+- **How It Works:** cada etapa depende de la anterior y permite construir progresivamente el entendimiento del servicio.
+- **Storytelling de la landing:** el recorrido parte del problema y la propuesta de FoodSave, continúa con su funcionamiento y beneficios, y finaliza con una invitación a interactuar.
+
+#### Organización matricial
+
+- **Menú de navegación:** agrupa opciones independientes que pueden seleccionarse sin seguir un orden obligatorio.
+- **Beneficios y características:** se presentan mediante tarjetas o bloques independientes que pueden consultarse individualmente.
+- **Redes sociales y medios de contacto:** se muestran como canales independientes dentro del footer, permitiendo elegir cualquiera según la preferencia del usuario.
+
+### Organización general de la información
+
+La landing page de FoodSave combina **organización jerárquica, secuencial y matricial**. La organización jerárquica destaca la propuesta de valor y los mensajes principales; la secuencial facilita la comprensión del funcionamiento; y la matricial permite consultar de manera independiente beneficios, características, opciones de navegación y canales de contacto.
+
+De esta manera, la estructura permite que el usuario comprenda qué es FoodSave, identifique cómo funciona, reconozca sus beneficios y finalmente realice una acción, manteniendo un recorrido visual sencillo y evitando presentar demasiada información simultáneamente.
 
 ## 4.2. Information Architecture
 
