@@ -288,12 +288,16 @@ Según un estudio publicado en 2022 en la revista científica Sustainability, re
  
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-**Hypothesis Statement 1:** Creemos que los restaurantes estarán dispuestos a publicar sus excedentes de alimentos durante las últimas horas de atención si pueden ofrecerlos de manera rápida a consumidores interesados. Sabremos que esto es cierto cuando los restaurantes entrevistados manifiesten interés en utilizar este tipo de canal para comercializar sus excedentes.
+**Hipótesis 1 (Basada en el Módulo de publicación de excedentes)**
+*Creemos que lograremos* un aumento sostenido en la cantidad de excedentes publicados durante las últimas horas de atención *si* los restaurantes *logran* ofrecer de manera rápida sus excedentes a consumidores interesados *con* el Módulo de publicación de excedentes.
 
-**Hypothesis Statement 2:** Creemos que los consumidores estarán interesados en adquirir platos de restaurantes de mayor nivel cuando estos sean ofrecidos a precios significativamente inferiores a los habituales. Sabremos que esto es cierto cuando los consumidores entrevistados demuestren interés en adquirir este tipo de ofertas.
 
-**Hypothesis Statement 3:** Creemos que facilitar la búsqueda de ofertas cercanas permitirá que los consumidores encuentren y aprovechen con mayor facilidad los excedentes disponibles. Sabremos que esto es cierto cuando los usuarios puedan encontrar una oferta disponible, comprender sus condiciones y realizar una reserva durante las pruebas de la plataforma.
- 
+**Hipótesis 2 (Basada en el Motor de descuentos dinámicos)**
+*Creemos que lograremos* un aumento en la tasa de conversión de compra en la plataforma *si* los consumidores *logran* adquirir platos de restaurantes de mayor nivel a precios significativamente inferiores a los habituales *con* el Motor de descuentos dinámicos.
+
+**Hipótesis 3 (Basada en el Buscador de ofertas por geolocalización)**
+*Creemos que lograremos* un aumento en la tasa de reservas completadas dentro de la app *si* los consumidores *logran* encontrar y aprovechar con mayor facilidad los excedentes disponibles cerca de ellos *con* el Buscador de ofertas por geolocalización. 
+
 #### 1.2.2.4. Lean UX Canvas
 
 | 1. BUSINESS PROBLEM | 5. SOLUTIONS | 2. BUSINESS OUTCOMES |
