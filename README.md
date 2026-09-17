@@ -590,7 +590,19 @@ Para utilizar este tipo de ofertas, considera importante conocer la antigüedad 
 
 ## 2.3. Needfinding
 
+Vamos a identificar a nuestros usuarios por lo recopilamos lo mas importante 
+
 ### 2.3.1. User Personas
+
+Segmento 1: Cliente frencuente de restaurantes
+
+![User persona1](img/capitulo2/Andrea_Mendoza.png)
+
+Segmento 2: Cocinero de restaurante de gama alta-media
+
+![User persona1](img/capitulo2/Carlos_Guevara.png)
+
+
 
 ### 2.3.2. User Task Matrix
 
