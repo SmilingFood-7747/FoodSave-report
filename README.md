@@ -505,7 +505,6 @@ En una frase:
 - Sustainable
 - Action-oriented
 
-En conclusión, la identidad visual de FoodSave debe reflejar una solución útil, moderna y centrada en las personas, con una estética que comunique responsabilidad ambiental y accesibilidad sin perder claridad ni calidez.
 
 ### 4.1.2. Web Style Guidelines
 
