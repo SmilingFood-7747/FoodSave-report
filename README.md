@@ -515,8 +515,6 @@ FoodSave es una marca digital enfocada en reducir el desperdicio de alimentos me
 - **Componentes:** botones y tarjetas con bordes redondeados, iconografía simple y tono cercano.
 - **Voz:** simple, positiva, humana, sostenible y orientada a la acción.
 
-### 4.1.2. Web Style Guidelines
-
 La plataforma web de FoodSave se desarrollará bajo un enfoque **responsive**, adaptándose correctamente a computadoras, tablets y smartphones sin comprometer la estructura, legibilidad ni calidad visual del contenido. Se considerarán distintos tamaños de pantalla para asegurar que textos, imágenes, botones y demás elementos se distribuyan de manera adecuada y mantengan una navegación intuitiva.
 
 La composición de las secciones principales empleará principalmente el **patrón Z**, ya que permite establecer un recorrido visual natural. En la parte superior izquierda se ubicará el logo de FoodSave como primer elemento de identificación de la marca. A continuación, el usuario podrá recorrer horizontalmente las opciones principales de navegación y, posteriormente, desplazarse verticalmente para descubrir la propuesta de valor, los beneficios y las funcionalidades de la plataforma.
@@ -604,10 +602,6 @@ FoodSave también considera a los negocios con excedentes de alimentos, ya que c
 La landing page de FoodSave combina **organización jerárquica, secuencial y matricial**. La organización jerárquica destaca la propuesta de valor y los mensajes principales; la secuencial facilita la comprensión del funcionamiento; y la matricial permite consultar de manera independiente beneficios, características, opciones de navegación y canales de contacto.
 
 De esta manera, la estructura permite que el usuario comprenda qué es FoodSave, identifique cómo funciona, reconozca sus beneficios y finalmente realice una acción, manteniendo un recorrido visual sencillo y evitando presentar demasiada información simultáneamente.
-
-## 4.2. Information Architecture
-
-### 4.2.1. Organization Systems
 
 ### 4.2.2. Labeling Systems
 
