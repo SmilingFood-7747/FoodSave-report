@@ -636,8 +636,40 @@ Asimismo, contamos con seis "headings" con fuente Lato ubicadas en la parte late
 ### 4.2.3. SEO Tags and Meta Tags
 
 ### 4.2.4. Searching Systems
+A continuación, se mostrarán los sistemas de búsqueda implementados para ayudar a nuestros usuarios a encontrar la información que están buscando.
+
+Para el Landing Page de FoodSave, los sistemas de búsqueda son principalmente estáticos, ya que la barra de navegación permite a los usuarios dirigirse directamente a las diferentes secciones de la página según la información que desean consultar. De esta manera, los usuarios podrán encontrar información relacionada con la propuesta de FoodSave, el funcionamiento de la solución, sus principales beneficios y la forma en la que pueden participar en el proceso de rescate de alimentos.
+
+Asimismo, el contenido se encuentra organizado en diferentes secciones informativas, permitiendo que el usuario pueda identificar rápidamente los aspectos más importantes de la propuesta sin necesidad de realizar una búsqueda compleja dentro de la página.
+
+Entre los principales contenidos que el usuario puede localizar se encuentran:
+
+- **Propuesta de FoodSave:** El usuario podrá encontrar una descripción general de la solución y del problema que busca solucionar, principalmente relacionado con el desperdicio de alimentos.
+- **How It Works:** El usuario podrá acceder a la explicación del funcionamiento de FoodSave y conocer de manera general cómo se desarrolla el proceso para rescatar alimentos.
+- **Beneficios:** El usuario podrá encontrar información relacionada con los beneficios que genera la utilización de FoodSave, tanto para las personas que adquieren los alimentos como para los establecimientos que pueden aprovechar aquellos productos que no fueron vendidos.
+- **Información sobre los alimentos:** El usuario podrá identificar información relacionada con los productos o alimentos que pueden ser aprovechados mediante la solución.
+- **Contacto:** El usuario podrá localizar la información necesaria para comunicarse con FoodSave en caso de tener alguna consulta o requerir información adicional.
 
 ### 4.2.5. Navigation Systems
+A continuación, se mostrarán los sistemas de navegación que le permitirán a nuestros usuarios moverse a través de las distintas piezas de contenido o información.
+
+Para el Landing Page de FoodSave, se utiliza principalmente un sistema de navegación global ubicado en la parte superior de la página. Este menú permite que el usuario pueda desplazarse directamente hacia las diferentes secciones de la página sin tener que recorrer manualmente todo el contenido mediante la barra de desplazamiento vertical.
+
+La información se encuentra dividida en diferentes secciones con la finalidad de presentar la propuesta de FoodSave de manera ordenada y facilitar que el usuario pueda acceder rápidamente al contenido que sea de su interés.
+
+Entre las principales secciones de navegación se encuentran:
+
+- **Home:** Es la sección inicial de la página. Presenta la propuesta principal de FoodSave y permite al usuario conocer rápidamente qué es la solución y cuál es su propósito.
+- **How It Works:** Si el usuario desea conocer cómo funciona FoodSave, podrá ingresar a esta sección. Aquí se explica el proceso mediante el cual se busca facilitar el rescate y aprovechamiento de alimentos.
+- **Benefits:** Si el usuario desea conocer las ventajas que ofrece FoodSave, podrá dirigirse a esta sección para identificar los principales beneficios de la solución.
+- **Información de la solución:** El usuario podrá desplazarse hacia las secciones destinadas a explicar con mayor detalle la propuesta y el problema del desperdicio de alimentos que FoodSave busca abordar.
+- **Contact:** Si el usuario desea comunicarse con FoodSave o solicitar información adicional, podrá dirigirse a esta sección para encontrar los medios de contacto disponibles.
+
+La navegación del Landing Page funciona como una barra de navegación global, debido a que sus opciones se mantienen disponibles mientras el usuario recorre las diferentes secciones de la página. Esto permite que el usuario pueda regresar fácilmente a una sección anterior o saltar directamente hacia otra parte de la información.
+
+Asimismo, dentro de las propias secciones pueden existir botones de acción que permiten dirigir al usuario hacia información específica o hacia el siguiente punto relevante de la propuesta. De esta manera, la navegación no depende únicamente del desplazamiento vertical, sino que también se utilizan enlaces y botones para guiar el recorrido del usuario.
+
+En términos generales, el recorrido propuesto para el usuario comienza en Home, donde se presenta la propuesta de FoodSave; posteriormente puede dirigirse a How It Works para comprender el funcionamiento de la solución, revisar sus Benefits y finalmente acceder a Contact si desea obtener mayor información o comunicarse con el equipo.
 
 ## 4.3. Landing Page UI Design
 
