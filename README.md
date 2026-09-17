@@ -604,6 +604,34 @@ La landing page de FoodSave combina **organización jerárquica, secuencial y ma
 De esta manera, la estructura permite que el usuario comprenda qué es FoodSave, identifique cómo funciona, reconozca sus beneficios y finalmente realice una acción, manteniendo un recorrido visual sencillo y evitando presentar demasiada información simultáneamente.
 
 ### 4.2.2. Labeling Systems
+A continuación, se mostrará el sistema de etiquetado que permitirá a nuestros visitantes y/o usuarios recibir la información que nuestra Landing Page y Web Application de FoodSave ofrece a través del uso de la mínima cantidad de palabras posible.
+
+Contamos con cinco "headings" con fuente Lato ubicadas en la parte superior de la Landing Page:
+- **Home:** Sección seleccionada por defecto dónde los usuarios verán la información más relevante, la cual captará su atención.
+- **How it works:** Sección dónde se detalla el paso a paso del funcionamiento de la plataforma y cómo aprovechar sus beneficios.
+- **Benefits:** Sección dónde se exponen las ventajas clave orientadas al ahorro y la sostenibilidad alimentaria.
+- **Impact:** Sección dónde se visualiza el impacto ambiental y métricas de reducción del desperdicio de alimentos.
+- **Contact:** Sección dónde se detalla cuáles son nuestros canales de comunicación, redes y ubicación.
+
+Asimismo, contamos con diez "headings" con fuente Lato ubicadas en la parte lateral izquierda de nuestra Web Application para la cuenta del consumidor:
+- **Profile:** Sección dónde estará la información personal del usuario consumidor.
+- **Saved Foods:** Sección dónde el consumidor podrá visualizar los alimentos y excedentes guardados o disponibles para reserva.
+- **Orders:** Sección dónde los consumidores pueden visualizar el historial y estado de todos sus pedidos realizados.
+- **Chats:** Sección dónde se encuentra la bitácora de todos los chats activos y pasados que ha tenido el consumidor con los establecimientos o repartidores.
+- **Wallet:** Sección dónde el consumidor lleva el registro de todas las transacciones y métodos de pago registrados.
+- **Addresses:** Sección dónde se almacenan todas las direcciones de entrega habituales del consumidor.
+- **Favorites:** Sección dónde el usuario gestiona sus locales y tiendas de alimentos preferidas.
+- **Coupons:** Sección dónde se publican los diversos descuentos y cupones que FoodSave está ofreciendo por campañas o temporadas.
+- **Calculator:** Sección dónde el consumidor puede usar la herramienta de ahorro para calcular el dinero y alimentos salvados.
+- **Support:** Sección destinada a resolver dudas frecuentes, reportar incidencias y contactar con el servicio de ayuda de FoodSave.
+
+Asimismo, contamos con seis "headings" con fuente Lato ubicadas en la parte lateral izquierda de nuestra Web Application para la cuenta del establecimiento o socio estratégico:
+- **Profile:** Sección dónde estará la información y detalles comerciales del establecimiento aliado.
+- **Surplus Listings:** Sección dónde estarán publicadas todas las ofertas de excedentes alimentarios del negocio.
+- **Wallet:** Sección dónde el establecimiento lleva el registro de los ingresos y transacciones recibidas.
+- **Chats:** Sección dónde se encuentra la bitácora de comunicación directa con los consumidores interesados.
+- **Active Orders:** Sección dónde estarán las órdenes en curso que deben ser preparadas para recojo o delivery.
+- **Analytics:** Sección dónde el socio comercial registra métricas de ventas, impacto evitado y desempeño de sus excedentes.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
