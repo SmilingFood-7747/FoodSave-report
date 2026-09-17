@@ -675,6 +675,18 @@ En términos generales, el recorrido propuesto para el usuario comienza en Home,
 
 ### 4.3.1. Landing Page Wireframe
 
+![LPWirefram1](img/capituo4/Landing_Page_Wireframe/LP2.jpeg)
+
+![LPWirefram1](img/capituo4/Landing_Page_Wireframe/LP3.jpeg)
+
+![LPWirefram1](img/capituo4/Landing_Page_Wireframe/LP4.jpeg)
+
+![LPWirefram1](img/capituo4/Landing_Page_Wireframe/LP5.jpeg)
+
+![LPWirefram1](img/capituo4/Landing_Page_Wireframe/LP1.jpeg)
+
+
+
 ### 4.3.2. Landing Page Mock-up
 
 ## 4.4. Web Applications UX/UI Design
