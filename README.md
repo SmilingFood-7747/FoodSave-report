@@ -377,10 +377,216 @@ Para identificar cómo FoodSave puede diferenciar su propuesta de publicación y
 
 ### 2.2.3. Análisis de entrevistas
 
-| Segmento | Característica o hallazgo | Entrevistas | Cálculo con denominador | Implicación para el diseño |
-|---|---|---|---|---|
-| Negocio afiliado |  |  |  |  |
-| Cliente comprador |  |  |  |  |
+**User: Restaurantes de clase media y alta**
+  <!-- Primera Entrevista -->
+<table style="width:100%; border-collapse:collapse" border="1" align="center">
+  <tr>
+    <td style="background-color:#e3e3e3">Entrevistador</td>
+    <td>Ingrid Medina</td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Entrevistado</td>
+    <td>Flor Edith Pacheco</td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Edad</td>
+    <td>21</td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Distrito</td>
+    <td>Urbanización La Encantada, en Chorrillos, Lima</td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Evidencia</td>
+    <td><img src="img/CapturaEntrevista-FlorPacheco.png"></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Comienzo de Evidencia</td>
+    <td>1:04</td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Resumen</td>
+    <td>Flor Edith Pacheco, de 21 años, residente en Chorrillos, Lima, se encuentra vinculada a la gestión de una cebichería. El restaurante procura controlar las cantidades preparadas para evitar excedentes; sin embargo, debido a la dificultad de predecir la demanda, suelen generarse alimentos no vendidos algunas veces por semana. Los productos que aún se encuentran en buenas condiciones pueden conservarse para el día siguiente, mientras que los que no cumplen con las condiciones adecuadas son desechados.
+
+La entrevistada reconoce que estos excedentes representan una pérdida económica debido a los costos de ingredientes, preparación y personal. Actualmente, utilizan el control de cantidades y promociones durante el horario de atención, pero no cuentan con una plataforma específica para vender los excedentes de último momento.
+
+Flor muestra interés en utilizar una plataforma que permita ofrecer estos alimentos a precios reducidos, ya que podría ayudar a recuperar parte de la inversión y reducir el desperdicio. Considera importante que permita llegar a consumidores cercanos, controlar productos, cantidades y horarios, además de contar con pagos seguros y una comisión razonable. Prefiere principalmente el recojo para llevar, porque considera que afectaría menos la atención habitual del restaurante.
+  </tr>
+</table>
+
+<br>
+<!-- Segunda Entrevista -->
+
+<table style="width:100%; border-collapse:collapse" border="1" align="center">
+  <tr>
+    <td style="background-color:#e3e3e3">Entrevistador</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Entrevistado</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Edad</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Distrito</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Evidencia</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td style="background-color:#e3e3e3">Comienzo de Evidencia</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Resumen</td>
+    <td></td>
+  </tr>
+</table>
+
+<br>
+ <!-- Tercera Entrevista -->
+
+<table style="width:100%; border-collapse:collapse;" border="1">
+  <tr>
+    <td style="background-color:#e3e3e3">Entrevistador</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Entrevistado</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Edad</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Distrito</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Evidencia</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td style="background-color:#e3e3e3">Comienzo de Evidencia</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Resumen</td>
+    <td></td>
+  </tr>
+</table>
+
+**User: Personas que consumen en restaurantes con frecuencia y buscan opciones de calidad a precios accesibles**
+  <!-- Primera Entrevista -->
+
+<table style="width:100%; border-collapse:collapse;" border="1" align="center">
+  <tr>
+    <td style="background-color:#e3e3e3">Entrevistador</td>
+    <td>Ingrid Medina</td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Entrevistado</td>
+    <td>Mayra Calderón Mosqueira</td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Edad</td>
+    <td>21</td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Distrito</td>
+    <td>San Miguel</td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Evidencia</td>
+    <td><img src="img/CapturaEntrevista-MayraCalderon.png"></td>
+  </tr>
+    <tr>
+    <td style="background-color:#e3e3e3">Comienzo de Evidencia</td>
+    <td>0:46</td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Resumen</td>
+    <td>Mayra Calderón Mosqueira, de 21 años, residente en San Miguel, Lima, consume alimentos fuera de casa aproximadamente cinco días a la semana, principalmente menús, debido a que es foránea y dispone de poco tiempo para cocinar. Al elegir un restaurante, considera principalmente el precio, la cercanía y la variedad del menú, mientras que para elegir un plato busca opciones que considere nutritivas, como ensaladas.
+
+El precio influye considerablemente en sus decisiones de consumo, por lo que suele buscar promociones y descuentos mediante plataformas y redes sociales de restaurantes. Muestra disposición a comprar alimentos preparados no vendidos a un precio reducido, tanto por evitar el desperdicio de comida como por obtener una opción que se ajuste a su presupuesto. Considera atractivo un ahorro aproximado de 6 a 8 soles, ya que consume fuera de casa con frecuencia.
+
+Para utilizar este tipo de ofertas, considera importante conocer la antigüedad del alimento y cuánto dinero estaría ahorrando. También estaría dispuesta a acudir a un restaurante dentro de un horario determinado, siempre que este se encuentre cerca de su trabajo, debido a su poco tiempo disponible. No presenta una preferencia entre recoger el pedido o consumirlo en el establecimiento. Finalmente, su principal preocupación es la seguridad y frescura de los alimentos, especialmente cuando se trata de productos perecibles como ensaladas, por lo que evitaría consumirlos si percibe que están en mal estado.</td>
+  </tr>
+</table>
+
+<br>
+<!-- Segunda Entrevista -->
+
+<table style="width:100%; border-collapse:collapse;" border="1" align="center">
+  <tr>
+    <td style="background-color:#e3e3e3">Entrevistador</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Entrevistado</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Edad</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Distrito</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Evidencia</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td style="background-color:#e3e3e3">Comienzo de Evidencia</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Resumen</td>
+    <td></td>
+  </tr>
+</table>
+
+<br>
+ <!-- Tercera Entrevista -->
+
+<table style="width:100%; border-collapse:collapse;" border="1" align="center">
+  <tr>
+    <td style="background-color:#e3e3e3">Entrevistador</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Entrevistado</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Edad</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Distrito</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Evidencia</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td style="background-color:#e3e3e3">Comienzo de Evidencia</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color:#e3e3e3">Resumen</td>
+    <td></td>
+  </tr>
+</table>
 
 ## 2.3. Needfinding
 
