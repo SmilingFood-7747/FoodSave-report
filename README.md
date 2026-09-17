@@ -594,29 +594,83 @@ Vamos a identificar a nuestros usuarios por lo recopilamos lo mas importante
 
 ### 2.3.1. User Personas
 
-Segmento 1: Cliente frencuente de restaurantes
-
-![User persona1](img/capitulo2/Andrea_Mendoza.png)
-
-Segmento 2: Cocinero de restaurante de gama alta-media
+Segmento 1: Dueños de negocios de clase alta
 
 ![User persona1](img/capitulo2/Carlos_Guevara.png)
 
+Segmento 2: Cliente frencuente de restaurantes
+
+![User persona2](img/capitulo2/Andrea_Mendoza.png)
 
 
 ### 2.3.2. User Task Matrix
 
+El presente User Task Matrix identifica las principales actividades realizadas por los dos segmentos objetivos definidos para FoodSave. Las tareas se analizan de manera independiente debido a que cada segmento presenta necesidades y comportamientos diferentes. Por un lado, Carlos Guevara representa a los restaurantes de gama media-alta y alta desde su rol como cocinero; por otro lado, Andrea Mendoza representa a las personas que consumen frecuentemente en restaurantes y buscan opciones de calidad a precios accesibles.
+
+### Segmento objetivo #1: Carlos Guevara (Negocios)
+
+Carlos representa al dueño de restaurantes de gama media-alta y alta involucrado en la preparación y utilizacion de los alimentos. Sus actividades se encuentran relacionadas con la preparación diaria, la demanda de los clientes y los alimentos que permanecen disponibles al acercarse el cierre.
+
+| **User Task (Tarea del usuario)** | **Frecuencia** | **Importancia** |
+| :--- | :--- | :--- |
+| Organizacion los alimentos y platos correspondientes a la jornada | Alta (diaria) | Crítica |
+| Revisar la cantidad de alimentos preparados disponibles durante el servicio | Alta (diaria) | Alta |
+| Identificar platos preparados que podrían quedar sin vender | Alta (diaria) | Crítica |
+| Determinar si los alimentos no vendidos mantienen condiciones adecuadas para su consumo | Alta (diaria) | Crítica |
+| Informar sobre los platos que permanecen disponibles cerca del cierre | Media | Alta |
+| Evaluar alternativas para aprovechar los alimentos preparados que no fueron vendidos | Media | Alta |
+| Ofrecer promociones o descuentos sobre determinados platos antes del cierre | Baja | Alta |
+| Coordinar la entrega de platos vendidos durante las últimas horas de atención | Media | Media |
+| Separar los alimentos que todavía pueden ser aprovechados de aquellos que deben descartarse | Alta (diaria) | Crítica |
+| Desechar alimentos preparados que ya no pueden ser aprovechados | Media | Alta |
+
+### Segmento objetivo #2: Andrea Mendoza (Consumidora)
+
+Andrea representa a las personas que consumen frecuentemente en restaurantes y buscan opciones gastronómicas de calidad a precios accesibles. Sus actividades están relacionadas con la búsqueda, comparación y elección de alternativas para almorzar o cenar.
+
+| **User Task (Tarea del usuario)** | **Frecuencia** | **Importancia** |
+| :--- | :--- | :--- |
+| Buscar opciones de restaurantes para almorzar o cenar | Alta | Alta |
+| Consultar los precios de los platos antes de elegir un restaurante | Alta | Alta |
+| Comparar alternativas según su relación entre precio y calidad | Alta | Crítica |
+| Buscar promociones o descuentos disponibles en restaurantes | Media | Alta |
+| Revisar qué platos se encuentran disponibles antes de acudir al establecimiento | Media | Alta |
+| Consultar información y opiniones sobre restaurantes que no conoce | Media | Media |
+| Evaluar si un descuento justifica trasladarse hasta el restaurante | Media | Alta |
+| Elegir entre consumir el plato en el establecimiento o pedirlo para llevar | Media | Media |
+| Comprar platos con descuento cuando encuentra una oferta conveniente | Media | Alta |
+| Probar restaurantes que normalmente tienen precios superiores a su presupuesto habitual | Baja | Media |
+
+**Análisis del User Task Matrix**
+
+El análisis de ambos segmentos permite identificar una relación entre las actividades que realizan Carlos y Andrea. Carlos trabaja diariamente con alimentos preparados cuya demanda puede variar durante la jornada, generando situaciones en las que determinados platos permanecen disponibles al acercarse el cierre. Andrea, por su parte, busca regularmente alternativas para almorzar o cenar y considera factores como el precio, la calidad y las promociones antes de tomar una decisión.
+
+En el primer segmento, las tareas de mayor importancia están relacionadas con la preparación de los alimentos, la identificación de platos que podrían quedar sin vender y la verificación de que estos mantengan condiciones adecuadas para su consumo. También existe la necesidad de encontrar alternativas que permitan aprovechar estos alimentos antes de que deban ser descartados.
+
+En el segundo segmento, las actividades de mayor relevancia se concentran en buscar restaurantes, comparar precios y evaluar la relación entre calidad y costo. Las promociones y descuentos representan una oportunidad para que Andrea pueda acceder a establecimientos que normalmente podrían encontrarse fuera de su presupuesto habitual.
+
+Finalmente, ambas matrices muestran una oportunidad de conexión entre los segmentos: mientras el restaurante necesita encontrar una alternativa para aprovechar alimentos preparados que permanecen disponibles, el consumidor busca acceder a comida de calidad a precios más convenientes. FoodSave busca conectar ambas necesidades facilitando que los excedentes aptos para el consumo puedan ser ofrecidos a consumidores interesados antes de ser desperdiciados.
+
 ### 2.3.3. User Journey Mapping
+
+#Segmento objetivo 1:
+
+![User_Journey_Mapping2](img/capitulo2/UM_Carlos_Guevara.png)
+
+#Segmento objetivo 2:
+
+![User_Journey_Mapping1](img/capitulo2/UJM_Andrea_Mendoza.png)
 
 ### 2.3.4. Empathy Mapping
 
-#### Empathy Mapping - Segmento 1 (Cliente)
+#### Empathy Mapping - Segmento 1 (Negocios)
+
+![Figura . Big Picture Event Storming de FoodSave](img/Empathy-Mapping.png)
+
+#### Empathy Mapping - Segmento 2 (Cliente)
 
 ![Figura . Big Picture Event Storming de FoodSave](img/Empathy-Mapping-Client.png)
 
-#### Empathy Mapping - Segmento 2 (Negocios)
-
-![Figura . Big Picture Event Storming de FoodSave](img/Empathy-Mapping.png)
 
 ## 2.4. Big Picture Event Storming
 
