@@ -688,6 +688,26 @@ En términos generales, el recorrido propuesto para el usuario comienza en Home,
 
 ### 4.3.2. Landing Page Mock-up
 
+![LPMUWirefram1](img/capituo4/Landing_Page_Wireframe/LPWU1.png)
+
+![LPMUWirefram2](img/capituo4/Landing_Page_Wireframe/LPWU2.png)
+
+![LPMUWirefram3](img/capituo4/Landing_Page_Wireframe/LPWU3.png)
+
+![LPMUWirefram4](img/capituo4/Landing_Page_Wireframe/LPWU4.png)
+
+![LPMUWirefram5](img/capituo4/Landing_Page_Wireframe/LPWU5.png)
+
+![LPMUWirefram6](img/capituo4/Landing_Page_Wireframe/LPWU6.png)
+
+![LPMUWirefram7](img/capituo4/Landing_Page_Wireframe/LPWU7.png)
+
+![LPMUWirefram8](img/capituo4/Landing_Page_Wireframe/LPWU8.png)
+
+![LPMUWirefram9](img/capituo4/Landing_Page_Wireframe/LPWU9.png)
+
+
+
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
@@ -711,6 +731,24 @@ En términos generales, el recorrido propuesto para el usuario comienza en Home,
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 ### 4.4.2. Web Applications Mock-ups
+
+![WAMUWirefram1](img/capituo4/Web_Applications_Wireframes/WAMU1.png)
+
+![WAMUWirefram2](img/capituo4/Web_Applications_Wireframes/WAMU2.png)
+
+![WAMUWirefram3](img/capituo4/Web_Applications_Wireframes/WAMU3.png)
+
+![WAMUWirefram4](img/capituo4/Web_Applications_Wireframes/WAMU4.png)
+
+![WAMUWirefram5](img/capituo4/Web_Applications_Wireframes/WAMU5.png)
+
+![WAMUWirefram6](img/capituo4/Web_Applications_Wireframes/WAMU6.png)
+
+![WAMUWirefram7](img/capituo4/Web_Applications_Wireframes/WAMU7.png)
+
+![WAMUWirefram8](img/capituo4/Web_Applications_Wireframes/WAMU8.png)
+
+![WAMUWirefram9](img/capituo4/Web_Applications_Wireframes/WAMU9.png)
 
 ### 4.4.3. Web Applications User Flow Diagrams
 
