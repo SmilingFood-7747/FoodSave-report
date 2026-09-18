@@ -418,67 +418,41 @@ Flor muestra interés en utilizar una plataforma que permita ofrecer estos alime
 <table style="width:100%; border-collapse:collapse" border="1" align="center">
   <tr>
     <td style="background-color:#e3e3e3">Entrevistador</td>
-    <td></td>
+    <td>Bryan Martinez</td>
   </tr>
   <tr>
     <td style="background-color:#e3e3e3">Entrevistado</td>
-    <td></td>
+    <td>Janet Gomez</td>
   </tr>
   <tr>
     <td style="background-color:#e3e3e3">Edad</td>
-    <td></td>
+    <td>52</td>
   </tr>
   <tr>
     <td style="background-color:#e3e3e3">Distrito</td>
-    <td></td>
+    <td>Villa el salvador, Lima</td>
   </tr>
   <tr>
     <td style="background-color:#e3e3e3">Evidencia</td>
-    <td></td>
+    <td><img src="img/capitulo2/Janet.png" style="width:40%; height:auto;"></td>
   </tr>
-    <tr>
+  <tr>
     <td style="background-color:#e3e3e3">Comienzo de Evidencia</td>
-    <td></td>
+    <td>0:10</td>
   </tr>
   <tr>
     <td style="background-color:#e3e3e3">Resumen</td>
-    <td></td>
+    <td>.Janet Linda Gomez, tiene 21 años, vive en villa el salvador, Lima, se encarga en la gestion de un restaurante, se encarga de la gestion y organizacion de los platos preparados, ella comentan que si bien se ha tratado de reducir la perdida es muy dificil predecir y evitar perdidas por desechar alimentos, ya que muchas veces la gente no es recurrente con su consumo
+
+La entrevistada reconoce que estos excedentes representan una pérdida económica debido a los costos de ingredientes, preparación y personal. Actualmente, utilizan el control de cantidades y promociones durante el horario de atención, pero no cuentan con una plataforma específica para vender los excedentes de último momento.
+
+Janet confirma y admite que esta perdida existe y aunque se ha realizado diferentes métodos para evitar la perdida de capital, no se a logrado por completo, usan su experiencia en la preparación de comida, pero no es suficiente para reducir la perdida por completo
+
+Janet muestra interés y le parece muy interesante la idea de un sistema que le permita poder vender estos productos a un precio mucho menor, cree que es una buena idea ya que sus metodos no han logrado un efecto visible y se animaria a probar este sistema
   </tr>
 </table>
 
 <br>
- <!-- Tercera Entrevista -->
-
-<table style="width:100%; border-collapse:collapse;" border="1">
-  <tr>
-    <td style="background-color:#e3e3e3">Entrevistador</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td style="background-color:#e3e3e3">Entrevistado</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td style="background-color:#e3e3e3">Edad</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td style="background-color:#e3e3e3">Distrito</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td style="background-color:#e3e3e3">Evidencia</td>
-    <td></td>
-  </tr>
-    <tr>
-    <td style="background-color:#e3e3e3">Comienzo de Evidencia</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td style="background-color:#e3e3e3">Resumen</td>
-    <td></td>
-  </tr>
-</table>
 
 **User: Personas que consumen en restaurantes con frecuencia y buscan opciones de calidad a precios accesibles**
   <!-- Primera Entrevista -->
@@ -519,76 +493,62 @@ Para utilizar este tipo de ofertas, considera importante conocer la antigüedad 
 </table>
 
 <br>
-<!-- Segunda Entrevista -->
 
+<!-- Segunda Entrevista -->
 <table style="width:100%; border-collapse:collapse;" border="1" align="center">
   <tr>
     <td style="background-color:#e3e3e3">Entrevistador</td>
-    <td></td>
+    <td>Bryan Martinez</td>
   </tr>
   <tr>
     <td style="background-color:#e3e3e3">Entrevistado</td>
-    <td></td>
+    <td>Victor Cuya</td>
   </tr>
   <tr>
     <td style="background-color:#e3e3e3">Edad</td>
-    <td></td>
+    <td>18</td>
   </tr>
   <tr>
     <td style="background-color:#e3e3e3">Distrito</td>
-    <td></td>
+    <td>Villa el salvador, Lima</td>
   </tr>
   <tr>
     <td style="background-color:#e3e3e3">Evidencia</td>
-    <td></td>
+    <td><img src="img/capitulo2/Victor.png" style="width:40%; height:auto;"></td>
   </tr>
     <tr>
     <td style="background-color:#e3e3e3">Comienzo de Evidencia</td>
-    <td></td>
+    <td>0:08</td>
   </tr>
   <tr>
     <td style="background-color:#e3e3e3">Resumen</td>
-    <td></td>
+    <td>Victor Cuya de 18 años vive en villa el salvador, consume en restaurantes diaraimente entre 5-6 dias por semana en restaurantes, ya que su tiempo no le permite almorzar en casa, el cuenta que le importa mucho tanto la presentancion como el precio al momento de elegir un restuarante
+
+El precio tambien es un punto fundamental ya que a el le gusta mucho aprovechar las promociones, suele buscar mucho descuentos y promociones presencialmente y por redes sociales, aunque no tiene como tal una aplicacion que le permita ver, asi se ahorra dinero a la semana
+
+Considera importante tener que saber el estado del producto porque aunque sea barato no comería algo malo, a su vez si estaría conforme de comer algo que vaya a ser desechado siempre y cuando este en buenas condiciones, ademas de que no le incomoda tener que ir a un horario exacto o en un rango siempre y cuando pueda aprovechar buenos descuentos .</td>
   </tr>
 </table>
 
 <br>
- <!-- Tercera Entrevista -->
-
-<table style="width:100%; border-collapse:collapse;" border="1" align="center">
-  <tr>
-    <td style="background-color:#e3e3e3">Entrevistador</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td style="background-color:#e3e3e3">Entrevistado</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td style="background-color:#e3e3e3">Edad</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td style="background-color:#e3e3e3">Distrito</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td style="background-color:#e3e3e3">Evidencia</td>
-    <td></td>
-  </tr>
-    <tr>
-    <td style="background-color:#e3e3e3">Comienzo de Evidencia</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td style="background-color:#e3e3e3">Resumen</td>
-    <td></td>
-  </tr>
-</table>
 
 ### 2.2.3. Análisis de entrevistas
 
+Segmento 1:
 
+Las entrevistas evidencian que uno de los principales problemas en los restaurantes es la dificultad para predecir la demanda diaria, lo que provoca la generación de alimentos excedentes y pérdidas económicas.
+
+Aunque se aplican métodos como el control de cantidades, la experiencia del personal y promociones, estas estrategias no permiten eliminar completamente el desperdicio. Además, actualmente no se cuenta con una herramienta específica para vender los productos no vendidos al final del día.
+
+Existe interés en utilizar una plataforma que permita ofrecer estos alimentos a precios reducidos, principalmente para recuperar parte de la inversión, disminuir las pérdidas y reducir el desperdicio. También se considera importante contar con control de cantidades, horarios, pagos seguros y una modalidad de recojo que no interfiera con la atención habitual del restaurante.
+
+Segmento 2:
+
+Las entrevistas muestran que el precio es uno de los principales factores al momento de elegir dónde comer, especialmente en personas que consumen frecuentemente en restaurantes y buscan reducir sus gastos mediante promociones y descuentos.
+
+También existe disposición a comprar alimentos preparados que no hayan sido vendidos, siempre que se encuentren en buenas condiciones y se pueda conocer información sobre su frescura, antigüedad y ahorro obtenido. La seguridad del alimento es un aspecto fundamental, incluso cuando el precio sea bajo.
+
+Además, se observa que los consumidores aceptarían horarios específicos de recojo o consumo si la oferta representa un ahorro atractivo y el establecimiento se encuentra en una ubicación conveniente. Esto demuestra interés en una plataforma que reúna descuentos de alimentos en buen estado, con información clara sobre el producto y condiciones de compra.
 
 ## 2.3. Needfinding
 
