@@ -686,12 +686,27 @@ En términos generales, el recorrido propuesto para el usuario comienza en Home,
 ![LPWirefram1](img/capituo4/Landing_Page_Wireframe/LP1.jpeg)
 
 
-
 ### 4.3.2. Landing Page Mock-up
 
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
+
+![LPWirefram1](img/capituo4/Web_Applications_Wireframes/WFAP1.png)
+
+![LPWirefram2](img/capituo4/Web_Applications_Wireframes/WFAP2.png)
+
+![LPWirefram3](img/capituo4/Web_Applications_Wireframes/WFAP3.png)
+
+![LPWirefram4](img/capituo4/Web_Applications_Wireframes/WFAP4.png)
+
+![LPWirefram5](img/capituo4/Web_Applications_Wireframes/WFAP5.png)
+
+![LPWirefram6](img/capituo4/Web_Applications_Wireframes/WFAP6.png)
+
+![LPWirefram7](img/capituo4/Web_Applications_Wireframes/WFAP7.png)
+
+![LPWirefram8](img/capituo4/Web_Applications_Wireframes/WFAP8.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
