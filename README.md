@@ -1577,15 +1577,15 @@ Cualquier commit realizado en la rama `main` será desplegado automáticamente e
   </tr>
   <tr>
     <td style="background-color:#E4E4E4;"><b>Date</b></td>
-    <td >YYYY-MM-DD</td>
+    <td >2026-09-04</td>
   </tr>
   <tr>
     <td style="background-color:#E4E4E4;"><b>Time</b></td>
-    <td>HH:MM AM/PM</td>
+    <td>18:30 PM</td>
   </tr>
   <tr>
     <td style="background-color:#E4E4E4;"><b>Location</b></td>
-    <td>(Descripción de la ubicación de la reunión, física o virtual)</td>
+    <td>Reunion via Discord</td>
   </tr>
   <tr>
     <td style="background-color:#E4E4E4;"><b>Prepared By</b></td>
@@ -1608,15 +1608,15 @@ Cualquier commit realizado en la rama `main` será desplegado automáticamente e
   </tr>
   <tr>
     <td style="background-color:#E4E4E4;"><b>Sprint n Goal</b></td>
-    <td>(Definir el Goal del Sprint n y la métrica de cumplimiento.)</td>
+    <td>Disponer de una primera Landing Page desplegable y un recorrido central demostrable. Historias a confirmar con el backlog.</td>
   </tr>
   <tr>
     <td style="background-color:#E4E4E4;"><b>Sprint n Velocity</b></td>
-    <td>(Definir el Velocity establecido para el Sprint n, es decir cuántos Story Points puede aceptar el equipo para este Sprint n.)</td>
+    <td>US1(3)-US2(5)-US3(3)-US7(5)</td>
   </tr>
   <tr>
     <td style="background-color:#E4E4E4;"><b>Sum of Story Points</b></td>
-    <td>(Colocar la suma de los Story Points para los User Stories que se están incluyendo en este Sprint n.)</td>
+    <td>16 story points</td>
   </tr>
 </table>
 
