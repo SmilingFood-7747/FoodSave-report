@@ -574,13 +574,18 @@ En el siguiente cuadro definimos los roles y responsabilidades del equipo de Foo
 <div style="page-break-after: always;"></div>
 
 ### Anexo B. Diseño y Prototipo
+* **Wireframes Landing Page** 
+https://www.figma.com/design/t7f1mAitmza4EHgwF66Yac/Landing-Page-WireFrames-FoodSave?node-id=0-1&t=RqPyZDD9dMOhJgPj-1
+
+* **WireFrames Web Application** 
+https://www.figma.com/design/90jUCaHcElRstVZN7W3oNA/Web-Application-Wireframes-FoodSave?node-id=1-3&t=k4QByTsTfUSHc9mv-1
+
+* **Mock Ups FoodSave** 
+https://www.figma.com/design/d9zxHR849EJYIkoBxsCFEM/Mock-Ups-FoodSave?node-id=0-1&t=5D6qbTCzcIyhA8zz-1
 
 <!-- Salto de Pagina -->
 <div style="page-break-after: always;"></div>
 
-### Anexo C. Trello
+### Anexo C. Deployment de landing page
 
-<!-- Salto de Pagina -->
-<div style="page-break-after: always;"></div>
-
-### Anexo D. Deployment de landing page
+https://foodsave-landing-page.vercel.app/#for-businesses
