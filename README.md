@@ -233,18 +233,18 @@ Para identificar cómo FoodSave puede diferenciar su propuesta de publicación y
   </tr>
   <!-- Encabezados con logos -->
   <tr>
-    <th colspan="2" style="width:20%">(En la cabecera colocar por cada competidor nombre y logo)</th>
+    <th colspan="2" style="width:20%">Competidores</th>
     <th style="width:20%">
-      Nuestro Logo (FoodSave)
+      <img src="img/capitulo2/Logos/Safefood.png">
     </th>
     <th style="width:20%">
-      Competidor1 (Cirkula)
+      <img src="img/capitulo2/Logos/Cicrula.jpeg">
     </th>
     <th style="width:20%">
-      Competidor2 (Too Good To Go)
+      <img src="img/capitulo2/Logos/Toogoodtogo.jpeg">
     </th>   
     <th style="width:20%">
-      Competidor3 (Sinba)
+      <img src="img/capitulo2/Logos/Sinba.png">
     </th>
   </tr>
   <!-- PERFIL -->
