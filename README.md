@@ -23,10 +23,10 @@ Faculta de Ingeniería
 ## "Informe del trabajo final"
 
 **Startup:**  
-<br>
+<br>Smiling Food
 
 **Producto:**  
-<br>
+<br>FoodSave
 
 ## Relación de integrantes
 
