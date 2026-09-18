@@ -1729,6 +1729,23 @@ Se recomienda continuar validando la propuesta mediante entrevistas y pruebas co
 ## Anexos
 
 ### Anexo A. Contenido con Videos
+|Sección|Características del video|Imagen evidencia|
+|---|---|---|
+|Entrevistas| **Cantidad de videos:** 6 <br> **Nomenclatura:** upc-pre-202620-1asi0729-7747-SmilingFood-needfinding-av1  <br> **Duración:** cada entrevista dura entre 3 a 10 minutos <br> **URL:** https://acortar.link/vXBJIf| ![Foto](./img/anexoA-entrevistas.png) |
+|Video Exposición AV1| **Cantidad de videos:** 1 <br> **Nomenclatura:** upc-pre-202620-1asi0729-7747-SmilingFood-expo-av1  <br> **Duración:**  minutos <br> **URL:**  |  |
+
+<!-- Salto de Pagina -->
+<div style="page-break-after: always;"></div>
+
+### Anexo B. Diseño y Prototipo
+* **Wireframes Landing Page** 
+https://www.figma.com/design/t7f1mAitmza4EHgwF66Yac/Landing-Page-WireFrames-FoodSave?node-id=0-1&t=RqPyZDD9dMOhJgPj-1
+
+* **WireFrames Web Application** 
+https://www.figma.com/design/90jUCaHcElRstVZN7W3oNA/Web-Application-Wireframes-FoodSave?node-id=1-3&t=k4QByTsTfUSHc9mv-1
+
+* **Mock Ups FoodSave** 
+https://www.figma.com/design/d9zxHR849EJYIkoBxsCFEM/Mock-Ups-FoodSave?node-id=0-1&t=5D6qbTCzcIyhA8zz-1
 
 
 <!-- Salto de Pagina -->
