@@ -1687,11 +1687,33 @@ En el siguiente cuadro definimos los roles y responsabilidades del equipo de Foo
 
 ## Conclusiones
 
-### Conclusiones y recomendaciones.
+FoodSave presenta una propuesta orientada a conectar restaurantes de gama media-alta y alta que generan excedentes de alimentos preparados con consumidores frecuentes de restaurantes que buscan opciones de calidad a precios accesibles. De esta manera, se plantea una alternativa para aprovechar alimentos que mantienen condiciones adecuadas para el consumo y que podrían terminar siendo desperdiciados.
+
+A partir del análisis de los segmentos objetivos, se identificó que los restaurantes enfrentan dificultades para aprovechar los alimentos preparados que permanecen disponibles al finalizar la jornada, mientras que los consumidores consideran factores como el precio, la calidad y las promociones al momento de elegir dónde comer. Estas necesidades permiten establecer una relación de beneficio entre ambos segmentos.
+
+Asimismo, el desarrollo de herramientas como User Personas, User Task Matrix y User Journey Mapping permitió comprender las actividades, necesidades, frustraciones y expectativas de los usuarios, proporcionando información relevante para orientar el diseño de FoodSave hacia una experiencia sencilla y acorde con las necesidades identificadas.
+
+### Conclusiones y recomendaciones
+
+El análisis realizado permite concluir que FoodSave puede funcionar como un intermediario entre la disponibilidad de excedentes de los restaurantes y consumidores interesados en adquirir comida de calidad a precios reducidos. Sin embargo, resulta fundamental que la propuesta mantenga como prioridad la confianza del consumidor, dejando claro que los productos ofrecidos son alimentos aptos para el consumo y no comida en mal estado.
+
+Se recomienda continuar validando la propuesta mediante entrevistas y pruebas con usuarios pertenecientes a ambos segmentos, con el objetivo de comprobar su disposición a utilizar la plataforma y detectar posibles mejoras antes de avanzar hacia una implementación completa.
 
 #### Conclusiones
 
+- FoodSave busca reducir el desperdicio de alimentos preparados mediante su comercialización antes de que tengan que ser descartados.
+- Los restaurantes pueden encontrar una oportunidad para recuperar parte del valor económico de productos que no lograron vender durante su jornada habitual.
+- Los consumidores pueden beneficiarse al acceder a platos de calidad a precios más accesibles.
+- La conexión entre ambos segmentos representa el principal valor de la propuesta de FoodSave.
+- La calidad y el estado adecuado de los alimentos son elementos fundamentales para generar confianza en los consumidores.
+
 #### Recomendaciones
+
+- Validar constantemente las necesidades de restaurantes y consumidores mediante entrevistas y pruebas de usabilidad.
+- Mostrar de manera clara el precio original, el precio reducido, la disponibilidad y las condiciones de cada oferta.
+- Comunicar adecuadamente que los alimentos ofrecidos mantienen condiciones aptas para el consumo.
+- Diseñar un proceso sencillo para que los restaurantes puedan publicar sus platos disponibles sin interferir con sus actividades habituales.
+- Facilitar que los consumidores encuentren rápidamente ofertas disponibles de acuerdo con su ubicación y preferencias.
 
 
 
