@@ -633,7 +633,32 @@ Asimismo, contamos con seis "headings" con fuente Lato ubicadas en la parte late
 - **Active Orders:** Sección dónde estarán las órdenes en curso que deben ser preparadas para recojo o delivery.
 - **Analytics:** Sección dónde el socio comercial registra métricas de ventas, impacto evitado y desempeño de sus excedentes.
 
-### 4.2.3. SEO Tags and Meta Tags
+### ### 4.2.3. SEO Tags and Meta Tags
+
+El posicionamiento de FoodSave en los motores de búsqueda se apoyará en una estructura de etiquetas SEO clara y coherente con la propuesta de valor de la plataforma. El objetivo es facilitar que consumidores y negocios encuentren la solución cuando busquen alternativas para reducir el desperdicio de alimentos, ahorrar dinero y aprovechar excedentes alimentarios.
+
+#### Palabras clave principales
+
+Las palabras clave estarán relacionadas con la problemática, la solución y los beneficios ofrecidos por FoodSave:
+
+- Reducción del desperdicio de alimentos.
+- Rescate de alimentos.
+- Aprovechamiento de excedentes alimentarios.
+- Ahorro de dinero en alimentos.
+- Consumo sostenible.
+- Alimentos disponibles cerca.
+- Plataforma contra el desperdicio de comida.
+- Restaurantes con excedentes.
+- Comida sostenible.
+- FoodSave.
+
+Estas palabras clave se utilizarán de forma natural en los títulos, subtítulos, descripciones, textos alternativos de imágenes y contenido general de la landing page. Se evitará la repetición excesiva para mantener una comunicación clara y una buena experiencia de usuario.
+
+#### Title Tag
+
+El título de la página debe ser breve, descriptivo y contener el nombre de la marca junto con su principal propuesta de valor.
+
+<title>FoodSave | Rescata alimentos, ahorra dinero y reduce el desperdicio</title>
 
 ### 4.2.4. Searching Systems
 A continuación, se mostrarán los sistemas de búsqueda implementados para ayudar a nuestros usuarios a encontrar la información que están buscando.
