@@ -69,7 +69,7 @@ Faculta de Ingeniería
 
 | Versión | Fecha    | Autor       | Descripción de Modificación            |
 | ------- | -------- | ----------- | -------------------------------------- |
-| 1.0     | // |  | Desarrollo de la Estructura del informe |
+| 1.0     | 17.09.2026 | Martínez Ramos Bryan Felix, Giuliano Angel Peláez Vargas, Medina Merma, Ingrid Melani, Huayra Moreyra José Maria | Desarrollo inicial del proyecto. Incluye desarrollo del perfil de la Startup y proceso Lean UX; además, se analizaron los competidores y se definieron los Segmentos Objetivos para, posteriormente, elaborar las entrevistas. Luego, se desarrolló  el Event Storming y se definió el Lenguaje Ubicuo. Después, se empezó se realizó la especificación de requerimientos con las User Stories, Product Backlog e Impact Mapping. Seguidamente se prototipó y desarrolló la Landing Page para el proyecto. Finalmente, se desarrolló el Sprint Planning 1 del proyecto. |
 
 
 <!-- Salto de Pagina -->
