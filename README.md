@@ -477,11 +477,11 @@ Cualquier commit realizado en la rama `main` será desplegado automáticamente e
   </tr>
   <tr>
     <td style="width:30%; background-color:#E4E4E4;"><b>Sprint n – 1 Review Summary</b></td>
-    <td>(Resumen del Sprint anterior, en términos de resultados alcanzados a nivel de productos de software, opiniones de miembros y feedback de product owner.)</td>
+    <td>No aplica para Sprint 1</td>
   </tr>
   <tr>
     <td style="background-color:#E4E4E4;"><b>Sprint n – 1 Retrospective Summary</b></td>
-    <td>(Resumen del Sprint anterior, en términos de opiniones de miembros del equipo sobre aciertos u oportunidades de mejora en su forma de trabajo)</td>
+    <td>No aplica para Sprint 1</td>
   </tr>
   <tr>
     <td colspan="2" style="background-color: #AEAEAE;"><b>Sprint Goal & User Stories</b></td>
@@ -505,24 +505,18 @@ En el siguiente cuadro definimos los roles y responsabilidades del equipo de Foo
 
 |Team Member (Last Name, First Name)|GitHub Username|Mockup (L/C)|Entrevistas (L/C)|Wireframes (L/C)|Landing Page (L/C)|
 |---|---|---|---|---|---|
-| Huayra, José | TheJos9 | C|C |L | C|
-| Peláez, Giuliano | SimpleGP |C |C | C|L |
-| Martínez, Bryan | BryanMR1 |L |C | C|C |
-| Medina, Ingrid | Grini913 | C|L |C |C |
+| Huayra, José | TheJos9 | C | L | C | C |
+| Peláez, Giuliano | SimpleGP | L | C | C | L |
+| Martínez, Bryan | BryanMR1 | C | C | L | C |
+| Medina, Ingrid | Grini913 | C | L | C | C |
 
 #### 5.2.1.3. Sprint Backlog 1
-| Sprint # | Sprint 1 |
-|---|---|
- 
-| Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
-|---|---|---|---|---|---|---|---|
-| US01 | Conocer el modelo FoodSave | T01 | Conocer el modelo FoodSave | Como visitante, quiero conocer cómo funciona FoodSave para decidir si la propuesta es pertinente para mí. | | José | To-do |
-| US02 | Acceder a ofertas | T02 | Acceder a ofertas | Como visitante, quiero acceder al catálogo de ofertas para explorar opciones disponibles. | | Giuliano | To-do |
-| US03 | Explorar ofertas activas | T03 | Explorar ofertas activas | Como cliente comprador, quiero explorar ofertas activas para descubrir opciones disponibles. | | Bryan | To-do |
-| US04 | Filtrar ofertas | T04 | Filtrar ofertas | Como cliente comprador, quiero filtrar ofertas por distancia, categoría y horario para encontrar una opción pertinente. | | Ingrid | To-do |
-| US05 | Consultar detalle | T05 | Consultar detalle | Como cliente comprador, quiero consultar el detalle de una oferta para tomar una decisión informada. | | José | To-do |
-| US06 | Consultar términos y privacidad | T06 | Consultar términos y privacidad | Como visitante, quiero acceder a los términos y la política de privacidad para comprender las condiciones de uso de FoodSave. | | Giuliano | To-do |
-| US07 | Elegir idioma de la interfaz | T07 | Elegir idioma de la interfaz | Como visitante, quiero cambiar entre inglés y español latinoamericano para comprender la información de la plataforma. | | Bryan | To-do |
+| Sprint # | Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+|---|---|---|---|---|---|---:|---|---|
+| Sprint 1 | US01 | Conocer el modelo FoodSave | T01 | Implementar contenido Landing Page | Crear secciones de propuesta de valor y beneficios. | 6 horas | Completado | To-do |
+| Sprint 1 | US02 | Acceder a ofertas | T02 | Implementar CTA | Vincular llamado a la acción con catálogo. | 4 horas | Pendiente | To-do |
+| Sprint 1 | US03 | Explorar ofertas activas | T03 | Diseñar catálogo | Crear la primera vista de catálogo. | 8 horas| Pendiente | To-do |
+| Sprint 1 | US07 | Publicar una oferta | T04 | Diseñar publicación | Crear formulario y reglas de validación. | 6 horas | Pendiente | To-do |
  
 
 #### 5.2.1.4. Development Evidence for Sprint Review
