@@ -303,6 +303,14 @@ Faculta de Ingeniería
 
 ### 5.1.1. Software Development Environment Configuration
 
+| Actividad | Producto / herramienta | Propósito de uso | 
+|---|---|---|
+| Control de versiones | Git y GitHub | Colaboración, trazabilidad y revisión. |
+| Informe | Markdown y extensión Markdown PDF | Elaboración colaborativa y exportación. |
+| Landing Page | Angular, TypeScript, HTML5 y CSS3 | Sitio estático del modelo de negocio. |
+| Web Application | Angular, TypeScript y Angular Material | Experiencia web responsiva. | 
+| Gestión del proyecto | Tablero del equipo | Product y Sprint Backlog. | 
+
 ### 5.1.2. Source Code Management
 Para la gestión del código fuente se implementa el modelo de ramificación GitFlow, el versionado semántico y las convenciones de mensajes de commit, detallados a continuación:
 
