@@ -477,11 +477,11 @@ Cualquier commit realizado en la rama `main` será desplegado automáticamente e
   </tr>
   <tr>
     <td style="width:30%; background-color:#E4E4E4;"><b>Sprint n – 1 Review Summary</b></td>
-    <td>(Resumen del Sprint anterior, en términos de resultados alcanzados a nivel de productos de software, opiniones de miembros y feedback de product owner.)</td>
+    <td>No aplica para Sprint 1</td>
   </tr>
   <tr>
     <td style="background-color:#E4E4E4;"><b>Sprint n – 1 Retrospective Summary</b></td>
-    <td>(Resumen del Sprint anterior, en términos de opiniones de miembros del equipo sobre aciertos u oportunidades de mejora en su forma de trabajo)</td>
+    <td>No aplica para Sprint 1</td>
   </tr>
   <tr>
     <td colspan="2" style="background-color: #AEAEAE;"><b>Sprint Goal & User Stories</b></td>
