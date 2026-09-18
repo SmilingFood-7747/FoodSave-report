@@ -505,22 +505,24 @@ En el siguiente cuadro definimos los roles y responsabilidades del equipo de Foo
 
 |Team Member (Last Name, First Name)|GitHub Username|Mockup (L/C)|Entrevistas (L/C)|Wireframes (L/C)|Landing Page (L/C)|
 |---|---|---|---|---|---|
-| Huayra, José | | | | | |
-| Xin, Lin | | | | | |
-| Peláez, Giuliano | | | | | |
-| Martínez, Bryan | | | | | |
-| Medina, Ingrid | Grini913 | | | | |
+| Huayra, José | TheJos9 | C|C |L | C|
+| Peláez, Giuliano | SimpleGP |C |C | C|L |
+| Martínez, Bryan | BryanMR1 |L |C | C|C |
+| Medina, Ingrid | Grini913 | C|L |C |C |
 
 #### 5.2.1.3. Sprint Backlog 1
-| Sprint # | Sprint n |
+| Sprint # | Sprint 1 |
 |---|---|
-
+ 
 | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
 |---|---|---|---|---|---|---|---|
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
+| US01 | Conocer el modelo FoodSave | T01 | Conocer el modelo FoodSave | Como visitante, quiero conocer cómo funciona FoodSave para decidir si la propuesta es pertinente para mí. | | José | To-do |
+| US02 | Acceder a ofertas | T02 | Acceder a ofertas | Como visitante, quiero acceder al catálogo de ofertas para explorar opciones disponibles. | | Giuliano | To-do |
+| US03 | Explorar ofertas activas | T03 | Explorar ofertas activas | Como cliente comprador, quiero explorar ofertas activas para descubrir opciones disponibles. | | Bryan | To-do |
+| US04 | Filtrar ofertas | T04 | Filtrar ofertas | Como cliente comprador, quiero filtrar ofertas por distancia, categoría y horario para encontrar una opción pertinente. | | Ingrid | To-do |
+| US05 | Consultar detalle | T05 | Consultar detalle | Como cliente comprador, quiero consultar el detalle de una oferta para tomar una decisión informada. | | José | To-do |
+| US06 | Consultar términos y privacidad | T06 | Consultar términos y privacidad | Como visitante, quiero acceder a los términos y la política de privacidad para comprender las condiciones de uso de FoodSave. | | Giuliano | To-do |
+| US07 | Elegir idioma de la interfaz | T07 | Elegir idioma de la interfaz | Como visitante, quiero cambiar entre inglés y español latinoamericano para comprender la información de la plataforma. | | Bryan | To-do |
  
 
 #### 5.2.1.4. Development Evidence for Sprint Review
