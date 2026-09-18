@@ -505,22 +505,19 @@ En el siguiente cuadro definimos los roles y responsabilidades del equipo de Foo
 
 |Team Member (Last Name, First Name)|GitHub Username|Mockup (L/C)|Entrevistas (L/C)|Wireframes (L/C)|Landing Page (L/C)|
 |---|---|---|---|---|---|
-| Huayra, José | | | | | |
+| Huayra, José | TheJos9 | L | C | C | C |
 | Xin, Lin | | | | | |
-| Peláez, Giuliano | | | | | |
-| Martínez, Bryan | | | | | |
-| Medina, Ingrid | Grini913 | | | | |
+| Peláez, Giuliano | SimpleGP | L | C | C | L |
+| Martínez, Bryan | BryanMR1 | C | C | L | L |
+| Medina, Ingrid | Grini913 | C | L | C | C |
 
 #### 5.2.1.3. Sprint Backlog 1
-| Sprint # | Sprint n |
-|---|---|
-
-| Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
-|---|---|---|---|---|---|---|---|
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
+| Sprint # | Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+|---|---|---|---|---|---|---:|---|---|
+| Sprint 1 | US01 | Conocer el modelo FoodSave | T01 | Implementar contenido Landing Page | Crear secciones de propuesta de valor y beneficios. | 6 horas | Completado | To-do |
+| Sprint 1 | US02 | Acceder a ofertas | T02 | Implementar CTA | Vincular llamado a la acción con catálogo. | 4 horas | Pendiente | To-do |
+| Sprint 1 | US03 | Explorar ofertas activas | T03 | Diseñar catálogo | Crear la primera vista de catálogo. | 8 horas| Pendiente | To-do |
+| Sprint 1 | US07 | Publicar una oferta | T04 | Diseñar publicación | Crear formulario y reglas de validación. | 6 horas | Pendiente | To-do |
  
 
 #### 5.2.1.4. Development Evidence for Sprint Review
