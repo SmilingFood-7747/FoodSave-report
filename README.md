@@ -375,8 +375,6 @@ Para identificar cómo FoodSave puede diferenciar su propuesta de publicación y
 
 ### 2.2.2. Registro de entrevistas
 
-### 2.2.3. Análisis de entrevistas
-
 **User: Restaurantes de clase media y alta**
   <!-- Primera Entrevista -->
 <table style="width:100%; border-collapse:collapse" border="1" align="center">
@@ -587,6 +585,10 @@ Para utilizar este tipo de ofertas, considera importante conocer la antigüedad 
     <td></td>
   </tr>
 </table>
+
+### 2.2.3. Análisis de entrevistas
+
+
 
 ## 2.3. Needfinding
 
