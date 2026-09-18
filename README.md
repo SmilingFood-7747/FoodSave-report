@@ -175,10 +175,11 @@ Faculta de Ingeniería
 <div style="page-break-after: always;"></div>
 
 ## Student Outcome
+
 | Entregable | Criterio específico | Acciones realizadas | Conclusiones |
 |---|---|---|---|
-|*AV1*| Trabaja en equipo para proporcionar liderazgo en forma conjunta |  - **Huayra José:**<br>- **Xin Lin:**<br>- **Peláez Giuliano:**<br>- **Martínez Bryan:**<br>- **Medina Ingrid:** |    |
-|*AV1*| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |  - **Huayra José:**<br>- **Xin Lin:**<br>- **Peláez Giuliano:**<br>- **Martínez Bryan:**<br>- **Medina Ingrid:** |  |
+|*AV1*| Trabaja en equipo para proporcionar liderazgo en forma conjunta | - **Huayra José:**<br>- **Xin Lin:**<br>- **Peláez Giuliano:**<br>- **Martínez Bryan:**<br>- **Medina Ingrid:** | Durante el desarrollo de las entregas, el equipo fortaleció progresivamente su capacidad para ejercer un liderazgo compartido, coordinando responsabilidades, tomando decisiones de manera conjunta y apoyándose mutuamente para cumplir los objetivos planteados en cada etapa del proyecto. |
+|*AV1*| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | - **Huayra José:**<br>- **Xin Lin:**<br>- **Peláez Giuliano:**<br>- **Martínez Bryan:**<br>- **Medina Ingrid:** | A lo largo de las entregas, el equipo fortaleció un entorno de trabajo colaborativo e inclusivo mediante la distribución equitativa de responsabilidades, la planificación conjunta de las actividades y el establecimiento de metas claras, logrando cumplir de manera organizada con los objetivos planteados en cada etapa del proyecto. |
 
 
 <!-- Salto de Pagina -->
