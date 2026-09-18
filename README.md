@@ -452,9 +452,9 @@ Cualquier commit realizado en la rama `main` será desplegado automáticamente e
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
-### 5.2.1. Sprint 1
+### 5.X.1. Sprint 1
 
-#### 5.2.1.1. Sprint Planning 1
+#### 5.2.X.1. Sprint Planning 1
 <table style="width:100%; border-collapse:collapse;" border="1">
   <tr>
     <td style="width:30%; background-color:#E4E4E4;"><b>Sprint #</b></td>
@@ -518,7 +518,7 @@ En el siguiente cuadro definimos los roles y responsabilidades del equipo de Foo
 | Martínez, Bryan | BryanMR1 | C | C | L | C |
 | Medina, Ingrid | Grini913 | C | L | C | C |
 
-#### 5.2.1.3. Sprint Backlog 1
+#### 5.2.X.3. Sprint Backlog 1
 | Sprint # | Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
 |---|---|---|---|---|---|---:|---|---|
 | Sprint 1 | US01 | Conocer el modelo FoodSave | T01 | Implementar contenido Landing Page | Crear secciones de propuesta de valor y beneficios. | 6 horas | Completado | To-do |
@@ -527,20 +527,30 @@ En el siguiente cuadro definimos los roles y responsabilidades del equipo de Foo
 | Sprint 1 | US07 | Publicar una oferta | T04 | Diseñar publicación | Crear formulario y reglas de validación. | 6 horas | Pendiente | To-do |
  
 
-#### 5.2.1.4. Development Evidence for Sprint Review
+#### 5.2.X.4. Development Evidence for Sprint Review
 | Repository | Branch | Commit Id | Commit Message  | Commit Message Body  | Commited on (Date) |
 | --- | --- | --- | --- | --- | --- |
 |  |   |  |  |  |  |
 |  |   |  |  |  |  |
 |  |   |  |  |  |  |
 
-#### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.X.5. Execution Evidence for Sprint Review
 
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+#### 5.2.X.6. Services Documentation Evidence for Sprint Review
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### 5.2.X.7. Software Deployment Evidence for Sprint Review
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+#### 5.2.X.8. Team Collaboration Insights during Sprint
+
+## 5.3. Validation Interviews
+
+### 5.3.1. Diseño de Entrevistas
+
+### 5.3.2. Registro de Entrevistas
+
+### 5.3.3. Evaluaciones según heurísticas
+
+## 5.4. Video About-the-Product
 
 ## Conclusiones
 
