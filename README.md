@@ -505,10 +505,10 @@ En el siguiente cuadro definimos los roles y responsabilidades del equipo de Foo
 
 |Team Member (Last Name, First Name)|GitHub Username|Mockup (L/C)|Entrevistas (L/C)|Wireframes (L/C)|Landing Page (L/C)|
 |---|---|---|---|---|---|
-| Huayra, José | TheJos9 | L | C | C | C |
+| Huayra, José | TheJos9 | C | L | C | C |
 | Xin, Lin | | | | | |
 | Peláez, Giuliano | SimpleGP | L | C | C | L |
-| Martínez, Bryan | BryanMR1 | C | C | L | L |
+| Martínez, Bryan | BryanMR1 | C | C | L | C |
 | Medina, Ingrid | Grini913 | C | L | C | C |
 
 #### 5.2.1.3. Sprint Backlog 1
