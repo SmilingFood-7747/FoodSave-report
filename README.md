@@ -1578,10 +1578,11 @@ La Landing Page se implementa empleando únicamente HTML, CSS y JavaScript nativ
 
 ##### Publicación
 
-Tras guardar la configuración, GitHub generará de forma automática una URL pública donde estará disponible la Landing Page. El formato de la URL es:
+Tras guardar la configuración, GitHub generará de forma automática una URL pública donde estará disponible la Landing Page.
+Nuestra URL es:
 
 ```
-https://<usuario>.github.io/<repositorio>/
+https://food-save-landing-page.vercel.app/
 ```
 
 ##### Actualizaciones
