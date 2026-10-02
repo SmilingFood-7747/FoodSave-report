@@ -252,7 +252,7 @@ El desperdicio de alimentos genera pérdidas económicas para los restaurantes, 
 
 **How Much (Cuánto) — ¿Qué datos respaldan la problemática?**
 
-Según un estudio publicado en 2022 en la revista científica Sustainability, realizado por investigadores de la Universidad Privada del Norte (UPN), la Universidad Nacional Jorge Basadre Grohmann (UNJBG) y otras instituciones, se analizaron 67 restaurantes de Lima y Tacna para estudiar la gestión de residuos y excedentes de alimentos. El estudio encontró que el 56,7 % de los restaurantes no medía la cantidad de residuos orgánicos generados, mientras que el 58,2 % destinaba los excedentes de comida preparada al personal y el 28,4 % los desechaba mediante rellenos sanitarios. Además, el estudio identificó la demanda impredecible y el exceso de comidas preparadas como una de las fuentes de generación de residuos
+Según un estudio publicado en 2022 en la revista científica Sustainability, realizado por investigadores de la Universidad Privada del Norte (UPN), la Universidad Nacional Jorge Basadre Grohmann (UNJBG) y otras instituciones, se analizó la gestión de residuos y excedentes alimentarios en establecimientos de Lima y Tacna. En la sección 3.3. Organic Waste Reduction, el estudio señala que el 58,2 % entregaba al personal los excedentes de comida preparada, mientras que el 28,4 % los eliminaba mediante rellenos sanitarios y el 20,9 % los destinaba a recicladores vinculados a criaderos de cerdos. Asimismo, algunos responsables reconocieron no saber cómo aprovechar o donar estos excedentes. Estos resultados muestran que parte de los alimentos preparados que no llegan a comercializarse puede terminar siendo destinada a otros usos o descartada, evidenciando una oportunidad para propuestas como FoodSave, que busca facilitar el aprovechamiento de estos alimentos mediante su oferta a consumidores mientras mantengan condiciones adecuadas para el consumo.
  
 ### 1.2.2. Lean UX Process
  
@@ -315,8 +315,8 @@ Según un estudio publicado en 2022 en la revista científica Sustainability, re
 
 | Segmento objetivo | Características demográficas | Información estadística de sustento |
 |-------------------|------------------------------|--------------------------------------|
-| Negocio | Tipo de negocio: Restaurantes con servicio presencial. Nivel: Establecimientos de clase media y alta. Ubicación: Principalmente zonas urbanas de Lima Metropolitana. Interés: Reducir el desperdicio de alimentos y recuperar parte del valor de productos no vendidos. | Un estudio publicado en 2022 en la revista científica Sustainability, realizado en 67 restaurantes de Lima y Tacna, encontró que el 56,7 % no medía la cantidad de residuos orgánicos generados, mientras que el 28,4 % enviaba los excedentes de comida preparada a rellenos sanitarios. |
-| Clientes | Edad: Jóvenes y adultos. Ubicación: Lima Metropolitana, principalmente zonas cercanas a establecimientos afiliados. Comportamiento: Consumo frecuente de comida en restaurantes. Interés: Encontrar platos de calidad a precios reducidos y aprovechar ofertas disponibles. | Según el Instituto Peruano de Economía (IPE, 2025), el gasto en alimentación fuera del hogar representa una parte importante del presupuesto de los hogares peruanos, mientras que la inseguridad alimentaria y las restricciones económicas hacen relevante buscar alternativas de consumo más accesibles. |
+| Negocio | Tipo de negocio: Restaurantes con servicio presencial. Nivel: Establecimientos de clase media y alta. Ubicación: Principalmente zonas urbanas de Lima Metropolitana. Interés: Reducir el desperdicio de alimentos y recuperar parte del valor de productos no vendidos. | Un estudio publicado en 2022 en la revista científica Sustainability, encontró que en Lima y Tacna el 56,7 % no medía la cantidad de residuos orgánicos generados, mientras que el 28,4 % enviaba los excedentes de comida preparada a rellenos sanitarios. |
+| Clientes | Edad: Jóvenes y adultos. Ubicación: Lima Metropolitana, principalmente zonas cercanas a establecimientos afiliados. Comportamiento: Consumo frecuente de comida en restaurantes. Interés: Encontrar platos de calidad a precios reducidos y aprovechar ofertas disponibles. |Según el Instituto Peruano de Economía (IPE, 2024), las dificultades económicas han afectado la capacidad de los hogares peruanos para cubrir adecuadamente sus necesidades alimentarias, evidenciando la importancia de contar con alternativas de alimentación más accesibles. |
 
 
 
@@ -1722,6 +1722,9 @@ Se recomienda continuar validando la propuesta mediante entrevistas y pruebas co
 <div style="page-break-after: always;"></div>
 
 ## Bibliografía
+
+* Cordova-Buiza, F., Paucar-Caceres, A., Quispe-Prieto, S. C., Rivera-Garré, A. P., Huerta-Tantalean, L. N., Valle-Paucar, J. E., Ponce de León-Panduro, C. V., & Burrowes-Cromwell, T. (2022). Strengthening collaborative food waste prevention in Peru: Towards responsible consumption and production. Sustainability, 14(3), 1050. https://doi.org/10.3390/su14031050
+* Instituto Peruano de Economía. (2024). Inseguridad alimentaria. Instituto Peruano de Economía. https://ipe.org.pe/wp-content/uploads/2024/12/Informe-IPE-EC-Inseguridad-alimentaria.pdf
 
 
 <!-- Salto de Pagina -->
