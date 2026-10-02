@@ -1733,10 +1733,10 @@ Se recomienda continuar validando la propuesta mediante entrevistas y pruebas co
 ## Anexos
 
 ### Anexo A. Contenido con Videos
-|Sección|Características del video|Imagen evidencia|
-|---|---|---|
-|Entrevistas| **Cantidad de videos:** 6 <br> **Nomenclatura:** upc-pre-202620-1asi0729-7747-SmilingFood-needfinding-av1  <br> **Duración:** cada entrevista dura entre 3 a 10 minutos <br> **URL:** https://acortar.link/vXBJIf| ![Foto](./img/anexoA-entrevistas.png) |
-|Video Exposición AV1| **Cantidad de videos:** 1 <br> **Nomenclatura:** upc-pre-202620-1asi0729-7747-SmilingFood-expo-av1  <br> **Duración:**  minutos <br> **URL:**  |  |
+|Sección|Características del video|
+|---|---|
+|Entrevistas| **Cantidad de videos:** 6 <br> **Nomenclatura:** upc-pre-202620-1asi0729-7747-SmilingFood-needfinding-av1  <br> **Duración:** cada entrevista dura entre 3 a 10 minutos <br> **URL:** https://acortar.link/vXBJIf|
+|Video Exposición AV1| **Cantidad de videos:** 1 <br> **Nomenclatura:** upc-pre-202620-1asi0729-7747-SmilingFood-expo-av1  <br> **Duración:** 10:59 minutos <br> **URL:** https://acortar.link/vXBJIf  |  |
 
 <!-- Salto de Pagina -->
 <div style="page-break-after: always;"></div>
