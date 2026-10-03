@@ -1422,11 +1422,20 @@ En términos generales, el recorrido propuesto para el usuario comienza en Home,
 ### 4.6.1. Design-Level Event Storming
 
 ### 4.6.2. Software Architecture Context Diagram
+El diagrama de contexto presenta a FoodSave como una sola caja, sus usuarios (Customer, Business Owner y Developer) y los sistemas externos con los que se integra.
+![ContextDiagram](img/capituo4/diagrams/Containers.png)
 
 ### 4.6.3. Software Architecture Container Diagrams
-
+Este diagrama de contenedores muestra la estructura de alto nivel del sistema FoodSave: las aplicaciones y almacenes de datos que lo componen, la tecnología de cada uno y cómo se comunican entre sí y con los sistemas externos.
+![ConteinerDiagram](img/capituo4/diagrams/Containers.png)
 ### 4.6.4. Software Architecture Components Diagrams
+Los diagramas de componentes descomponen los contenedores principales de FoodSave. Se presenta el Backend API (organizado en capa de controladores REST y capa de servicios de aplicación) y el Web Application (módulos funcionales y servicios centrales de Angular). 
 
+**Backend API Components Diagram**
+![Backend](img/capituo4/diagrams/Components-Backend.png)
+
+**Web Application Components Diagram**
+![WebApp](img/capituo4/diagrams/Components-WebApp.png)
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
