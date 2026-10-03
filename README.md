@@ -240,7 +240,7 @@ La solución está dirigida inicialmente a restaurantes ubicados en distritos ur
 
 **Who (Quién) — ¿A quiénes les sucede el problema?**
 
-El problema afecta principalmente a restaurantes de gama media y alta, que buscan reducir pérdidas por alimentos no vendidos, y a personas de ingresos medios interesadas en acceder a comida de calidad a un precio más accesible.
+El problema afecta principalmente a restaurantes de clase media y alta, que buscan reducir pérdidas por alimentos no vendidos, y a personas de ingresos medios interesadas en acceder a comida de calidad a un precio más accesible.
 
 **Why (Por qué) — ¿Cuál es la causa del problema?**
 
@@ -684,11 +684,11 @@ Segmento 2: Cliente frencuente de restaurantes
 
 ### 2.3.2. User Task Matrix
 
-El presente User Task Matrix identifica las principales actividades realizadas por los dos segmentos objetivos definidos para FoodSave. Las tareas se analizan de manera independiente debido a que cada segmento presenta necesidades y comportamientos diferentes. Por un lado, Carlos Guevara representa a los restaurantes de gama media-alta y alta desde su rol como cocinero; por otro lado, Andrea Mendoza representa a las personas que consumen frecuentemente en restaurantes y buscan opciones de calidad a precios accesibles.
+El presente User Task Matrix identifica las principales actividades realizadas por los dos segmentos objetivos definidos para FoodSave. Las tareas se analizan de manera independiente debido a que cada segmento presenta necesidades y comportamientos diferentes. Por un lado, Carlos Guevara representa a los restaurantes de clase media-alta y alta desde su rol como cocinero; por otro lado, Andrea Mendoza representa a las personas que consumen frecuentemente en restaurantes y buscan opciones de calidad a precios accesibles.
 
 ### Segmento objetivo #1: Carlos Guevara (Negocios)
 
-Carlos representa al dueño de restaurantes de gama media-alta y alta involucrado en la preparación y utilizacion de los alimentos. Sus actividades se encuentran relacionadas con la preparación diaria, la demanda de los clientes y los alimentos que permanecen disponibles al acercarse el cierre.
+Carlos representa al dueño de restaurantes de clase media-alta y alta involucrado en la preparación y utilizacion de los alimentos. Sus actividades se encuentran relacionadas con la preparación diaria, la demanda de los clientes y los alimentos que permanecen disponibles al acercarse el cierre.
 
 | **User Task (Tarea del usuario)** | **Frecuencia** | **Importancia** |
 | :--- | :--- | :--- |
@@ -1697,7 +1697,7 @@ En el siguiente cuadro definimos los roles y responsabilidades del equipo de Foo
 
 ## Conclusiones
 
-FoodSave presenta una propuesta orientada a conectar restaurantes de gama media-alta y alta que generan excedentes de alimentos preparados con consumidores frecuentes de restaurantes que buscan opciones de calidad a precios accesibles. De esta manera, se plantea una alternativa para aprovechar alimentos que mantienen condiciones adecuadas para el consumo y que podrían terminar siendo desperdiciados.
+FoodSave presenta una propuesta orientada a conectar restaurantes de clase media-alta y alta que generan excedentes de alimentos preparados con consumidores frecuentes de restaurantes que buscan opciones de calidad a precios accesibles. De esta manera, se plantea una alternativa para aprovechar alimentos que mantienen condiciones adecuadas para el consumo y que podrían terminar siendo desperdiciados.
 
 A partir del análisis de los segmentos objetivos, se identificó que los restaurantes enfrentan dificultades para aprovechar los alimentos preparados que permanecen disponibles al finalizar la jornada, mientras que los consumidores consideran factores como el precio, la calidad y las promociones al momento de elegir dónde comer. Estas necesidades permiten establecer una relación de beneficio entre ambos segmentos.
 
