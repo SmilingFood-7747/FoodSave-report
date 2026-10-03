@@ -1421,6 +1421,35 @@ En términos generales, el recorrido propuesto para el usuario comienza en Home,
 
 ### 4.6.1. Design-Level Event Storming
 
+En esta sección nos enfocamos en hacer un diseño más profundo del realizado en el Big Picture Event Storming. Nos enfocamos en diseñar las funcionalidades encontradas en las historias de usuario, como la publicación y gestión de ofertas, la reserva con código de recojo, las notificaciones y la calificación de la experiencia, así como en pulir los detalles de los flujos creados antes. Cabe mencionar que se agregaron para este modelo nuevos elementos en comparación con el visto en el Big Picture, estos son:
+
+- **Comandos**: Representados con post-its azules y simbolizan las acciones que un actor solicita realizar sobre el dominio. Permiten identificar con mayor claridad quién es el que activa estos eventos.
+- **Agregados (Aggregates)**: Representados con post-its de color amarillo claro. Agrupan el estado y las reglas de un concepto del dominio, y dan identidad a los eventos asociados, por ello, se ubican antes de dichos eventos. Este modelado ayuda a identificar los agregados y entidades que se deben considerar para nuestro producto.
+- **Políticas**: Representados con post-its morados y expresan reglas de negocio que desencadenan o coordinan acciones. Por ello, antes del comando correspondiente se coloca una política que indique qué debe ocurrir.
+
+A continuación mostraremos las capturas del Design Level Event Storming realizado, separándolos según el Bounded Context al que pertenezcan y comenzando con los Core del negocio:
+
+**Bounded Context Offer Management:**
+
+![Bounded Context OfferM](img/BoundedContextOfferManagement0.png) 
+![Bounded Context OfferM](img/BoundedContextOfferManagement1.png) 
+
+**Bounded Context: Reservation & Pickup**
+
+![Bounded Context R&P](img/BoundedContextReservation&Pickup.png) 
+
+**Bounded Context: Business Management**
+
+![Bounded Context BM](img/BoundedContextBusinessManagement.png) 
+
+**Bounded Context: Notifications**
+
+![Bounded Context Notifications](img/BoundedContextNotifications.png) 
+
+**Bounded Context: Feedback**
+
+![Bounded Context Feedback](img/BoundedContextFeedback.png) 
+
 ### 4.6.2. Software Architecture Context Diagram
 El diagrama de contexto presenta a FoodSave como una sola caja, sus usuarios (Customer, Business Owner y Developer) y los sistemas externos con los que se integra.
 ![ContextDiagram](img/capituo4/diagrams/SystemContext.png)
