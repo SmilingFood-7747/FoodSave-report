@@ -1423,7 +1423,7 @@ En términos generales, el recorrido propuesto para el usuario comienza en Home,
 
 ### 4.6.2. Software Architecture Context Diagram
 El diagrama de contexto presenta a FoodSave como una sola caja, sus usuarios (Customer, Business Owner y Developer) y los sistemas externos con los que se integra.
-![ContextDiagram](img/capituo4/diagrams/Containers.png)
+![ContextDiagram](img/capituo4/diagrams/SystemContext.png)
 
 ### 4.6.3. Software Architecture Container Diagrams
 Este diagrama de contenedores muestra la estructura de alto nivel del sistema FoodSave: las aplicaciones y almacenes de datos que lo componen, la tecnología de cada uno y cómo se comunican entre sí y con los sistemas externos.
