@@ -559,7 +559,7 @@ Flor muestra interés en utilizar una plataforma que permita ofrecer estos alime
   </tr>
   <tr>
     <td style="background-color:#e3e3e3">Resumen</td>
-    <td>.Janet Linda Gomez, tiene 21 años, vive en villa el salvador, Lima, se encarga en la gestion de un restaurante, se encarga de la gestion y organizacion de los platos preparados, ella comentan que si bien se ha tratado de reducir la perdida es muy dificil predecir y evitar perdidas por desechar alimentos, ya que muchas veces la gente no es recurrente con su consumo
+    <td>.Janet Linda Gomez, tiene 52 años, vive en villa el salvador, Lima, se encarga en la gestion de un restaurante, se encarga de la gestion y organizacion de los platos preparados, ella comentan que si bien se ha tratado de reducir la perdida es muy dificil predecir y evitar perdidas por desechar alimentos, ya que muchas veces la gente no es recurrente con su consumo
 
 La entrevistada reconoce que estos excedentes representan una pérdida económica debido a los costos de ingredientes, preparación y personal. Actualmente, utilizan el control de cantidades y promociones durante el horario de atención, pero no cuentan con una plataforma específica para vender los excedentes de último momento.
 
@@ -673,7 +673,7 @@ Vamos a identificar a nuestros usuarios por lo recopilamos lo mas importante
 
 ### 2.3.1. User Personas
 
-Segmento 1: Dueños de negocios de clase alta
+Segmento 1: Negocios de clase alta
 
 ![User persona1](img/capitulo2/Carlos_Guevara.png)
 
@@ -684,11 +684,11 @@ Segmento 2: Cliente frencuente de restaurantes
 
 ### 2.3.2. User Task Matrix
 
-El presente User Task Matrix identifica las principales actividades realizadas por los dos segmentos objetivos definidos para FoodSave. Las tareas se analizan de manera independiente debido a que cada segmento presenta necesidades y comportamientos diferentes. Por un lado, Carlos Guevara representa a los restaurantes de clase media-alta y alta desde su rol como cocinero; por otro lado, Andrea Mendoza representa a las personas que consumen frecuentemente en restaurantes y buscan opciones de calidad a precios accesibles.
+El presente User Task Matrix identifica las principales actividades realizadas por los dos segmentos objetivos definidos para FoodSave. Las tareas se analizan de manera independiente debido a que cada segmento presenta necesidades y comportamientos diferentes. Por un lado, Carlos Guevara representa a los restaurantes de clase media y alta desde su rol como cocinero; por otro lado, Andrea Mendoza representa a las personas que consumen frecuentemente en restaurantes y buscan opciones de calidad a precios accesibles.
 
 ### Segmento objetivo #1: Carlos Guevara (Negocios)
 
-Carlos representa al dueño de restaurantes de clase media-alta y alta involucrado en la preparación y utilizacion de los alimentos. Sus actividades se encuentran relacionadas con la preparación diaria, la demanda de los clientes y los alimentos que permanecen disponibles al acercarse el cierre.
+Carlos representa al dueño de restaurantes de clase media y alta involucrado en la preparación y utilizacion de los alimentos. Sus actividades se encuentran relacionadas con la preparación diaria, la demanda de los clientes y los alimentos que permanecen disponibles al acercarse el cierre.
 
 | **User Task (Tarea del usuario)** | **Frecuencia** | **Importancia** |
 | :--- | :--- | :--- |
@@ -1697,7 +1697,7 @@ En el siguiente cuadro definimos los roles y responsabilidades del equipo de Foo
 
 ## Conclusiones
 
-FoodSave presenta una propuesta orientada a conectar restaurantes de clase media-alta y alta que generan excedentes de alimentos preparados con consumidores frecuentes de restaurantes que buscan opciones de calidad a precios accesibles. De esta manera, se plantea una alternativa para aprovechar alimentos que mantienen condiciones adecuadas para el consumo y que podrían terminar siendo desperdiciados.
+FoodSave presenta una propuesta orientada a conectar restaurantes de clase media y alta que generan excedentes de alimentos preparados con consumidores frecuentes de restaurantes que buscan opciones de calidad a precios accesibles. De esta manera, se plantea una alternativa para aprovechar alimentos que mantienen condiciones adecuadas para el consumo y que podrían terminar siendo desperdiciados.
 
 A partir del análisis de los segmentos objetivos, se identificó que los restaurantes enfrentan dificultades para aprovechar los alimentos preparados que permanecen disponibles al finalizar la jornada, mientras que los consumidores consideran factores como el precio, la calidad y las promociones al momento de elegir dónde comer. Estas necesidades permiten establecer una relación de beneficio entre ambos segmentos.
 
@@ -1744,7 +1744,7 @@ Se recomienda continuar validando la propuesta mediante entrevistas y pruebas co
 ### Anexo A. Contenido con Videos
 |Sección|Características del video|
 |---|---|
-|Entrevistas| **Cantidad de videos:** 6 <br> **Nomenclatura:** upc-pre-202620-1asi0729-7747-SmilingFood-needfinding-av1  <br> **Duración:** cada entrevista dura entre 3 a 10 minutos <br> **URL:** https://acortar.link/vXBJIf|
+|Entrevistas| **Cantidad de videos:** 4 <br> **Nomenclatura:** upc-pre-202620-1asi0729-7747-SmilingFood-needfinding-av1  <br> **Duración:** cada entrevista dura entre 3 a 10 minutos <br> **URL:** https://acortar.link/vXBJIf|
 |Video Exposición AV1| **Cantidad de videos:** 1 <br> **Nomenclatura:** upc-pre-202620-1asi0729-7747-SmilingFood-expo-av1  <br> **Duración:** 10:59 minutos <br> **URL:** https://acortar.link/vXBJIf  |  |
 
 <!-- Salto de Pagina -->
