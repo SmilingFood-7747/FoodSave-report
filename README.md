@@ -1473,9 +1473,9 @@ Los diagramas de componentes descomponen los contenedores principales de FoodSav
 
 ## 4.8. Database Design
 
-![Database](img/FoodSaveDataBase.png)
-
 ### 4.8.1. Database Diagrams
+
+![Database](img/FoodSaveDataBase.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
