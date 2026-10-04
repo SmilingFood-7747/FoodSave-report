@@ -1,0 +1,68 @@
+@startuml
+title Backend Shared Context Class Diagram
+skinparam classAttributeIconSize 0
+skinparam packageStyle folder
+skinparam shadowing false
+hide empty members
+
+package "com" as pkg_com {
+  package "smilingfood" as pkg_com_smilingfood {
+    package "foodsave" as pkg_com_smilingfood_foodsave {
+      package "backend" as pkg_com_smilingfood_foodsave_backend {
+        package "shared" as pkg_com_smilingfood_foodsave_backend_shared {
+          package "domain" as pkg_com_smilingfood_foodsave_backend_shared_domain {
+            package "model" as pkg_com_smilingfood_foodsave_backend_shared_domain_model {
+              package "valueobjects" as pkg_com_smilingfood_foodsave_backend_shared_domain_model_valueobjects {
+                record "Money" as shared_Money <<ValueObject>> #E8EDF1 {
+                  - amount: BigDecimal {readOnly}
+                  - currency: String = PEN {readOnly}
+                  --
+                  + of(amount: BigDecimal): Money
+                  + multiply(units: int): Money
+                  + isPositive(): boolean
+                  + isLessThan(other: Money): boolean
+                }
+              }
+              package "events" as pkg_com_smilingfood_foodsave_backend_shared_domain_model_events {
+                interface "DomainEvent" as shared_DomainEvent <<Interface>> #E3E8F0 {
+                  + eventId(): UUID
+                  + occurredAt(): Instant
+                }
+              }
+            }
+            package "exceptions" as pkg_com_smilingfood_foodsave_backend_shared_domain_exceptions {
+              class "BusinessRuleException" as shared_BusinessRuleException <<Exception>> #E8EDF1 {
+                + BusinessRuleException(message: String)
+              }
+            }
+          }
+          package "interfaces" as pkg_com_smilingfood_foodsave_backend_shared_interfaces {
+            package "rest" as pkg_com_smilingfood_foodsave_backend_shared_interfaces_rest {
+              package "resources" as pkg_com_smilingfood_foodsave_backend_shared_interfaces_rest_resources {
+                record "MessageResource" as shared_MessageResource <<Resource>> #E8EDF1 {
+                  + message: String
+                }
+              }
+              class "ApiExceptionHandler" as shared_ApiExceptionHandler <<ControllerAdvice>> #E8EDF1 {
+                + handleValidation(error: MethodArgumentNotValidException): ResponseEntity<MessageResource>
+                + handleAccess(error: AccessDeniedException): ResponseEntity<MessageResource>
+                + handleBusinessRule(error: BusinessRuleException): ResponseEntity<MessageResource>
+              }
+            }
+            package "security" as pkg_com_smilingfood_foodsave_backend_shared_interfaces_security {
+              record "AuthenticatedPrincipal" as shared_AuthenticatedPrincipal <<Record>> #E8EDF1 {
+                + accountId: Long
+                + userId: Long
+                + role: String
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+shared_ApiExceptionHandler ..> shared_MessageResource
+shared_ApiExceptionHandler ..> shared_BusinessRuleException
+@enduml

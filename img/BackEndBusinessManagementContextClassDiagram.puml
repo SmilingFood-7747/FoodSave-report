@@ -1,0 +1,369 @@
+@startuml
+title Backend Business Management Context Class Diagram
+skinparam classAttributeIconSize 0
+skinparam packageStyle folder
+skinparam shadowing false
+hide empty members
+
+package "com" as pkg_com {
+  package "smilingfood" as pkg_com_smilingfood {
+    package "foodsave" as pkg_com_smilingfood_foodsave {
+      package "backend" as pkg_com_smilingfood_foodsave_backend {
+        package "businesses" as pkg_com_smilingfood_foodsave_backend_businesses {
+          package "domain" as pkg_com_smilingfood_foodsave_backend_businesses_domain {
+            package "model" as pkg_com_smilingfood_foodsave_backend_businesses_domain_model {
+              package "aggregates" as pkg_com_smilingfood_foodsave_backend_businesses_domain_model_aggregates {
+                class "Business" as businesses_Business <<AggregateRoot>> #E8EDF1 {
+                  - id: Long
+                  - ownerAccountId: Long
+                  - profile: BusinessProfile
+                  - active: boolean
+                  --
+                  + register(ownerAccountId: Long, profile: BusinessProfile): Business
+                  + updateProfile(profile: BusinessProfile): void
+                  + isOwnedBy(accountId: Long): boolean
+                  + pullEvents(): List<DomainEvent>
+                }
+              }
+              package "valueobjects" as pkg_com_smilingfood_foodsave_backend_businesses_domain_model_valueobjects {
+                record "BusinessProfile" as businesses_BusinessProfile <<ValueObject>> #E8EDF1 {
+                  - name: String {readOnly}
+                  - address: BusinessAddress {readOnly}
+                  - phone: ContactPhone {readOnly}
+                  - pickupConditions: String {readOnly}
+                  --
+                  + of(name: String, address: BusinessAddress, phone: ContactPhone, conditions: String): BusinessProfile
+                }
+                record "BusinessAddress" as businesses_BusinessAddress <<ValueObject>> #E8EDF1 {
+                  - addressLine: String {readOnly}
+                  - district: String {readOnly}
+                  - coordinates: Coordinates {readOnly}
+                  --
+                  + of(line: String, district: String, coordinates: Coordinates): BusinessAddress
+                }
+                record "Coordinates" as businesses_Coordinates <<ValueObject>> #E8EDF1 {
+                  - latitude: BigDecimal {readOnly}
+                  - longitude: BigDecimal {readOnly}
+                  --
+                  + of(latitude: BigDecimal, longitude: BigDecimal): Coordinates
+                }
+                record "ContactPhone" as businesses_ContactPhone <<ValueObject>> #E8EDF1 {
+                  - value: String {readOnly}
+                  --
+                  + of(value: String): ContactPhone
+                }
+                record "DateRange" as businesses_DateRange <<ValueObject>> #E8EDF1 {
+                  - from: Instant {readOnly}
+                  - to: Instant {readOnly}
+                  --
+                  + of(from: Instant, to: Instant): DateRange
+                }
+              }
+              package "projections" as pkg_com_smilingfood_foodsave_backend_businesses_domain_model_projections {
+                class "BusinessSummary" as businesses_BusinessSummary <<ReadModel>> #E8EDF1 {
+                  + businessId: Long
+                  + period: DateRange
+                  + publishedOffers: long
+                  + activeReservations: long
+                  + collectedUnits: long
+                  + cancelledReservations: long
+                  + expiredReservations: long
+                }
+              }
+              package "events" as pkg_com_smilingfood_foodsave_backend_businesses_domain_model_events {
+                record "BusinessRegistered" as businesses_BusinessRegistered <<DomainEvent>> #E8EDF1 {
+                  + businessId: Long {readOnly}
+                  + ownerAccountId: Long {readOnly}
+                }
+                record "BusinessProfileUpdated" as businesses_BusinessProfileUpdated <<DomainEvent>> #E8EDF1 {
+                  + businessId: Long {readOnly}
+                }
+              }
+              package "commands" as pkg_com_smilingfood_foodsave_backend_businesses_domain_model_commands {
+                record "RegisterBusinessCommand" as businesses_RegisterBusinessCommand <<Command>> #E8EDF1 {
+                  + actorAccountId: Long
+                  + profile: BusinessProfile
+                }
+                record "UpdateBusinessProfileCommand" as businesses_UpdateBusinessProfileCommand <<Command>> #E8EDF1 {
+                  + actorAccountId: Long
+                  + businessId: Long
+                  + profile: BusinessProfile
+                }
+              }
+              package "queries" as pkg_com_smilingfood_foodsave_backend_businesses_domain_model_queries {
+                record "GetBusinessByIdQuery" as businesses_GetBusinessByIdQuery <<Query>> #E8EDF1 {
+                  + businessId: Long
+                }
+                record "GetOwnedBusinessesQuery" as businesses_GetOwnedBusinessesQuery <<Query>> #E8EDF1 {
+                  + actorAccountId: Long
+                }
+                record "GetBusinessSummaryQuery" as businesses_GetBusinessSummaryQuery <<Query>> #E8EDF1 {
+                  + actorAccountId: Long
+                  + businessId: Long
+                  + period: DateRange
+                }
+              }
+            }
+            package "services" as pkg_com_smilingfood_foodsave_backend_businesses_domain_services {
+              class "BusinessOwnershipPolicy" as businesses_BusinessOwnershipPolicy <<Policy>> #E8EDF1 {
+                + requireOwner(business: Business, actorAccountId: Long): void
+              }
+              interface "BusinessCommandService" as businesses_BusinessCommandService <<Service>> #E3E8F0 {
+                + register(command: RegisterBusinessCommand): Business
+                + update(command: UpdateBusinessProfileCommand): Business
+              }
+              interface "BusinessQueryService" as businesses_BusinessQueryService <<Service>> #E3E8F0 {
+                + getPublic(query: GetBusinessByIdQuery): Business
+                + getMine(query: GetOwnedBusinessesQuery): List<Business>
+                + summary(query: GetBusinessSummaryQuery): BusinessSummary
+              }
+            }
+            package "repositories" as pkg_com_smilingfood_foodsave_backend_businesses_domain_repositories {
+              interface "BusinessRepository" as businesses_BusinessRepository <<Repository>> #E3E8F0 {
+                + findById(id: Long): Business?
+                + findByOwner(accountId: Long): List<Business>
+                + save(business: Business): void
+              }
+            }
+          }
+          package "application" as pkg_com_smilingfood_foodsave_backend_businesses_application {
+            package "internal" as pkg_com_smilingfood_foodsave_backend_businesses_application_internal {
+              package "commandservices" as pkg_com_smilingfood_foodsave_backend_businesses_application_internal_commandservices {
+                class "BusinessCommandServiceImpl" as businesses_BusinessCommandServiceImpl <<Service>> #E8EDF1 {
+                  - businesses: BusinessRepository
+                  - accountAccess: AccountAccessPort
+                  - ownership: BusinessOwnershipPolicy
+                  --
+                  + register(command: RegisterBusinessCommand): Business
+                  + update(command: UpdateBusinessProfileCommand): Business
+                }
+              }
+              package "queryservices" as pkg_com_smilingfood_foodsave_backend_businesses_application_internal_queryservices {
+                class "BusinessQueryServiceImpl" as businesses_BusinessQueryServiceImpl <<Service>> #E8EDF1 {
+                  - businesses: BusinessRepository
+                  - metrics: BusinessMetricsPort
+                  - ownership: BusinessOwnershipPolicy
+                  --
+                  + getPublic(query: GetBusinessByIdQuery): Business
+                  + getMine(query: GetOwnedBusinessesQuery): List<Business>
+                  + summary(query: GetBusinessSummaryQuery): BusinessSummary
+                }
+              }
+            }
+            package "acl" as pkg_com_smilingfood_foodsave_backend_businesses_application_acl {
+              interface "AccountAccessPort" as businesses_AccountAccessPort <<ExternalIdentityPort>> #E3E8F0 {
+                + requireBusinessOwner(accountId: Long): void
+              }
+              interface "BusinessMetricsPort" as businesses_BusinessMetricsPort <<ExternalQueryPort>> #E3E8F0 {
+                + summarize(businessId: Long, period: DateRange): BusinessSummary
+              }
+            }
+          }
+          package "infrastructure" as pkg_com_smilingfood_foodsave_backend_businesses_infrastructure {
+            package "persistence" as pkg_com_smilingfood_foodsave_backend_businesses_infrastructure_persistence {
+              package "jpa" as pkg_com_smilingfood_foodsave_backend_businesses_infrastructure_persistence_jpa {
+                package "adapters" as pkg_com_smilingfood_foodsave_backend_businesses_infrastructure_persistence_jpa_adapters {
+                  class "BusinessRepositoryAdapter" as businesses_BusinessRepositoryAdapter <<Adapter>> #E8EDF1 {
+                    - repository: BusinessJpaRepository
+                    - mapper: BusinessPersistenceMapper
+                    --
+                    + findById(id: Long): Business?
+                    + findByOwner(accountId: Long): List<Business>
+                    + save(business: Business): void
+                  }
+                }
+                package "entities" as pkg_com_smilingfood_foodsave_backend_businesses_infrastructure_persistence_jpa_entities {
+                  class "BusinessJpaEntity" as businesses_BusinessJpaEntity <<PersistenceEntity>> #E8EDF1 {
+                    - id: Long
+                    - ownerAccountId: Long
+                    - name: String
+                    - address: String
+                    - district: String
+                    - latitude: BigDecimal
+                    - longitude: BigDecimal
+                    - contactPhone: String
+                    - pickupConditions: String
+                    - isActive: boolean
+                    - createdAt: Instant
+                    - updatedAt: Instant
+                  }
+                }
+                package "repositories" as pkg_com_smilingfood_foodsave_backend_businesses_infrastructure_persistence_jpa_repositories {
+                  interface "BusinessJpaRepository" as businesses_BusinessJpaRepository <<Repository>> #E3E8F0 {
+                    + findById(id: Long): Optional<BusinessJpaEntity>
+                    + save(entity: BusinessJpaEntity): BusinessJpaEntity
+                    + findByOwner(accountId: Long): List<BusinessJpaEntity>
+                  }
+                }
+                package "transform" as pkg_com_smilingfood_foodsave_backend_businesses_infrastructure_persistence_jpa_transform {
+                  class "BusinessPersistenceMapper" as businesses_BusinessPersistenceMapper <<Mapper>> #E8EDF1 {
+                    + toDomain(entity: BusinessJpaEntity): Business
+                    + toEntity(model: Business): BusinessJpaEntity
+                  }
+                }
+              }
+            }
+          }
+          package "interfaces" as pkg_com_smilingfood_foodsave_backend_businesses_interfaces {
+            package "rest" as pkg_com_smilingfood_foodsave_backend_businesses_interfaces_rest {
+              package "resources" as pkg_com_smilingfood_foodsave_backend_businesses_interfaces_rest_resources {
+                record "BusinessResource" as businesses_BusinessResource <<Resource>> #E8EDF1 {
+                  + id: Long
+                  + name: String
+                  + address: String
+                  + district: String
+                  + latitude: BigDecimal
+                  + longitude: BigDecimal
+                  + contactPhone: String
+                  + pickupConditions: String
+                  + active: boolean
+                }
+                record "RegisterBusinessResource" as businesses_RegisterBusinessResource <<Resource>> #E8EDF1 {
+                  + name: String
+                  + address: String
+                  + district: String
+                  + latitude: BigDecimal
+                  + longitude: BigDecimal
+                  + contactPhone: String
+                  + pickupConditions: String
+                }
+                record "UpdateBusinessProfileResource" as businesses_UpdateBusinessProfileResource <<Resource>> #E8EDF1 {
+                  + name: String
+                  + address: String
+                  + district: String
+                  + latitude: BigDecimal
+                  + longitude: BigDecimal
+                  + contactPhone: String
+                  + pickupConditions: String
+                }
+                record "BusinessSummaryResource" as businesses_BusinessSummaryResource <<Resource>> #E8EDF1 {
+                  + businessId: Long
+                  + from: Instant
+                  + to: Instant
+                  + publishedOffers: long
+                  + activeReservations: long
+                  + collectedUnits: long
+                  + cancelledReservations: long
+                  + expiredReservations: long
+                }
+              }
+              package "transform" as pkg_com_smilingfood_foodsave_backend_businesses_interfaces_rest_transform {
+                class "BusinessResourceFromEntityAssembler" as businesses_BusinessResourceFromEntityAssembler <<Assembler>> #E8EDF1 {
+                  + toResource(entity: Business): BusinessResource
+                }
+                class "RegisterBusinessCommandFromResourceAssembler" as businesses_RegisterBusinessCommandFromResourceAssembler <<Assembler>> #E8EDF1 {
+                  + toCommand(resource: RegisterBusinessResource, actor: AuthenticatedPrincipal): RegisterBusinessCommand
+                }
+                class "UpdateBusinessProfileCommandFromResourceAssembler" as businesses_UpdateBusinessProfileCommandFromResourceAssembler <<Assembler>> #E8EDF1 {
+                  + toCommand(resource: UpdateBusinessProfileResource, actor: AuthenticatedPrincipal, businessId: Long): UpdateBusinessProfileCommand
+                }
+                class "BusinessSummaryResourceFromModelAssembler" as businesses_BusinessSummaryResourceFromModelAssembler <<Assembler>> #E8EDF1 {
+                  + toResource(summary: BusinessSummary): BusinessSummaryResource
+                }
+              }
+              class "BusinessController" as businesses_BusinessController <<Controller>> #E8EDF1 {
+                - commands: BusinessCommandService
+                - queries: BusinessQueryService
+                --
+                + register(resource: RegisterBusinessResource, actor: AuthenticatedPrincipal): ResponseEntity<BusinessResource>
+                + update(resource: UpdateBusinessProfileResource, actor: AuthenticatedPrincipal, businessId: Long): ResponseEntity<BusinessResource>
+                + getBusinessById(query: GetBusinessByIdQuery): ResponseEntity<BusinessResource>
+                + getOwnedBusinesses(query: GetOwnedBusinessesQuery, actor: AuthenticatedPrincipal): ResponseEntity<List<BusinessResource>>
+                + getBusinessSummary(query: GetBusinessSummaryQuery, actor: AuthenticatedPrincipal): ResponseEntity<BusinessSummaryResource>
+              }
+            }
+          }
+        }
+        package "shared" as pkg_com_smilingfood_foodsave_backend_shared {
+          package "domain" as pkg_com_smilingfood_foodsave_backend_shared_domain {
+            package "model" as pkg_com_smilingfood_foodsave_backend_shared_domain_model {
+              package "events" as pkg_com_smilingfood_foodsave_backend_shared_domain_model_events {
+                interface "DomainEvent" as shared_DomainEvent <<Interface>> #E3E8F0 {
+                  + eventId(): UUID
+                  + occurredAt(): Instant
+                }
+              }
+            }
+          }
+          package "interfaces" as pkg_com_smilingfood_foodsave_backend_shared_interfaces {
+            package "security" as pkg_com_smilingfood_foodsave_backend_shared_interfaces_security {
+              record "AuthenticatedPrincipal" as shared_AuthenticatedPrincipal <<Record>> #E8EDF1 {
+                + accountId: Long
+                + userId: Long
+                + role: String
+              }
+            }
+            package "rest" as pkg_com_smilingfood_foodsave_backend_shared_interfaces_rest {
+              package "resources" as pkg_com_smilingfood_foodsave_backend_shared_interfaces_rest_resources {
+                record "MessageResource" as shared_MessageResource <<Resource>> #E8EDF1 {
+                  + message: String
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+businesses_BusinessRegistered ..|> shared_DomainEvent
+businesses_BusinessProfileUpdated ..|> shared_DomainEvent
+businesses_Business *-- "1" businesses_BusinessProfile
+businesses_BusinessProfile *-- "1" businesses_BusinessAddress
+businesses_BusinessProfile *-- "1" businesses_ContactPhone
+businesses_BusinessAddress *-- "1" businesses_Coordinates
+businesses_BusinessSummary --> businesses_DateRange
+businesses_BusinessOwnershipPolicy ..> businesses_Business
+businesses_Business ..> businesses_BusinessRegistered : emits
+businesses_Business ..> businesses_BusinessProfileUpdated : emits
+businesses_BusinessCommandServiceImpl ..> businesses_Business
+businesses_BusinessCommandServiceImpl ..> businesses_BusinessRepository
+businesses_BusinessCommandServiceImpl ..> businesses_AccountAccessPort
+businesses_BusinessCommandServiceImpl ..> businesses_BusinessOwnershipPolicy
+businesses_BusinessCommandServiceImpl ..> businesses_RegisterBusinessCommand
+businesses_BusinessCommandServiceImpl ..> businesses_UpdateBusinessProfileCommand
+businesses_BusinessQueryServiceImpl ..> businesses_BusinessRepository
+businesses_BusinessQueryServiceImpl ..> businesses_BusinessMetricsPort
+businesses_BusinessQueryServiceImpl ..> businesses_BusinessOwnershipPolicy
+businesses_BusinessQueryServiceImpl ..> businesses_BusinessSummary
+businesses_BusinessMetricsPort ..> businesses_BusinessSummary
+businesses_BusinessRepositoryAdapter ..|> businesses_BusinessRepository
+businesses_BusinessCommandServiceImpl ..|> businesses_BusinessCommandService
+businesses_BusinessQueryServiceImpl ..|> businesses_BusinessQueryService
+businesses_BusinessQueryService ..> businesses_GetBusinessByIdQuery
+businesses_BusinessQueryServiceImpl ..> businesses_GetBusinessByIdQuery
+businesses_BusinessQueryService ..> businesses_GetOwnedBusinessesQuery
+businesses_BusinessQueryServiceImpl ..> businesses_GetOwnedBusinessesQuery
+businesses_BusinessQueryService ..> businesses_GetBusinessSummaryQuery
+businesses_BusinessQueryServiceImpl ..> businesses_GetBusinessSummaryQuery
+businesses_BusinessResourceFromEntityAssembler ..> businesses_Business
+businesses_BusinessResourceFromEntityAssembler ..> businesses_BusinessResource
+businesses_RegisterBusinessCommandFromResourceAssembler ..> businesses_RegisterBusinessResource
+businesses_RegisterBusinessCommandFromResourceAssembler ..> businesses_RegisterBusinessCommand
+businesses_UpdateBusinessProfileCommandFromResourceAssembler ..> businesses_UpdateBusinessProfileResource
+businesses_UpdateBusinessProfileCommandFromResourceAssembler ..> businesses_UpdateBusinessProfileCommand
+businesses_BusinessController ..> businesses_BusinessCommandService
+businesses_BusinessController ..> businesses_BusinessQueryService
+businesses_BusinessController ..> businesses_BusinessResource
+businesses_BusinessController ..> businesses_BusinessResourceFromEntityAssembler
+businesses_BusinessController ..> businesses_RegisterBusinessResource
+businesses_BusinessController ..> businesses_RegisterBusinessCommandFromResourceAssembler
+businesses_BusinessController ..> businesses_UpdateBusinessProfileResource
+businesses_BusinessController ..> businesses_UpdateBusinessProfileCommandFromResourceAssembler
+businesses_BusinessController ..> businesses_GetBusinessByIdQuery
+businesses_BusinessController ..> businesses_GetOwnedBusinessesQuery
+businesses_BusinessController ..> businesses_GetBusinessSummaryQuery
+businesses_BusinessController ..> shared_AuthenticatedPrincipal
+businesses_BusinessController ..> shared_MessageResource
+businesses_RegisterBusinessCommandFromResourceAssembler ..> shared_AuthenticatedPrincipal
+businesses_UpdateBusinessProfileCommandFromResourceAssembler ..> shared_AuthenticatedPrincipal
+businesses_BusinessSummaryResourceFromModelAssembler ..> businesses_BusinessSummary
+businesses_BusinessSummaryResourceFromModelAssembler ..> businesses_BusinessSummaryResource
+businesses_BusinessController ..> businesses_BusinessSummaryResourceFromModelAssembler
+businesses_BusinessRepositoryAdapter ..> businesses_BusinessJpaRepository
+businesses_BusinessRepositoryAdapter ..> businesses_BusinessPersistenceMapper
+businesses_BusinessPersistenceMapper ..> businesses_Business
+businesses_BusinessPersistenceMapper ..> businesses_BusinessJpaEntity
+businesses_BusinessJpaRepository ..> businesses_BusinessJpaEntity
+@enduml

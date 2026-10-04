@@ -1,0 +1,497 @@
+@startuml
+title Backend Offer Management Context Class Diagram
+skinparam classAttributeIconSize 0
+skinparam packageStyle folder
+skinparam shadowing false
+hide empty members
+
+package "com" as pkg_com {
+  package "smilingfood" as pkg_com_smilingfood {
+    package "foodsave" as pkg_com_smilingfood_foodsave {
+      package "backend" as pkg_com_smilingfood_foodsave_backend {
+        package "offers" as pkg_com_smilingfood_foodsave_backend_offers {
+          package "domain" as pkg_com_smilingfood_foodsave_backend_offers_domain {
+            package "model" as pkg_com_smilingfood_foodsave_backend_offers_domain_model {
+              package "aggregates" as pkg_com_smilingfood_foodsave_backend_offers_domain_model_aggregates {
+                class "Offer" as offers_Offer <<AggregateRoot>> #E8EDF1 {
+                  - id: Long
+                  - businessId: Long
+                  - categoryId: Long
+                  - title: String
+                  - description: String
+                  - allergens: String?
+                  - price: OfferPrice
+                  - inventory: Inventory
+                  - pickupWindow: PickupWindow
+                  - status: OfferStatus
+                  - images: List<OfferImage>
+                  --
+                  + publish(now: Instant): void
+                  + update(change: OfferChange, now: Instant): void
+                  + pause(): void
+                  + expire(now: Instant): void
+                  + allocate(units: int, now: Instant): void
+                  + release(units: int): void
+                  + isReservable(units: int, now: Instant): boolean
+                  + pullEvents(): List<DomainEvent>
+                }
+                class "Category" as offers_Category <<AggregateRoot>> #E8EDF1 {
+                  - id: Long
+                  - name: String
+                  - active: boolean
+                  --
+                  + isActive(): boolean
+                }
+              }
+              package "entities" as pkg_com_smilingfood_foodsave_backend_offers_domain_model_entities {
+                class "OfferImage" as offers_OfferImage <<Entity>> #E8EDF1 {
+                  - id: Long
+                  - url: String
+                  - sortOrder: int
+                  --
+                  + changeUrl(url: String): void
+                  + reorder(position: int): void
+                }
+              }
+              package "valueobjects" as pkg_com_smilingfood_foodsave_backend_offers_domain_model_valueobjects {
+                record "OfferPrice" as offers_OfferPrice <<ValueObject>> #E8EDF1 {
+                  - original: Money {readOnly}
+                  - discounted: Money {readOnly}
+                  --
+                  + of(original: Money, offer: Money): OfferPrice
+                  + discountPercentage(): BigDecimal
+                }
+                record "Inventory" as offers_Inventory <<ValueObject>> #E8EDF1 {
+                  - initialUnits: int {readOnly}
+                  - availableUnits: int {readOnly}
+                  --
+                  + allocate(units: int): Inventory
+                  + release(units: int): Inventory
+                  + hasEnough(units: int): boolean
+                }
+                record "PickupWindow" as offers_PickupWindow <<ValueObject>> #E8EDF1 {
+                  - startsAt: Instant {readOnly}
+                  - endsAt: Instant {readOnly}
+                  - expiresAt: Instant {readOnly}
+                  --
+                  + of(start: Instant, end: Instant, expiry: Instant): PickupWindow
+                  + acceptsReservation(now: Instant): boolean
+                }
+                enum "OfferStatus" as offers_OfferStatus <<Enum>> #F1F1F1 {
+                  ACTIVE
+                  PAUSED
+                  EXPIRED
+                }
+                record "OfferChange" as offers_OfferChange <<ValueObject>> #E8EDF1 {
+                  - title: String? {readOnly}
+                  - description: String? {readOnly}
+                  - allergens: String? {readOnly}
+                  - price: OfferPrice? {readOnly}
+                  - pickupWindow: PickupWindow? {readOnly}
+                  --
+                  + affectsExistingReservations(): boolean
+                }
+                enum "ChangeDecision" as offers_ChangeDecision <<Enum>> #F1F1F1 {
+                  ALLOWED
+                  REJECTED
+                  NOTIFY_AFFECTED
+                }
+                record "OfferFilter" as offers_OfferFilter <<ValueObject>> #E8EDF1 {
+                  + categoryId: Long?
+                  + district: String?
+                  + originLatitude: BigDecimal?
+                  + originLongitude: BigDecimal?
+                  + maxDistanceKm: BigDecimal?
+                  + pickupFrom: Instant?
+                  + pickupTo: Instant?
+                }
+              }
+              package "events" as pkg_com_smilingfood_foodsave_backend_offers_domain_model_events {
+                record "OfferPublished" as offers_OfferPublished <<DomainEvent>> #E8EDF1 {
+                  + offerId: Long {readOnly}
+                  + businessId: Long {readOnly}
+                }
+                record "OfferUpdated" as offers_OfferUpdated <<DomainEvent>> #E8EDF1 {
+                  + offerId: Long {readOnly}
+                  + affectsReservations: boolean {readOnly}
+                }
+                record "OfferPaused" as offers_OfferPaused <<DomainEvent>> #E8EDF1 {
+                  + offerId: Long {readOnly}
+                  + businessId: Long {readOnly}
+                }
+                record "OfferExpired" as offers_OfferExpired <<DomainEvent>> #E8EDF1 {
+                  + offerId: Long {readOnly}
+                }
+              }
+              package "commands" as pkg_com_smilingfood_foodsave_backend_offers_domain_model_commands {
+                record "PublishOfferCommand" as offers_PublishOfferCommand <<Command>> #E8EDF1 {
+                  + actorAccountId: Long
+                  + businessId: Long
+                  + categoryId: Long
+                  + title: String
+                  + description: String
+                  + allergens: String?
+                  + price: OfferPrice
+                  + initialUnits: int
+                  + pickupWindow: PickupWindow
+                  + imageUrls: List<String>
+                }
+                record "UpdateOfferCommand" as offers_UpdateOfferCommand <<Command>> #E8EDF1 {
+                  + actorAccountId: Long
+                  + offerId: Long
+                  + change: OfferChange
+                }
+                record "PauseOfferCommand" as offers_PauseOfferCommand <<Command>> #E8EDF1 {
+                  + actorAccountId: Long
+                  + offerId: Long
+                }
+              }
+              package "queries" as pkg_com_smilingfood_foodsave_backend_offers_domain_model_queries {
+                record "SearchOffersQuery" as offers_SearchOffersQuery <<Query>> #E8EDF1 {
+                  + filter: OfferFilter
+                }
+                record "GetOfferByIdQuery" as offers_GetOfferByIdQuery <<Query>> #E8EDF1 {
+                  + offerId: Long
+                }
+              }
+            }
+            package "services" as pkg_com_smilingfood_foodsave_backend_offers_domain_services {
+              class "OfferChangePolicy" as offers_OfferChangePolicy <<Policy>> #E8EDF1 {
+                + evaluate(offer: Offer, change: OfferChange, activeReservations: int): ChangeDecision
+              }
+              interface "OfferCommandService" as offers_OfferCommandService <<Service>> #E3E8F0 {
+                + publish(command: PublishOfferCommand): Offer
+                + update(command: UpdateOfferCommand): Offer
+                + pause(command: PauseOfferCommand): Offer
+                + expireDue(now: Instant): void
+              }
+              interface "OfferQueryService" as offers_OfferQueryService <<Service>> #E3E8F0 {
+                + search(query: SearchOffersQuery): List<Offer>
+                + getDetail(query: GetOfferByIdQuery): Offer?
+              }
+            }
+            package "repositories" as pkg_com_smilingfood_foodsave_backend_offers_domain_repositories {
+              interface "OfferRepository" as offers_OfferRepository <<Repository>> #E3E8F0 {
+                + findById(id: Long): Offer?
+                + findForUpdate(id: Long): Offer?
+                + findActive(filter: OfferFilter): List<Offer>
+                + findDue(now: Instant): List<Offer>
+                + save(offer: Offer): void
+              }
+              interface "CategoryRepository" as offers_CategoryRepository <<Repository>> #E3E8F0 {
+                + findById(id: Long): Category?
+              }
+            }
+          }
+          package "application" as pkg_com_smilingfood_foodsave_backend_offers_application {
+            package "internal" as pkg_com_smilingfood_foodsave_backend_offers_application_internal {
+              package "commandservices" as pkg_com_smilingfood_foodsave_backend_offers_application_internal_commandservices {
+                class "OfferCommandServiceImpl" as offers_OfferCommandServiceImpl <<Service>> #E8EDF1 {
+                  - offers: OfferRepository
+                  - categories: CategoryRepository
+                  - businesses: BusinessAccessPort
+                  - reservations: ReservationImpactPort
+                  - changePolicy: OfferChangePolicy
+                  --
+                  + publish(command: PublishOfferCommand): Offer
+                  + update(command: UpdateOfferCommand): Offer
+                  + pause(command: PauseOfferCommand): Offer
+                  + expireDue(now: Instant): void
+                }
+              }
+              package "queryservices" as pkg_com_smilingfood_foodsave_backend_offers_application_internal_queryservices {
+                class "OfferQueryServiceImpl" as offers_OfferQueryServiceImpl <<Service>> #E8EDF1 {
+                  - offers: OfferRepository
+                  --
+                  + search(query: SearchOffersQuery): List<Offer>
+                  + getDetail(query: GetOfferByIdQuery): Offer?
+                }
+              }
+              package "scheduling" as pkg_com_smilingfood_foodsave_backend_offers_application_internal_scheduling {
+                class "OfferExpirationScheduler" as offers_OfferExpirationScheduler <<ApplicationScheduler>> #E8EDF1 {
+                  - offers: OfferCommandService
+                  --
+                  + processDue(now: Instant): void
+                }
+              }
+            }
+            package "acl" as pkg_com_smilingfood_foodsave_backend_offers_application_acl {
+              interface "BusinessAccessPort" as offers_BusinessAccessPort <<ExternalContextPort>> #E3E8F0 {
+                + requireOwner(businessId: Long, accountId: Long): void
+                + requireActive(businessId: Long): void
+              }
+              interface "ReservationImpactPort" as offers_ReservationImpactPort <<ExternalContextPort>> #E3E8F0 {
+                + countActive(offerId: Long): int
+              }
+            }
+          }
+          package "infrastructure" as pkg_com_smilingfood_foodsave_backend_offers_infrastructure {
+            package "persistence" as pkg_com_smilingfood_foodsave_backend_offers_infrastructure_persistence {
+              package "jpa" as pkg_com_smilingfood_foodsave_backend_offers_infrastructure_persistence_jpa {
+                package "adapters" as pkg_com_smilingfood_foodsave_backend_offers_infrastructure_persistence_jpa_adapters {
+                  class "OfferRepositoryAdapter" as offers_OfferRepositoryAdapter <<Adapter>> #E8EDF1 {
+                    - repository: OfferJpaRepository
+                    - mapper: OfferPersistenceMapper
+                    --
+                    + findById(id: Long): Offer?
+                    + findForUpdate(id: Long): Offer?
+                    + findActive(filter: OfferFilter): List<Offer>
+                    + findDue(now: Instant): List<Offer>
+                    + save(offer: Offer): void
+                  }
+                  class "CategoryRepositoryAdapter" as offers_CategoryRepositoryAdapter <<RepositoryAdapter>> #E8EDF1 {
+                    - repository: CategoryJpaRepository
+                    - mapper: CategoryPersistenceMapper
+                    --
+                    + findById(id: Long): Category?
+                  }
+                }
+                package "entities" as pkg_com_smilingfood_foodsave_backend_offers_infrastructure_persistence_jpa_entities {
+                  class "OfferJpaEntity" as offers_OfferJpaEntity <<PersistenceEntity>> #E8EDF1 {
+                    - id: Long
+                    - businessId: Long
+                    - categoryId: Long
+                    - title: String
+                    - description: String
+                    - allergens: String?
+                    - originalPrice: BigDecimal
+                    - offerPrice: BigDecimal
+                    - currency: String
+                    - initialUnits: int
+                    - availableUnits: int
+                    - status: String
+                    - pickupStartAt: Instant
+                    - pickupEndAt: Instant
+                    - expiresAt: Instant
+                    - createdAt: Instant
+                    - updatedAt: Instant
+                    - images: List<OfferImageJpaEntity>
+                  }
+                  class "OfferImageJpaEntity" as offers_OfferImageJpaEntity <<PersistenceEntity>> #E8EDF1 {
+                    - id: Long
+                    - offerId: Long
+                    - imageUrl: String
+                    - sortOrder: int
+                    - createdAt: Instant
+                  }
+                  class "CategoryJpaEntity" as offers_CategoryJpaEntity <<PersistenceEntity>> #E8EDF1 {
+                    - id: Long
+                    - name: String
+                    - isActive: boolean
+                  }
+                }
+                package "repositories" as pkg_com_smilingfood_foodsave_backend_offers_infrastructure_persistence_jpa_repositories {
+                  interface "OfferJpaRepository" as offers_OfferJpaRepository <<Repository>> #E3E8F0 {
+                    + findById(id: Long): Optional<OfferJpaEntity>
+                    + save(entity: OfferJpaEntity): OfferJpaEntity
+                    + findForUpdate(id: Long): OfferJpaEntity?
+                    + findActive(filter: OfferFilter): List<OfferJpaEntity>
+                    + findDue(now: Instant): List<OfferJpaEntity>
+                  }
+                  interface "CategoryJpaRepository" as offers_CategoryJpaRepository <<Repository>> #E3E8F0 {
+                    + findById(id: Long): Optional<CategoryJpaEntity>
+                    + save(entity: CategoryJpaEntity): CategoryJpaEntity
+                  }
+                }
+                package "transform" as pkg_com_smilingfood_foodsave_backend_offers_infrastructure_persistence_jpa_transform {
+                  class "OfferPersistenceMapper" as offers_OfferPersistenceMapper <<Mapper>> #E8EDF1 {
+                    + toDomain(entity: OfferJpaEntity): Offer
+                    + toEntity(model: Offer): OfferJpaEntity
+                  }
+                  class "CategoryPersistenceMapper" as offers_CategoryPersistenceMapper <<Mapper>> #E8EDF1 {
+                    + toDomain(entity: CategoryJpaEntity): Category
+                    + toEntity(model: Category): CategoryJpaEntity
+                  }
+                }
+              }
+            }
+          }
+          package "interfaces" as pkg_com_smilingfood_foodsave_backend_offers_interfaces {
+            package "rest" as pkg_com_smilingfood_foodsave_backend_offers_interfaces_rest {
+              package "resources" as pkg_com_smilingfood_foodsave_backend_offers_interfaces_rest_resources {
+                record "OfferResource" as offers_OfferResource <<Resource>> #E8EDF1 {
+                  + id: Long
+                  + businessId: Long
+                  + categoryId: Long
+                  + title: String
+                  + description: String
+                  + allergens: String?
+                  + originalPrice: BigDecimal
+                  + offerPrice: BigDecimal
+                  + currency: String
+                  + availableUnits: int
+                  + status: String
+                  + pickupStartAt: Instant
+                  + pickupEndAt: Instant
+                  + expiresAt: Instant
+                  + imageUrls: List<String>
+                }
+                record "PublishOfferResource" as offers_PublishOfferResource <<Resource>> #E8EDF1 {
+                  + businessId: Long
+                  + categoryId: Long
+                  + title: String
+                  + description: String
+                  + allergens: String?
+                  + originalPrice: BigDecimal
+                  + offerPrice: BigDecimal
+                  + initialUnits: int
+                  + pickupStartAt: Instant
+                  + pickupEndAt: Instant
+                  + expiresAt: Instant
+                  + imageUrls: List<String>
+                }
+                record "UpdateOfferResource" as offers_UpdateOfferResource <<Resource>> #E8EDF1 {
+                  + title: String?
+                  + description: String?
+                  + allergens: String?
+                  + originalPrice: BigDecimal?
+                  + offerPrice: BigDecimal?
+                  + pickupStartAt: Instant?
+                  + pickupEndAt: Instant?
+                  + expiresAt: Instant?
+                }
+              }
+              package "transform" as pkg_com_smilingfood_foodsave_backend_offers_interfaces_rest_transform {
+                class "OfferResourceFromEntityAssembler" as offers_OfferResourceFromEntityAssembler <<Assembler>> #E8EDF1 {
+                  + toResource(entity: Offer): OfferResource
+                }
+                class "PublishOfferCommandFromResourceAssembler" as offers_PublishOfferCommandFromResourceAssembler <<Assembler>> #E8EDF1 {
+                  + toCommand(resource: PublishOfferResource, actor: AuthenticatedPrincipal): PublishOfferCommand
+                }
+                class "UpdateOfferCommandFromResourceAssembler" as offers_UpdateOfferCommandFromResourceAssembler <<Assembler>> #E8EDF1 {
+                  + toCommand(resource: UpdateOfferResource, actor: AuthenticatedPrincipal, offerId: Long): UpdateOfferCommand
+                }
+              }
+              class "OfferController" as offers_OfferController <<Controller>> #E8EDF1 {
+                - commands: OfferCommandService
+                - queries: OfferQueryService
+                --
+                + publish(resource: PublishOfferResource, actor: AuthenticatedPrincipal): ResponseEntity<OfferResource>
+                + update(resource: UpdateOfferResource, actor: AuthenticatedPrincipal, offerId: Long): ResponseEntity<OfferResource>
+                + pause(id: Long, actor: AuthenticatedPrincipal): ResponseEntity<MessageResource>
+                + searchOffers(query: SearchOffersQuery): ResponseEntity<List<OfferResource>>
+                + getOfferById(query: GetOfferByIdQuery): ResponseEntity<OfferResource>
+              }
+            }
+          }
+        }
+        package "shared" as pkg_com_smilingfood_foodsave_backend_shared {
+          package "domain" as pkg_com_smilingfood_foodsave_backend_shared_domain {
+            package "model" as pkg_com_smilingfood_foodsave_backend_shared_domain_model {
+              package "valueobjects" as pkg_com_smilingfood_foodsave_backend_shared_domain_model_valueobjects {
+                record "Money" as shared_Money <<ValueObject>> #E8EDF1 {
+                  - amount: BigDecimal {readOnly}
+                  - currency: String = PEN {readOnly}
+                  --
+                  + of(amount: BigDecimal): Money
+                  + multiply(units: int): Money
+                  + isPositive(): boolean
+                  + isLessThan(other: Money): boolean
+                }
+              }
+              package "events" as pkg_com_smilingfood_foodsave_backend_shared_domain_model_events {
+                interface "DomainEvent" as shared_DomainEvent <<Interface>> #E3E8F0 {
+                  + eventId(): UUID
+                  + occurredAt(): Instant
+                }
+              }
+            }
+          }
+          package "interfaces" as pkg_com_smilingfood_foodsave_backend_shared_interfaces {
+            package "security" as pkg_com_smilingfood_foodsave_backend_shared_interfaces_security {
+              record "AuthenticatedPrincipal" as shared_AuthenticatedPrincipal <<Record>> #E8EDF1 {
+                + accountId: Long
+                + userId: Long
+                + role: String
+              }
+            }
+            package "rest" as pkg_com_smilingfood_foodsave_backend_shared_interfaces_rest {
+              package "resources" as pkg_com_smilingfood_foodsave_backend_shared_interfaces_rest_resources {
+                record "MessageResource" as shared_MessageResource <<Resource>> #E8EDF1 {
+                  + message: String
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+offers_OfferPublished ..|> shared_DomainEvent
+offers_OfferUpdated ..|> shared_DomainEvent
+offers_OfferPaused ..|> shared_DomainEvent
+offers_OfferExpired ..|> shared_DomainEvent
+offers_Offer *-- "0..*" offers_OfferImage
+offers_Offer *-- "1" offers_OfferPrice
+offers_Offer *-- "1" offers_Inventory
+offers_Offer *-- "1" offers_PickupWindow
+offers_OfferPrice *-- "2" shared_Money
+offers_Offer --> offers_OfferStatus
+offers_Offer --> "1" offers_Category : categoryId
+offers_Offer ..> offers_OfferChange
+offers_OfferChangePolicy ..> offers_ChangeDecision
+offers_OfferChangePolicy ..> offers_Offer
+offers_OfferChangePolicy ..> offers_OfferChange
+offers_Offer ..> offers_OfferPublished : emits
+offers_Offer ..> offers_OfferUpdated : emits
+offers_Offer ..> offers_OfferPaused : emits
+offers_Offer ..> offers_OfferExpired : emits
+offers_OfferCommandServiceImpl ..> offers_Offer
+offers_OfferCommandServiceImpl ..> offers_OfferRepository
+offers_OfferCommandServiceImpl ..> offers_CategoryRepository
+offers_OfferCommandServiceImpl ..> offers_BusinessAccessPort
+offers_OfferCommandServiceImpl ..> offers_ReservationImpactPort
+offers_OfferCommandServiceImpl ..> offers_OfferChangePolicy
+offers_OfferCommandServiceImpl ..> offers_PublishOfferCommand
+offers_OfferCommandServiceImpl ..> offers_UpdateOfferCommand
+offers_OfferCommandServiceImpl ..> offers_PauseOfferCommand
+offers_OfferRepository ..> offers_Offer
+offers_OfferRepository ..> offers_OfferFilter
+offers_CategoryRepository ..> offers_Category
+offers_OfferRepositoryAdapter ..|> offers_OfferRepository
+offers_OfferQueryServiceImpl ..> offers_OfferRepository
+offers_OfferQueryServiceImpl ..> offers_OfferFilter
+offers_OfferExpirationScheduler ..> offers_OfferCommandService
+offers_OfferCommandServiceImpl ..|> offers_OfferCommandService
+offers_OfferQueryServiceImpl ..|> offers_OfferQueryService
+offers_OfferQueryService ..> offers_SearchOffersQuery
+offers_OfferQueryServiceImpl ..> offers_SearchOffersQuery
+offers_OfferQueryService ..> offers_GetOfferByIdQuery
+offers_OfferQueryServiceImpl ..> offers_GetOfferByIdQuery
+offers_OfferResourceFromEntityAssembler ..> offers_Offer
+offers_OfferResourceFromEntityAssembler ..> offers_OfferResource
+offers_PublishOfferCommandFromResourceAssembler ..> offers_PublishOfferResource
+offers_PublishOfferCommandFromResourceAssembler ..> offers_PublishOfferCommand
+offers_UpdateOfferCommandFromResourceAssembler ..> offers_UpdateOfferResource
+offers_UpdateOfferCommandFromResourceAssembler ..> offers_UpdateOfferCommand
+offers_OfferController ..> offers_OfferCommandService
+offers_OfferController ..> offers_OfferQueryService
+offers_OfferController ..> offers_OfferResource
+offers_OfferController ..> offers_OfferResourceFromEntityAssembler
+offers_OfferController ..> offers_PublishOfferResource
+offers_OfferController ..> offers_PublishOfferCommandFromResourceAssembler
+offers_OfferController ..> offers_UpdateOfferResource
+offers_OfferController ..> offers_UpdateOfferCommandFromResourceAssembler
+offers_OfferController ..> offers_PauseOfferCommand
+offers_OfferController ..> offers_SearchOffersQuery
+offers_OfferController ..> offers_GetOfferByIdQuery
+offers_OfferController ..> shared_AuthenticatedPrincipal
+offers_OfferController ..> shared_MessageResource
+offers_PublishOfferCommandFromResourceAssembler ..> shared_AuthenticatedPrincipal
+offers_UpdateOfferCommandFromResourceAssembler ..> shared_AuthenticatedPrincipal
+offers_OfferRepositoryAdapter ..> offers_OfferJpaRepository
+offers_OfferRepositoryAdapter ..> offers_OfferPersistenceMapper
+offers_OfferPersistenceMapper ..> offers_Offer
+offers_OfferPersistenceMapper ..> offers_OfferJpaEntity
+offers_OfferJpaRepository ..> offers_OfferJpaEntity
+offers_CategoryRepositoryAdapter ..|> offers_CategoryRepository
+offers_CategoryRepositoryAdapter ..> offers_CategoryJpaRepository
+offers_CategoryRepositoryAdapter ..> offers_CategoryPersistenceMapper
+offers_CategoryPersistenceMapper ..> offers_Category
+offers_CategoryPersistenceMapper ..> offers_CategoryJpaEntity
+offers_CategoryJpaRepository ..> offers_CategoryJpaEntity
+offers_OfferJpaEntity *-- "0..*" offers_OfferImageJpaEntity
+offers_OfferPersistenceMapper ..> offers_OfferImageJpaEntity
+@enduml
