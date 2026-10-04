@@ -1744,15 +1744,126 @@ En el siguiente cuadro definimos los roles y responsabilidades del equipo de Foo
 |  |   |  |  |  |  |
 |  |   |  |  |  |  |
 
-#### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.5 Execution Evidence for Sprint Review
 
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+Durante el Sprint 1, el equipo de FoodSave centró su esfuerzo en la construcción de una primera versión funcional de la landing page y en la validación del recorrido principal del producto. El objetivo principal fue demostrar la propuesta de valor de la solución, comunicar claramente el problema del desperdicio de alimentos y permitir que un visitante comprendiera cómo funciona la plataforma antes de avanzar a etapas posteriores del proyecto.
+
+La evidencia de ejecución del sprint se presenta a continuación:
+
+| Evidencia de ejecución | Descripción | Referencia en el documento | Estado |
+|---|---|---|---|
+| Definición del objetivo del sprint | Se estableció la entrega de una landing page desplegable con un recorrido central demostrable y comprensible para el usuario. | Sección 5.2.1.1. Sprint Planning 1 | Cumplido |
+| Historias de usuario priorizadas | Se trabajó con las historias US01, US02, US03 y US07, enfocadas en la comprensión del modelo FoodSave, acceso a ofertas, exploración de ofertas activas y lenguaje de interfaz. | Sección 3.1. User Stories y 5.2.1.3. Sprint Backlog 1 | Cumplido |
+| Diseño de interacción | Se definieron wireframes y mockups para la landing page, mostrando estructura visual, jerarquía de contenido y flujo de navegación. | Secciones 4.3.1, 4.3.2, Anexo B | Cumplido |
+| Definición visual y de marca | La identidad visual, tono, paleta y guía de estilo quedaron establecidos para sostener la experiencia del usuario en la landing page. | Sección 4.1. Style Guidelines | Cumplido |
+| Arquitectura de información | Se definieron las secciones clave de la landing page: Home, How it works, Benefits, Impact y Contact, además de la navegación global. | Secciones 4.2.1 a 4.2.5 | Cumplido |
+| Preparación para despliegue | Se estableció la estrategia de publicación mediante GitHub Pages / Vercel, con la URL pública de la landing page. | Sección 5.1.4. Software Deployment Configuration | Cumplido |
+| Evidencia de prototipado visual | Se dejó documentado el flujo visual del landing page y la web app en Figma, con acceso a los diseños de baja y alta fidelidad. | Anexo B. Diseño y Prototipo | Cumplido |
+
+### Evidencia funcional del flujo principal
+
+El flujo principal ejecutado durante el sprint refleja la intención del producto en su fase inicial:
+
+1. El visitante accede a la landing page.
+2. Comprende la propuesta de valor de FoodSave.
+3. Identifica el problema del desperdicio de alimentos y la solución propuesta.
+4. Explora el funcionamiento de la plataforma mediante la sección “How it works”.
+5. Revisa los beneficios aportados a consumidores y negocios.
+6. Avanza hacia una acción principal (CTA), orientada a descubrir ofertas o conocer más del servicio.
+7. Puede acceder a información complementaria, contacto y enlaces relevantes.
+
+Este recorrido confirma que la landing page cumple con su propósito inicial: explicar la idea del negocio, convencer a posibles usuarios y establecer una base visual y narrativa para la siguiente etapa del producto.
+
+### Evidencia visual y documental
+
+Dentro del documento se evidencian los siguientes artefactos que respaldan la ejecución del sprint:
+
+- Wireframes de Landing Page: presentados en la sección 4.3.1.
+- Mock-ups de Landing Page: presentados en la sección 4.3.2.
+- Web application wireframes y mockups: presentados en la sección 4.4.
+- Diagramas de arquitectura: context, contenedores y componentes, presentados en la sección 4.6.
+- User stories y backlog: presentados en las secciones 3.1 y 3.3.
+- Guía de estilo visual: presentada en la sección 4.1.
+
+### Resultado del Sprint 1
+
+El Sprint 1 logró dejar sentadas las bases del producto digital de FoodSave:
+
+- Una propuesta de valor clara.
+- Una landing page con estructura funcional y visual coherente.
+- Una narrativa de marca y diseño consistente.
+- Una base para la siguiente fase del proyecto orientada a la gestión de ofertas, reservas y operación del negocio.
+
+#### 5.2.1.6 Services Documentation Evidence for Sprint Review
+
+La documentación de servicios de FoodSave se encuentra respaldada por la arquitectura del producto, los diagramas de contexto y contenedores, la definición de user stories y la especificación del dominio. Esta evidencia permite describir el ecosistema de servicios que componen la solución y justificar la estructura funcional del sistema.
+
+A continuación se presenta la documentación de servicios del proyecto:
+
+| Servicio / contexto | Funcionalidad principal | Evidencia documental | Relación con el sprint |
+|---|---|---|---|
+| Landing Page / Marketing | Presenta la propuesta de valor, explica el problema del desperdicio de alimentos y genera interés inicial en la plataforma. | Secciones 4.2.1 a 4.2.5, 4.3, 5.1.4 | Base del Sprint 1 |
+| Offer Management | Permite gestionar las ofertas de alimentos excedentes, publicarlas, validarlas y controlarlas. | Secciones 3.1 (US08, US09, US18, US19), 4.6.1 Design-Level Event Storming | Soporte funcional del producto |
+| Reservation & Pickup | Facilita la reserva de ofertas y la validación de recojo por parte del negocio. | Secciones 3.1 (US10, US11, US12), 4.6.1, 4.7.1 | Requisito principal del negocio |
+| Business Management | Permite registrar establecimientos, gestionar perfiles, condiciones comerciales y datos del negocio. | Secciones 3.1 (US08, US16, US17, US30), 4.6.1 | Funcionalidad de operación |
+| Notifications | Gestiona la comunicación entre negocio y cliente respecto a reservas, cambios y recordatorios. | Secciones 3.1 (US21, US23, US24, US25), 4.6.1 | Confianza y operación |
+| Feedback | Permite calificar la experiencia del recojo y reforzar la percepción de servicio. | Secciones 3.1 (US29), 4.6.1 | Mejora continua |
+| API / Integración | Expone servicios para consultar, crear y gestionar ofertas y reservas de forma consistente. | Sección 3.1 (US31, US32) | Soporte técnico y escalabilidad |
+
+### Documentación funcional de servicios
+
+La documentación funcional del sistema se estructura a partir de tres fuentes principales:
+
+1. User Stories:
+   - Definen los comportamientos esperados del sistema desde la perspectiva del usuario.
+   - Ejemplos: US01 a US07 para la fase inicial; US08 a US32 para la operación del producto.
+
+2. Design-Level Event Storming:
+   - Permite identificar comandos, eventos, políticas y bounded contexts.
+   - Las áreas principales del dominio son: Offer Management, Reservation & Pickup, Business Management, Notifications y Feedback.
+
+3. Diagramas de arquitectura:
+   - Diagramas de contexto, contenedores y componentes muestran cómo interactúan los distintos subsistemas.
+   - Se observa la interacción entre usuario, aplicación web, backend API y sistemas externos.
+
+### Documentación técnica de referencia
+
+La solución se documenta de forma técnica en el repositorio mediante:
+
+- GitFlow y convenciones de versionado (Sección 5.1.2).
+- Estructura de proyecto recomendada para la landing page (Sección 5.1.3).
+- Diagramas de componentes y clases (Sección 4.6 y 4.7).
+- Guía de estilo y diseño visual (Sección 4.1).
+- Arquitectura basada en contenedores y servicios (Sección 4.6.3).
+
+### Contratos de servicio conceptuales
+
+Aunque el documento no presenta un OpenAPI formal completo, sí se infiere un conjunto de servicios conceptuales del sistema:
+
+- GET /api/offers/active
+- POST /api/offers
+- PATCH /api/offers/:id
+- POST /api/reservations
+- PATCH /api/reservations/:id/confirm
+- GET /api/businesses/:id
+- GET /api/users/:id/profile
+- POST /api/notifications
+- POST /api/feedback
+
+Estos contratos representan el modelo lógico de funcionamiento de FoodSave, alineado con el diseño de bounded contexts y con la lógica de negocio descrita en User Stories y Event Storming.
+
+### Conclusión de la evidencia documental
+
+La documentación de servicios de FoodSave demuestra que la solución no se limita a una landing page, sino que está diseñada como un sistema digital con servicios funcionales y dominio bien definido. La evidencia disponible en el documento respalda la evolución del proyecto desde la propuesta inicial hasta un modelo de negocio con oferta, reserva, operación, comunicación y retroalimentación.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+Durante el Sprint 1, el equipo de FoodSave evidenció una organización inicial sólida basada en la definición de roles, prioridades y entregables. La colaboración se centró en la construcción de la propuesta del producto, con un enfoque claro en la landing page y el primer recorrido del usuario.
 
+La distribución de responsabilidades permitió que cada integrante aportara desde su área de competencia. La preparación de entrevistas, el análisis del problema, la creación de wireframes y la definición del estilo visual se combinaron para consolidar una base de producto coherente y alineada con las necesidades detectadas.
 
+El equipo mostró capacidad para trabajar de forma integrada, compartiendo la visión del proyecto y manteneniendo un objetivo común: materializar la idea de FoodSave como una solución viable, clara y con valor para restaurantes y consumidores.
 
 <!-- Salto de Pagina -->
 <div style="page-break-after: always;"></div>
