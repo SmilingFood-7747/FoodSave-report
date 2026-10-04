@@ -1469,7 +1469,11 @@ Los diagramas de componentes descomponen los contenedores principales de FoodSav
 
 ### 4.7.1. Class Diagrams
 
+![ClassDiagramsFrontend](img/FoodSaveClassDiagramFront.png)
+
 ## 4.8. Database Design
+
+![Database](img/FoodSaveDataBase.png)
 
 ### 4.8.1. Database Diagrams
 
