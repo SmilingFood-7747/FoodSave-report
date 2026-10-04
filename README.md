@@ -1469,7 +1469,36 @@ Los diagramas de componentes descomponen los contenedores principales de FoodSav
 
 ### 4.7.1. Class Diagrams
 
-![ClassDiagramsFrontend](img/FoodSaveClassDiagramFront.png)
+**Frontend Class Diagram:**
+![ClassDiagramsFrontend](img/FoodSaveFrontendClassDiagram.png)
+
+**Backend Shared Context Class Diagram:**
+
+![ClassDiagrams](img/BackEndSharedContextClassDiagram.png)
+
+**Backend IAM Context Class Diagram:**
+
+![ClassDiagrams](img/BackEndIAMContextClassDiagram.png)
+
+**Backend Offer Management Context Class Diagram:**
+
+![ClassDiagrams](img/BackEndOfferManagementContextClassDiagram.png)
+
+**Backend Reservation & Pickup Context Class Diagram:**
+
+![ClassDiagrams](img/BackEndReservationPickupContextClassDiagram.png)
+
+**Backend Business Management Context Class Diagram:**
+
+![ClassDiagrams](img/BackEndBusinessManagementContextClassDiagram.png)
+
+**Backend Notifications Context Class Diagram:**
+
+![ClassDiagrams](img/BackEndNotificationsContextClassDiagram.png)
+
+**Backend Feedback Context Class Diagram:**
+
+![ClassDiagrams](img/BackEndFeedbackContextClassDiagram.png)
 
 ## 4.8. Database Design
 
