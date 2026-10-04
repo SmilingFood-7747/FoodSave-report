@@ -513,7 +513,7 @@ Para identificar cómo FoodSave puede diferenciar su propuesta de publicación y
   </tr>
   <tr>
     <td style="background-color:#e3e3e3">Evidencia</td>
-    <td><img src="img/CapturaEntrevista-FlorPacheco.png"></td>
+    <td><img src="img/capitulo2/CapturaEntrevista-FlorPacheco.png"></td>
   </tr>
   <tr>
     <td style="background-color:#e3e3e3">Comienzo de Evidencia</td>
@@ -593,7 +593,7 @@ Janet muestra interés y le parece muy interesante la idea de un sistema que le 
   </tr>
   <tr>
     <td style="background-color:#e3e3e3">Evidencia</td>
-    <td><img src="img/CapturaEntrevista-MayraCalderon.png"></td>
+    <td><img src="img/capitulo2/CapturaEntrevista-MayraCalderon.png"></td>
   </tr>
     <tr>
     <td style="background-color:#e3e3e3">Comienzo de Evidencia</td>
@@ -744,16 +744,16 @@ Finalmente, ambas matrices muestran una oportunidad de conexión entre los segme
 
 #### Empathy Mapping - Segmento 1 (Negocios)
 
-![Figura . Big Picture Event Storming de FoodSave](img/Empathy-Mapping.png)
+![Figura . Big Picture Event Storming de FoodSave](img/capitulo2/Empathy-Mapping.png)
 
 #### Empathy Mapping - Segmento 2 (Cliente)
 
-![Figura . Big Picture Event Storming de FoodSave](img/Empathy-Mapping-Client.png)
+![Figura . Big Picture Event Storming de FoodSave](img/capitulo2/Empathy-Mapping-Client.png)
 
 
 ## 2.4. Big Picture Event Storming
 
-![Figura . Big Picture Event Storming de FoodSave](img/Big-Picture-Event-Storming.png)
+![Figura . Big Picture Event Storming de FoodSave](img/capitulo2/Big-Picture-Event-Storming.png)
 
 ## 2.5. Ubiquitous Language
 
@@ -842,7 +842,7 @@ Para esta sección se planteó un diccionario de términos técnicos que son apl
 
 ## 3.2. Impact Mapping
 
-![Figura . Big Picture Event Storming de FoodSave](img/Impact-Map.png)
+![Figura . Big Picture Event Storming de FoodSave](img/capitulo3/Impact-Map.png)
 
 ## 3.3. Product Backlog
 
@@ -1338,36 +1338,36 @@ En términos generales, el recorrido propuesto para el usuario comienza en Home,
 
 ### 4.3.1. Landing Page Wireframe
 
-![LPWirefram1](img/capituo4/Landing_Page_Wireframe/LP2.jpeg)
+![LPWirefram1](img/capitulo4/Landing_Page_Wireframe/LP2.jpeg)
 
-![LPWirefram1](img/capituo4/Landing_Page_Wireframe/LP3.jpeg)
+![LPWirefram1](img/capitulo4/Landing_Page_Wireframe/LP3.jpeg)
 
-![LPWirefram1](img/capituo4/Landing_Page_Wireframe/LP4.jpeg)
+![LPWirefram1](img/capitulo4/Landing_Page_Wireframe/LP4.jpeg)
 
-![LPWirefram1](img/capituo4/Landing_Page_Wireframe/LP5.jpeg)
+![LPWirefram1](img/capitulo4/Landing_Page_Wireframe/LP5.jpeg)
 
-![LPWirefram1](img/capituo4/Landing_Page_Wireframe/LP1.jpeg)
+![LPWirefram1](img/capitulo4/Landing_Page_Wireframe/LP1.jpeg)
 
 
 ### 4.3.2. Landing Page Mock-up
 
-![LPMUWirefram1](img/capituo4/Landing_Page_Wireframe/LPWU1.png)
+![LPMUWirefram1](img/capitulo4/Landing_Page_Wireframe/LPWU1.png)
 
-![LPMUWirefram2](img/capituo4/Landing_Page_Wireframe/LPWU2.png)
+![LPMUWirefram2](img/capitulo4/Landing_Page_Wireframe/LPWU2.png)
 
-![LPMUWirefram3](img/capituo4/Landing_Page_Wireframe/LPWU3.png)
+![LPMUWirefram3](img/capitulo4/Landing_Page_Wireframe/LPWU3.png)
 
-![LPMUWirefram4](img/capituo4/Landing_Page_Wireframe/LPWU4.png)
+![LPMUWirefram4](img/capitulo4/Landing_Page_Wireframe/LPWU4.png)
 
-![LPMUWirefram5](img/capituo4/Landing_Page_Wireframe/LPWU5.png)
+![LPMUWirefram5](img/capitulo4/Landing_Page_Wireframe/LPWU5.png)
 
-![LPMUWirefram6](img/capituo4/Landing_Page_Wireframe/LPWU6.png)
+![LPMUWirefram6](img/capitulo4/Landing_Page_Wireframe/LPWU6.png)
 
-![LPMUWirefram7](img/capituo4/Landing_Page_Wireframe/LPWU7.png)
+![LPMUWirefram7](img/capitulo4/Landing_Page_Wireframe/LPWU7.png)
 
-![LPMUWirefram8](img/capituo4/Landing_Page_Wireframe/LPWU8.png)
+![LPMUWirefram8](img/capitulo4/Landing_Page_Wireframe/LPWU8.png)
 
-![LPMUWirefram9](img/capituo4/Landing_Page_Wireframe/LPWU9.png)
+![LPMUWirefram9](img/capitulo4/Landing_Page_Wireframe/LPWU9.png)
 
 
 
@@ -1375,43 +1375,43 @@ En términos generales, el recorrido propuesto para el usuario comienza en Home,
 
 ### 4.4.1. Web Applications Wireframes
 
-![LPWirefram1](img/capituo4/Web_Applications_Wireframes/WFAP1.png)
+![LPWirefram1](img/capitulo4/Web_Applications_Wireframes/WFAP1.png)
 
-![LPWirefram2](img/capituo4/Web_Applications_Wireframes/WFAP2.png)
+![LPWirefram2](img/capitulo4/Web_Applications_Wireframes/WFAP2.png)
 
-![LPWirefram3](img/capituo4/Web_Applications_Wireframes/WFAP3.png)
+![LPWirefram3](img/capitulo4/Web_Applications_Wireframes/WFAP3.png)
 
-![LPWirefram4](img/capituo4/Web_Applications_Wireframes/WFAP4.png)
+![LPWirefram4](img/capitulo4/Web_Applications_Wireframes/WFAP4.png)
 
-![LPWirefram5](img/capituo4/Web_Applications_Wireframes/WFAP5.png)
+![LPWirefram5](img/capitulo4/Web_Applications_Wireframes/WFAP5.png)
 
-![LPWirefram6](img/capituo4/Web_Applications_Wireframes/WFAP6.png)
+![LPWirefram6](img/capitulo4/Web_Applications_Wireframes/WFAP6.png)
 
-![LPWirefram7](img/capituo4/Web_Applications_Wireframes/WFAP7.png)
+![LPWirefram7](img/capitulo4/Web_Applications_Wireframes/WFAP7.png)
 
-![LPWirefram8](img/capituo4/Web_Applications_Wireframes/WFAP8.png)
+![LPWirefram8](img/capitulo4/Web_Applications_Wireframes/WFAP8.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 ### 4.4.2. Web Applications Mock-ups
 
-![WAMUWirefram1](img/capituo4/Web_Applications_Wireframes/WAMU1.png)
+![WAMUWirefram1](img/capitulo4/Web_Applications_Wireframes/WAMU1.png)
 
-![WAMUWirefram2](img/capituo4/Web_Applications_Wireframes/WAMU2.png)
+![WAMUWirefram2](img/capitulo4/Web_Applications_Wireframes/WAMU2.png)
 
-![WAMUWirefram3](img/capituo4/Web_Applications_Wireframes/WAMU3.png)
+![WAMUWirefram3](img/capitulo4/Web_Applications_Wireframes/WAMU3.png)
 
-![WAMUWirefram4](img/capituo4/Web_Applications_Wireframes/WAMU4.png)
+![WAMUWirefram4](img/capitulo4/Web_Applications_Wireframes/WAMU4.png)
 
-![WAMUWirefram5](img/capituo4/Web_Applications_Wireframes/WAMU5.png)
+![WAMUWirefram5](img/capitulo4/Web_Applications_Wireframes/WAMU5.png)
 
-![WAMUWirefram6](img/capituo4/Web_Applications_Wireframes/WAMU6.png)
+![WAMUWirefram6](img/capitulo4/Web_Applications_Wireframes/WAMU6.png)
 
-![WAMUWirefram7](img/capituo4/Web_Applications_Wireframes/WAMU7.png)
+![WAMUWirefram7](img/capitulo4/Web_Applications_Wireframes/WAMU7.png)
 
-![WAMUWirefram8](img/capituo4/Web_Applications_Wireframes/WAMU8.png)
+![WAMUWirefram8](img/capitulo4/Web_Applications_Wireframes/WAMU8.png)
 
-![WAMUWirefram9](img/capituo4/Web_Applications_Wireframes/WAMU9.png)
+![WAMUWirefram9](img/capitulo4/Web_Applications_Wireframes/WAMU9.png)
 
 ### 4.4.3. Web Applications User Flow Diagrams
 
@@ -1431,80 +1431,80 @@ A continuación mostraremos las capturas del Design Level Event Storming realiza
 
 **Bounded Context Offer Management:**
 
-![Bounded Context OfferM](img/BoundedContextOfferManagement0.png) 
-![Bounded Context OfferM](img/BoundedContextOfferManagement1.png) 
+![Bounded Context OfferM](img/capitulo4/BoundedContextOfferManagement0.png) 
+![Bounded Context OfferM](img/capitulo4/BoundedContextOfferManagement1.png) 
 
 **Bounded Context: Reservation & Pickup**
 
-![Bounded Context R&P](img/BoundedContextReservation&Pickup.png) 
+![Bounded Context R&P](img/capitulo4/BoundedContextReservation&Pickup.png) 
 
 **Bounded Context: Business Management**
 
-![Bounded Context BM](img/BoundedContextBusinessManagement.png) 
+![Bounded Context BM](img/capitulo4/BoundedContextBusinessManagement.png) 
 
 **Bounded Context: Notifications**
 
-![Bounded Context Notifications](img/BoundedContextNotifications.png) 
+![Bounded Context Notifications](img/capitulo4/BoundedContextNotifications.png) 
 
 **Bounded Context: Feedback**
 
-![Bounded Context Feedback](img/BoundedContextFeedback.png) 
+![Bounded Context Feedback](img/capitulo4/BoundedContextFeedback.png) 
 
 ### 4.6.2. Software Architecture Context Diagram
 El diagrama de contexto presenta a FoodSave como una sola caja, sus usuarios (Customer, Business Owner y Developer) y los sistemas externos con los que se integra.
-![ContextDiagram](img/capituo4/diagrams/SystemContext.png)
+![ContextDiagram](img/capitulo4/diagrams/SystemContext.png)
 
 ### 4.6.3. Software Architecture Container Diagrams
 Este diagrama de contenedores muestra la estructura de alto nivel del sistema FoodSave: las aplicaciones y almacenes de datos que lo componen, la tecnología de cada uno y cómo se comunican entre sí y con los sistemas externos.
-![ConteinerDiagram](img/capituo4/diagrams/Containers.png)
+![ConteinerDiagram](img/capitulo4/diagrams/Containers.png)
 ### 4.6.4. Software Architecture Components Diagrams
 Los diagramas de componentes descomponen los contenedores principales de FoodSave. Se presenta el Backend API (organizado en capa de controladores REST y capa de servicios de aplicación) y el Web Application (módulos funcionales y servicios centrales de Angular). 
 
 **Backend API Components Diagram**
-![Backend](img/capituo4/diagrams/Components-Backend.png)
+![Backend](img/capitulo4/diagrams/Components-Backend.png)
 
 **Web Application Components Diagram**
-![WebApp](img/capituo4/diagrams/Components-WebApp.png)
+![WebApp](img/capitulo4/diagrams/Components-WebApp.png)
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
 
 **Frontend Class Diagram:**
-![ClassDiagramsFrontend](img/FoodSaveFrontendClassDiagram.png)
+![ClassDiagramsFrontend](img/capitulo4/c4/FoodSaveFrontendClassDiagram.png)
 
 **Backend Shared Context Class Diagram:**
 
-![ClassDiagrams](img/BackEndSharedContextClassDiagram.png)
+![ClassDiagrams](img/capitulo4/c4/BackEndSharedContextClassDiagram.png)
 
 **Backend IAM Context Class Diagram:**
 
-![ClassDiagrams](img/BackEndIAMContextClassDiagram.png)
+![ClassDiagrams](img/capitulo4/c4/BackEndIAMContextClassDiagram.png)
 
 **Backend Offer Management Context Class Diagram:**
 
-![ClassDiagrams](img/BackEndOfferManagementContextClassDiagram.png)
+![ClassDiagrams](img/capitulo4/c4/BackEndOfferManagementContextClassDiagram.png)
 
 **Backend Reservation & Pickup Context Class Diagram:**
 
-![ClassDiagrams](img/BackEndReservationPickupContextClassDiagram.png)
+![ClassDiagrams](img/capitulo4/c4/BackEndReservationPickupContextClassDiagram.png)
 
 **Backend Business Management Context Class Diagram:**
 
-![ClassDiagrams](img/BackEndBusinessManagementContextClassDiagram.png)
+![ClassDiagrams](img/capitulo4/c4/BackEndBusinessManagementContextClassDiagram.png)
 
 **Backend Notifications Context Class Diagram:**
 
-![ClassDiagrams](img/BackEndNotificationsContextClassDiagram.png)
+![ClassDiagrams](img/capitulo4/c4/BackEndNotificationsContextClassDiagram.png)
 
 **Backend Feedback Context Class Diagram:**
 
-![ClassDiagrams](img/BackEndFeedbackContextClassDiagram.png)
+![ClassDiagrams](img/capitulo4/c4/BackEndFeedbackContextClassDiagram.png)
 
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
 
-![Database](img/FoodSaveDataBase.png)
+![Database](img/capitulo4/FoodSaveDataBase.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
