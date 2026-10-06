@@ -675,7 +675,7 @@ Vamos a identificar a nuestros usuarios por lo recopilamos lo mas importante
 
 Segmento 1: Negocios de clase alta
 
-![User persona1](img/capitulo2/Carlos_Guevara.png)
+![User persona1](img/capitulo2/Carlos_Guevara2.png)
 
 Segmento 2: Cliente frencuente de restaurantes
 
