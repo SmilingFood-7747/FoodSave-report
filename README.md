@@ -1949,12 +1949,44 @@ La documentación de servicios de FoodSave demuestra que la solución no se limi
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 1, la solución desarrollada para la fase inicial del proyecto quedó desplegada como evidencia funcional del alcance definido en el planning. El objetivo principal del sprint fue validar que la propuesta de valor de FoodSave pudiera comunicarse de manera clara a través de una landing page accesible, con estructura visual coherente y recorrido principal demostrable para el usuario.
+
+La evidencia de despliegue se centró en la publicación de la primera versión de la landing page, utilizando una implementación basada en HTML, CSS y JavaScript nativo, con enfoque responsive y acceso público.
+
+| Evidencia de despliegue | Descripción | Resultado |
+|---|---|---|
+| Entorno de implementación | La landing page fue desarrollada con tecnología estática (HTML, CSS y JS) para facilitar su publicación rápida y accesible. | Cumplido |
+| Plataforma de publicación | Se definió el uso de Vercel como entorno de despliegue para la landing page. | Cumplido |
+| URL pública | La solución quedó disponible en la siguiente dirección: https://food-save-landing-page.vercel.app/ | Cumplido |
+| Rama de despliegue | Se estableció la rama principal `main` como fuente de publicación para la versión desplegada. | Cumplido |
+| Validación funcional | Se verificó que la página era navegable, presentaba la estructura de contenido propuesta y mantenía la jerarquía visual de la marca. | Cumplido |
+| Compatibilidad | La implementación fue diseñada para adaptarse a dispositivos móviles y desktop sin afectar la legibilidad ni la navegación. | Cumplido |
+
+La evidencia funcional del despliegue confirma que la landing page cumple con su propósito inicial: explicar la solución, comunicar el valor del producto y permitir que un visitante entienda rápidamente el problema que aborda FoodSave y la propuesta de solución que ofrece.
+
+Además, la publicación del proyecto en un entorno accesible permitió validar la viabilidad del flujo principal del producto desde la perspectiva del usuario: ingreso a la landing page, comprensión del problema, revisión del funcionamiento de la plataforma y aproximación a la acción principal del negocio.
+
+En conclusión, el Sprint 1 dejó un entregable desplegado y observable, lo que permitió avanzar desde la definición del concepto hacia una validación visual y operativa de la propuesta de valor del producto.
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
-Durante el Sprint 1, el equipo de FoodSave evidenció una organización inicial sólida basada en la definición de roles, prioridades y entregables. La colaboración se centró en la construcción de la propuesta del producto, con un enfoque claro en la landing page y el primer recorrido del usuario.
 
-La distribución de responsabilidades permitió que cada integrante aportara desde su área de competencia. La preparación de entrevistas, el análisis del problema, la creación de wireframes y la definición del estilo visual se combinaron para consolidar una base de producto coherente y alineada con las necesidades detectadas.
+Durante el Sprint 1, el equipo de FoodSave evidenció una colaboración inicial sólida, basada en la definición de roles, responsabilidades y objetivos claros para cada entrega del sprint. La organización del trabajo permitió distribuir tareas según las fortalezas de cada miembro y mantener una visión conjunta del proyecto.
 
-El equipo mostró capacidad para trabajar de forma integrada, compartiendo la visión del proyecto y manteneniendo un objetivo común: materializar la idea de FoodSave como una solución viable, clara y con valor para restaurantes y consumidores.
+La colaboración se vio reforzada por la estructura del Sprint Planning, donde se definió el objetivo general, se priorizaron las historias de usuario y se asignaron responsabilidades para cada bloque del trabajo. El equipo trabajó de manera integrada en la definición del problema, la investigación cualitativa, la elaboración de wireframes, la construcción de la propuesta visual y la preparación del contenido de la landing page.
+
+Los principales indicadores de colaboración fueron:
+
+- Distribución equitativa de tareas según competencias: entrevistas, análisis de necesidades, diseño de wireframes, definición de branding y redacción de contenido.
+- Trabajo en conjunto para alinear la narrativa del proyecto con la propuesta de valor de FoodSave.
+- Coordinación en la elaboración de artefactos clave del sprint: user stories, backlog, diagramas de arquitectura y guías de estilo visual.
+- Comunicación constante durante la planificación y la revisión del trabajo, con foco en la coherencia entre investigación, diseño y presentación del producto.
+- Enfoque conjunto en un objetivo común: materializar la idea de FoodSave como una solución clara, relevante y con una base visual sólida para la siguiente etapa del proyecto.
+
+Asimismo, la participación del equipo permitió generar una visión compartida sobre el producto. Mientras algunos integrantes se enfocaban en la investigación y validación del problema, otros trabajaban en la estructura visual y de contenido, logrando una integración efectiva entre análisis, diseño y comunicación. Este nivel de colaboración fue clave para consolidar la propuesta de valor y garantizar que la landing page no solo tuviera una apariencia visual adecuada, sino también un mensaje claro para clientes, socios y evaluadores.
+
+El trabajo del Sprint 1 refleja una dinámica colaborativa madura para una etapa inicial del proyecto: el equipo no solo dividió tareas, sino que también alineó criterios, validó decisiones de diseño y mantuvo una dirección común hacia la materialización de FoodSave como solución viable y comprensible.
+
+En síntesis, la colaboración del equipo durante este sprint fue una base importante para el desarrollo del proyecto, ya que facilitó la transición de la idea inicial a una propuesta digital con estructura, estilo y propósito definidos.
 
 <!-- Salto de Pagina -->
 <div style="page-break-after: always;"></div>
