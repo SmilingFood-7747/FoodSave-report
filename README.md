@@ -1373,6 +1373,10 @@ En términos generales, el recorrido propuesto para el usuario comienza en Home,
 
 ### 4.4.1. Web Applications Wireframes
 
+![Login](img/capitulo4/Web_Applications_Wireframes/Login.png)
+
+![Register](img/capitulo4/Web_Applications_Wireframes/Register.png)
+
 ![LPWirefram1](img/capitulo4/Web_Applications_Wireframes/WFAP1.png)
 
 ![LPWirefram2](img/capitulo4/Web_Applications_Wireframes/WFAP2.png)
