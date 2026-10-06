@@ -1369,8 +1369,6 @@ En términos generales, el recorrido propuesto para el usuario comienza en Home,
 
 ![LPMUWirefram9](img/capitulo4/Landing_Page_Wireframe/LPWU9.png)
 
-
-
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
@@ -1393,7 +1391,89 @@ En términos generales, el recorrido propuesto para el usuario comienza en Home,
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-### 4.4.2. Web Applications Mock-ups
+Presentaremos la propuesta de los Wireflows, elaborados usando las User Stories definidas para las aplicaciones del proyecto de FoodSave
+
+Secuencia:
+Task Flow 1: Exploración y selección de ofertas
+Objetivo del usuario: Permitir al consumidor explorar las ofertas disponibles y consultar el detalle de una oferta.
+Pasos del Task Flow:
+1. Acceder a la sección de Ofertas.
+2. Visualizar las ofertas disponibles.
+3. Seleccionar una oferta.
+4. Acceder al detalle de la oferta.
+5. Revisar la información de la oferta.
+6. Seleccionar la opción para reservar.
+User Goal 1: Como consumidor, deseo explorar las ofertas disponibles, para encontrar una opción que se ajuste a mis necesidades.
+User Persona: Consumidor
+Desde Ofertas, el consumidor visualiza las ofertas disponibles y selecciona una para acceder al Detalle de ofertas, donde puede revisar su información y seleccionar "Reservar oferta".
+
+Secuencia:
+Task Flow 2: Reserva y confirmación de oferta
+Objetivo del usuario: Permitir al cliente comprador reservar una oferta disponible y obtener su código de recojo.
+Pasos del Task Flow:
+1. Acceder al detalle de una oferta.
+2. Seleccionar la opción para reservar.
+3. Acceder a Reserva.
+4. Confirmar la reserva.
+5. Visualizar la confirmación.
+6. Obtener el código de recojo.
+User Goal 2: Como cliente comprador, quiero reservar una oferta para asegurar una unidad antes de llegar al negocio.
+User Persona: Cliente comprador
+Desde Detalle de ofertas, el cliente comprador selecciona "Reservar oferta" y accede a Reserva. Luego confirma la reserva y el sistema muestra la Confirmación de reserva con el código correspondiente.
+
+Secuencia:
+Task Flow 3: Consulta de reserva
+Objetivo del usuario: Permitir al cliente comprador consultar su reserva y visualizar su estado y código.
+Pasos del Task Flow:
+1. Acceder a Mis Reservas.
+2. Visualizar la reserva actual.
+3. Consultar el estado de la reserva.
+4. Visualizar el código de recojo.
+User Goal 3: Como cliente comprador, quiero revisar una reserva para consultar su estado y código.
+User Persona: Cliente comprador
+Desde Mis Reservas, el cliente comprador puede visualizar su reserva actual, consultar su estado y acceder al código de recojo correspondiente.
+
+Secuencia:
+Task Flow 4: Publicación de una nueva oferta
+Objetivo del usuario: Permitir al responsable de negocio publicar una nueva oferta para vender un excedente.
+Pasos del Task Flow:
+1. Acceder al Business Dashboard.
+2. Seleccionar la opción para publicar una nueva oferta.
+3. Acceder a Create New Offer.
+4. Completar la información de la oferta.
+5. Publicar la nueva oferta.
+User Goal 4: Como responsable de negocio, quiero publicar una oferta con información clara para vender un excedente.
+User Persona: Responsable de negocio
+Desde Business Dashboard, el responsable de negocio selecciona "Publicar nueva oferta" y accede a Create New Offer, donde completa la información correspondiente y publica la oferta.
+
+Secuencia:
+Task Flow 5: Consulta de reservas del negocio
+Objetivo del usuario: Permitir al responsable de negocio consultar las reservas de sus ofertas para atender los recojos.
+Pasos del Task Flow:
+1. Acceder a Reservaciones.
+2. Visualizar las reservas pendientes.
+3. Consultar la información de las reservas.
+4. Visualizar las reservas ya entregadas.
+5. Consultar el código asociado.
+User Goal 5: Como responsable de negocio, quiero ver las reservas activas de mis ofertas para preparar los pedidos y atender los recojos.
+User Persona: Responsable de negocio
+Desde Reservaciones, el responsable de negocio puede visualizar las reservas pendientes de entrega y aquellas que ya fueron entregadas, junto con la información y el código correspondiente.
+
+Secuencia:
+Task Flow 6: Confirmación de recojo mediante código
+Objetivo del usuario: Permitir al responsable de negocio validar el código de una reserva para confirmar correctamente el recojo.
+Pasos del Task Flow:
+1. Acceder a Validación de código.
+2. Ingresar el código de la reserva.
+3. Validar el código.
+4. Visualizar el resultado de la validación.
+5. Confirmar el código válido.
+User Goal 6: Como responsable de negocio, quiero confirmar el recojo mediante un código para cerrar la reserva correctamente.
+User Persona: Responsable de negocio
+Desde Validación de código, el responsable de negocio ingresa el código de la reserva. El sistema muestra el Resultado de la validación y, si el código corresponde a una reserva válida, permite confirmar el recojo.
+Ahora sí queda alineado con las personas/roles y objetivos que realmente aparecen en tus User Stories, sin meter nombres como Andrea/Carlos ni cambiar la estructura de la plantilla.
+
+### 4.4.3. Web Applications Mock-ups
 
 ![WAMUWirefram1](img/capitulo4/Web_Applications_Wireframes/WAMU1.png)
 
@@ -1413,7 +1493,18 @@ En términos generales, el recorrido propuesto para el usuario comienza en Home,
 
 ![WAMUWirefram9](img/capitulo4/Web_Applications_Wireframes/WAMU9.png)
 
-### 4.4.3. Web Applications User Flow Diagrams
+### 4.4.4. Web Applications User Flow Diagrams
+
+Relacionado al User Goal 1: Como cliente comprador, quiero explorar ofertas activas y consultar el detalle de una oferta para tomar una decisión informada. Desde Ofertas, el cliente comprador visualiza las ofertas activas y selecciona una de ellas para acceder al Detalle de ofertas, donde puede consultar la información disponible antes de realizar una reserva.
+
+Relacionado al User Goal 2: Como cliente comprador, quiero reservar una oferta para asegurar una unidad antes de llegar al negocio. Desde Detalle de ofertas, el cliente comprador selecciona "Reservar oferta" y accede a Reserva. Luego confirma la reserva y el sistema muestra la Confirmación de reserva con el código correspondiente
+
+Relacionado al User Goal 3: Como cliente comprador, quiero revisar una reserva para consultar su estado y código. Desde Mis Reservas, el cliente comprador puede visualizar su reserva actual, consultar su estado y acceder al código de recojo correspondiente.
+
+Relacionado al User Goal 4: Como responsable de negocio, quiero publicar una oferta con información clara para vender un excedente. Desde Business Dashboard, el responsable de negocio selecciona "Publicar nueva oferta" y accede a Create New Offer, donde completa la información correspondiente y publica la oferta.
+
+Relacionado al User Goal 5: Como responsable de negocio, quiero ver las reservas activas de mis ofertas para preparar los pedidos y atender los recojos. Desde Reservaciones, el responsable de negocio puede visualizar las reservas pendientes de entrega y aquellas que ya fueron entregadas, junto con la información y el código correspondiente.
+
 
 ## 4.5. Web Applications Prototyping
 
