@@ -2245,10 +2245,6 @@ En esta sección se presentan las evidencias de colaboración del equipo durante
 - Uso de Angular 22 y Angular Material para los componentes de la interfaz.
 - Publicación del frontend en Firebase Hosting y de la fake API con datos de muestra en Render.
 
-El resumen de GitHub Insights muestra la actividad de commits del repositorio durante el Sprint 2.
-
-<img src="./img/capitulo5/Sprint2/front-evidence.png" alt="GitHub Insights - Sprint 2 contributors" width="800">
-
 <!-- Salto de Pagina -->
 <div style="page-break-after: always;"></div>
 
