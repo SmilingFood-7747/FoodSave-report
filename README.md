@@ -1458,7 +1458,7 @@ User Goal 2: Como cliente comprador, quiero reservar una oferta para asegurar un
 User Persona: Cliente comprador
 Desde Detalle de ofertas, el cliente comprador selecciona "Reservar oferta" y accede a Reserva. Luego confirma la reserva y el sistema muestra la Confirmación de reserva con el código correspondiente.
 
-![TF4](img/capitulo4/Web_Applications_Wireframes/TK4.png)
+![TF4](img/capitulo4/Web_Applications_Wireframes/TK4_2.png)
 
 
 Task Flow 5: Publicación de una nueva oferta
@@ -1529,15 +1529,34 @@ Ahora sí queda alineado con las personas/roles y objetivos que realmente aparec
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-Relacionado al User Goal 1: Como cliente comprador, quiero explorar ofertas activas y consultar el detalle de una oferta para tomar una decisión informada. Desde Ofertas, el cliente comprador visualiza las ofertas activas y selecciona una de ellas para acceder al Detalle de ofertas, donde puede consultar la información disponible antes de realizar una reserva.
+Relacionado al User Goal 1: Como cliente comprador, quiero crear una cuenta para guardar y gestionar mis reservas. Desde la sección de registro, el cliente comprador completa los datos solicitados, acepta los términos y condiciones y selecciona la opción para crear su cuenta e ingresar a la plataforma.
 
-Relacionado al User Goal 2: Como cliente comprador, quiero reservar una oferta para asegurar una unidad antes de llegar al negocio. Desde Detalle de ofertas, el cliente comprador selecciona "Reservar oferta" y accede a Reserva. Luego confirma la reserva y el sistema muestra la Confirmación de reserva con el código correspondiente
+![TK1](img/capitulo4/Web_Applications_Wireframes/TK4.1.png)
 
-Relacionado al User Goal 3: Como cliente comprador, quiero revisar una reserva para consultar su estado y código. Desde Mis Reservas, el cliente comprador puede visualizar su reserva actual, consultar su estado y acceder al código de recojo correspondiente.
+Relacionado al User Goal 2: Como usuario registrado, quiero iniciar sesión para acceder a las funciones asociadas a mi cuenta. Desde la sección de inicio de sesión, el usuario registrado ingresa sus credenciales y selecciona la opción para iniciar sesión. El sistema valida los datos y permite acceder al área correspondiente a su rol.
 
-Relacionado al User Goal 4: Como responsable de negocio, quiero publicar una oferta con información clara para vender un excedente. Desde Business Dashboard, el responsable de negocio selecciona "Publicar nueva oferta" y accede a Create New Offer, donde completa la información correspondiente y publica la oferta.
+![TK2](img/capitulo4/Web_Applications_Wireframes/TK4.2.png)
 
-Relacionado al User Goal 5: Como responsable de negocio, quiero ver las reservas activas de mis ofertas para preparar los pedidos y atender los recojos. Desde Reservaciones, el responsable de negocio puede visualizar las reservas pendientes de entrega y aquellas que ya fueron entregadas, junto con la información y el código correspondiente.
+
+Relacionado al User Goal 3: Como cliente comprador, quiero explorar ofertas activas y consultar el detalle de una oferta para tomar una decisión informada. Desde Ofertas, el cliente comprador visualiza las ofertas activas y selecciona una de ellas para acceder al Detalle de ofertas, donde puede consultar la información disponible antes de realizar una reserva.
+
+![TK3](img/capitulo4/Web_Applications_Wireframes/TK4.3.png)
+
+Relacionado al User Goal 4: Como cliente comprador, quiero reservar una oferta para asegurar una unidad antes de llegar al negocio. Desde Detalle de ofertas, el cliente comprador selecciona "Reservar oferta" y accede a Reserva. Luego confirma la reserva y el sistema muestra la Confirmación de reserva con el código correspondiente.
+
+![TK4](img/capitulo4/Web_Applications_Wireframes/TK4.4.png)
+
+Relacionado al User Goal 5: Como responsable de negocio, quiero publicar una oferta con información clara para vender un excedente. Desde Business Dashboard, el responsable de negocio selecciona "Publicar nueva oferta" y accede a Create New Offer, donde completa la información correspondiente y publica la oferta.
+
+![TK5](img/capitulo4/Web_Applications_Wireframes/TK4.5.png)
+
+Relacionado al User Goal 6: Como responsable de negocio, quiero ver las reservas activas de mis ofertas para preparar los pedidos y atender los recojos. Desde Reservaciones, el responsable de negocio puede visualizar las reservas pendientes de entrega y aquellas que ya fueron entregadas, junto con la información y el código correspondiente.
+
+![TK6](img/capitulo4/Web_Applications_Wireframes/TK4.6.png)
+
+Relacionado al User Goal 7: Como responsable de negocio, quiero confirmar el recojo mediante un código para cerrar la reserva correctamente. Desde Validación de código, el responsable de negocio ingresa el código de la reserva. El sistema muestra el Resultado de la validación y, si el código corresponde a una reserva válida, permite confirmar el recojo.
+
+![TK7](img/capitulo4/Web_Applications_Wireframes/TK4.7.png)
 
 
 ## 4.5. Web Applications Prototyping
