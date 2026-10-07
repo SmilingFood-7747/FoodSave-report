@@ -1560,6 +1560,18 @@ Relacionado al User Goal 7: Como responsable de negocio, quiero confirmar el rec
 
 ## 4.5. Web Applications Prototyping
 
+En este punto demostramos el funcionamiento del fronted de la aplicación
+
+Evidencia:
+
+![evidencia](img/evidencia.png)
+
+Link:https://acortar.link/vXBJIf
+
+Archivo:Funcionalidad_Aplicacion.mp4
+
+Duración: 5:49pm
+
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level Event Storming
