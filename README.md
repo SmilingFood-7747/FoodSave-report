@@ -75,11 +75,6 @@ Para el desarrollo del **Project Report**, se utilizó un repositorio dentro de 
 ## AV1 - Informe inicial
 
 
-## TB1 - Actualización del Informe
-A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro segundo sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.
-
-<img src="img/network-tb1.png" >
-
 <!-- Salto de Pagina -->
 <div style="page-break-after: always;"></div>
 
@@ -2083,8 +2078,6 @@ En esta sección se presentan los líderes y colaboradores responsables de los p
 
 En esta sección se detallan las User Stories y las tareas seleccionadas para el Sprint 2, incluyendo su estimación, responsable y estado.
 
-**URL público del Board:** [Agregar URL del Board](URL)
-
 | Sprint # | Sprint 2 | | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **User Story** | | **Work-Item / Task** | | | | | |
@@ -2099,43 +2092,44 @@ En esta sección se detallan las User Stories y las tareas seleccionadas para el
 
 En esta sección se presentan las evidencias de desarrollo correspondientes al Sprint 2. La siguiente tabla registra los principales commits realizados en los repositorios del proyecto.
 
-| Repository | Branch | Commit Message | Commit Message Body | Committed on (Date) |
-| :--- | :--- | :--- | :--- | :--- |
-| FoodSave Frontend | develop | fix foddsaveplus | Corrección de errores relacionados con la funcionalidad FoodSave Plus. | 06/10/2026 |
-| FoodSave Frontend | develop | fix bug | Corrección de errores detectados durante las pruebas de la aplicación. | 06/10/2026 |
-| FoodSave Frontend | develop | Implement fake API | Implementación de una API simulada para permitir pruebas e integración de funcionalidades del frontend. | 06/10/2026 |
-| FoodSave Frontend | develop | fix bugs | Corrección de errores de funcionamiento e integración encontrados durante el desarrollo. | 06/10/2026 |
-| FoodSave Frontend | develop | feat: implementar planes de suscripción | Implementación de los planes de suscripción disponibles dentro de la plataforma FoodSave. | 06/10/2026 |
-| FoodSave Frontend | develop | fix bugs | Corrección de errores relacionados con las nuevas funcionalidades implementadas. | 06/10/2026 |
-| FoodSave Frontend | develop | fix bugs | Ajustes y correcciones de errores encontrados durante las pruebas del frontend. | 06/10/2026 |
-| FoodSave Frontend | develop | fix bugs | Corrección de problemas de funcionamiento en componentes de la aplicación. | 06/10/2026 |
-| FoodSave Frontend | develop | fix bugs | Corrección de errores derivados de la integración de funcionalidades. | 06/10/2026 |
-| FoodSave Frontend | develop | Revert "fix bugs" | Reversión de una corrección previa debido a problemas generados por los cambios realizados. | 06/10/2026 |
-| FoodSave Frontend | develop | fix bugs | Aplicación de nuevas correcciones luego de revertir cambios anteriores. | 06/10/2026 |
-| FoodSave Frontend | develop | fix bugs | Corrección de errores detectados durante la validación de la aplicación. | 06/10/2026 |
-| FoodSave Frontend | develop | fix bugs | Ajustes de estabilidad y corrección de errores del frontend. | 06/10/2026 |
-| FoodSave Frontend | develop | fix bugs | Corrección de problemas encontrados durante las pruebas funcionales. | 06/10/2026 |
-| FoodSave Frontend | develop | fix bugs | Corrección de errores en componentes y funcionalidades de la aplicación. | 06/10/2026 |
-| FoodSave Frontend | develop | fix bugs | Ajustes generales para mejorar el funcionamiento de la aplicación. | 06/10/2026 |
-| FoodSave Frontend | develop | fix bugs | Corrección de errores encontrados durante el proceso de desarrollo. | 06/10/2026 |
-| FoodSave Frontend | develop | fix bugs | Corrección inicial de errores detectados durante la integración de funcionalidades. | 06/10/2026 |
-| FoodSave Frontend | develop | fix bugs | Corrección de errores encontrados después de la implementación de nuevas funcionalidades. | 04/10/2026 |
-| FoodSave Frontend | develop | update name | Actualización de nombres y textos utilizados dentro de la aplicación. | 04/10/2026 |
-| FoodSave Frontend | develop | update name | Ajustes adicionales en los nombres utilizados en componentes y vistas. | 04/10/2026 |
-| FoodSave Frontend | develop | chore: update Angular to version 22 | Actualización del proyecto y sus configuraciones para utilizar Angular 22. | 04/10/2026 |
-| FoodSave Frontend | develop | chore: configure Firebase hosting | Configuración de Firebase Hosting para el despliegue del frontend. | 04/10/2026 |
-| FoodSave Frontend | develop | fix: deploy Angular frontend to Azure | Corrección de la configuración necesaria para desplegar el frontend Angular en Azure. | 04/10/2026 |
-| FoodSave Frontend | develop | Add or update the Azure App Service build and deployment workflow config | Configuración y actualización del workflow de compilación y despliegue mediante Azure App Service. | 04/10/2026 |
-| FoodSave Frontend | develop | chore: configure Azure hosting | Configuración inicial del servicio de hosting de la aplicación en Azure. | 04/10/2026 |
-| FoodSave Frontend | develop | feat: add customer and business workflows | Implementación de los principales flujos de navegación y operación para consumidores y negocios. | 04/10/2026 |
-| FoodSave Frontend | develop | feat: add DDD structure and supporting pages | Incorporación de la estructura basada en Domain-Driven Design y páginas de soporte de la aplicación. | 04/10/2026 |
-| FoodSave Frontend | develop | feat: add catalog page and refresh favicon | Implementación de la página de catálogo y actualización del favicon de FoodSave. | 04/10/2026 |
-| FoodSave Frontend | develop | feat: complete i18n and add FoodSave favicon | Finalización de la internacionalización de la aplicación e incorporación del favicon de FoodSave. | 04/10/2026 |
-| FoodSave Frontend | develop | feat: add layout and header | Implementación del layout principal y del encabezado de navegación de la aplicación. | 04/10/2026 |
-| FoodSave Frontend | develop | Configurar el editor y el formato del proyecto | Configuración del editor y de las reglas de formato utilizadas en el proyecto. | 04/10/2026 |
-| FoodSave Frontend | develop | fix: make the initial frontend runnable with Angular welcome page | Corrección de la configuración inicial para permitir la ejecución correcta del frontend Angular. | 04/10/2026 |
-| FoodSave Frontend | develop | chore: set up Angular dependencies and Node version | Configuración de las dependencias de Angular y de la versión de Node.js requerida por el proyecto. | 04/10/2026 |
-| FoodSave Frontend | develop | chore: clear repository for an approved step-by-step restart | Limpieza y reorganización inicial del repositorio para reiniciar la implementación del proyecto de forma controlada. | 04/10/2026 |
+| Repository | Branch | Commit Message | Committed on (Date) |
+| :--- | :--- | :--- | :--- |
+| FoodSave Frontend | main | fix foddsaveplus | 06/10/2026 |
+| FoodSave Frontend | main | fix bug | 06/10/2026 |
+| FoodSave Frontend | main | Implement fake API | 06/10/2026 |
+| FoodSave Frontend | main | fix bugs | 06/10/2026 |
+| FoodSave Frontend | main | feat: implementar planes de suscripción | 06/10/2026 |
+| FoodSave Frontend | main | fix bugs | 06/10/2026 |
+| FoodSave Frontend | main | fix bugs | 06/10/2026 |
+| FoodSave Frontend | main | fix bugs | 06/10/2026 |
+| FoodSave Frontend | main | fix bugs | 06/10/2026 |
+| FoodSave Frontend | main | Revert "fix bugs" | 06/10/2026 |
+| FoodSave Frontend | main | fix bugs | 06/10/2026 |
+| FoodSave Frontend | main | fix bugs | 06/10/2026 |
+| FoodSave Frontend | main | fix bugs | 06/10/2026 |
+| FoodSave Frontend | main | fix bugs | 06/10/2026 |
+| FoodSave Frontend | main | fix bugs | 06/10/2026 |
+| FoodSave Frontend | main | fix bugs | 06/10/2026 |
+| FoodSave Frontend | main | fix bugs | 06/10/2026 |
+| FoodSave Frontend | main | fix bugs | 06/10/2026 |
+| FoodSave Frontend | main | fix bugs | 04/10/2026 |
+| FoodSave Frontend | main | update name | 04/10/2026 |
+| FoodSave Frontend | main | update name | 04/10/2026 |
+| FoodSave Frontend | main | chore: update Angular to version 22 | 04/10/2026 |
+| FoodSave Frontend | main | chore: configure Firebase hosting | 04/10/2026 |
+| FoodSave Frontend | main | fix: deploy Angular frontend to Azure | 04/10/2026 |
+| FoodSave Frontend | main | Add or update the Azure App Service build and deployment workflow config | 04/10/2026 |
+| FoodSave Frontend | main | chore: configure Azure hosting | 04/10/2026 |
+| FoodSave Frontend | main | feat: add customer and business workflows | 04/10/2026 |
+| FoodSave Frontend | main | feat: add DDD structure and supporting pages | 04/10/2026 |
+| FoodSave Frontend | main | feat: add catalog page and refresh favicon | 04/10/2026 |
+| FoodSave Frontend | main | feat: complete i18n and add FoodSave favicon | 04/10/2026 |
+| FoodSave Frontend | main | feat: add layout and header | 04/10/2026 |
+| FoodSave Frontend | main | Configurar el editor y el formato del proyecto | 04/10/2026 |
+| FoodSave Frontend | main | fix: make the initial frontend runnable with Angular welcome page | 04/10/2026 |
+| FoodSave Frontend | main | chore: set up Angular dependencies and Node version | 04/10/2026 |
+| FoodSave Frontend | main | chore: clear repository for an approved step-by-step restart | 04/10/2026 |
+
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
@@ -2143,23 +2137,19 @@ En esta sección se presentan las evidencias de ejecución de las funcionalidade
 
 
 
-<div align="center">
+<img src="./img/chapter05/Sprint2/evidencia01.png">
 
-  <img src="./img/chapter05/Sprint2/evidencia01.png">
-  
-  <img src="./img/chapter05/Sprint2/Evidencia02.png">
-  
-  <img src="./img/chapter05/Sprint2/evidencia1.2.png">
-  
-  <img src="./img/chapter05/Sprint2/evidencia1.3.png">
-  
-  <img src="./img/chapter05/Sprint2/evidencia4.png">
-  
-  <img src="./img/chapter05/Sprint2/evidencia05.png">
-  
-  <img src="./img/chapter05/Sprint2/evidencia06.png">
+<img src="./img/chapter05/Sprint2/evidencia02.png">
 
-</div>
+<img src="./img/chapter05/Sprint2/evidencia1.2.png">
+
+<img src="./img/chapter05/Sprint2/evidencia1.3.png">
+
+<img src="./img/chapter05/Sprint2/evidencia4.png">
+
+<img src="./img/chapter05/Sprint2/evidencia05.png">
+
+<img src="./img/chapter05/Sprint2/evidencia06.png">
 
 **Video de navegación del Sprint 2:** [Agregar video](URL)
 
@@ -2174,14 +2164,6 @@ En esta sección se presentan las evidencias de documentación de los servicios 
 | | | | |
 | | | | |
 
-<div align="center">
-
-  <!-- Agregar aquí evidencias de Swagger / OpenAPI / Web Services -->
-
-  <img src="../assets/images/chapter5/" alt="Sprint 2 - Services Documentation Evidence" width="800">
-
-</div>
-
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 En esta sección se presentan las evidencias relacionadas con el despliegue del software desarrollado durante el Sprint 2.
@@ -2191,16 +2173,6 @@ En esta sección se presentan las evidencias relacionadas con el despliegue del 
 | | | | | |
 | | | | | |
 | | | | | |
-
-**URL de despliegue:** [Agregar URL](URL)
-
-<div align="center">
-
-  <!-- Agregar aquí las imágenes correspondientes al despliegue -->
-
-  <img src="../assets/images/chapter5/" alt="Sprint 2 - Software Deployment Evidence" width="800">
-
-</div>
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
@@ -2213,11 +2185,7 @@ En esta sección se presentan las evidencias de colaboración del equipo durante
 - Validación temprana mediante Fake API
 Los gráficos de Contributors muestran las contribuciones realizadas por cada integrante durante el Sprint 2.
 
-<div align="center">
-
-  <img src="./img/chapter05/Sprint2/front-evidence.png" alt="GitHub Insights - Sprint 2 contributors" width="800">
-
-</div>
+<img src="./img/chapter05/Sprint2/front-evidence.png" alt="GitHub Insights - Sprint 2 contributors" width="800">
 
 <!-- Salto de Pagina -->
 <div style="page-break-after: always;"></div>
