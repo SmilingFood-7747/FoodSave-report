@@ -1815,6 +1815,40 @@ https://food-save-landing-page.vercel.app/
 
 Cualquier commit realizado en la rama `main` será desplegado automáticamente en la página publicada, sin necesidad de pasos adicionales.
 
+#### 2. Frontend y Fake API
+
+##### Frontend Angular en Firebase Hosting
+
+El frontend de FoodSave utiliza Angular 22 y Angular Material. Su código se encuentra en el repositorio [FoodSaveFrontEnd](https://github.com/SmilingFood-7747/FoodSaveFrontEnd), en la rama `main`.
+
+Para publicar una versión, se instalan las dependencias con Node.js 24, se genera la compilación de producción y se despliegan los archivos en Firebase Hosting:
+
+```bash
+npm ci
+node ./node_modules/@angular/cli/bin/ng.js build
+firebase deploy --only hosting --project foodsave2502
+```
+
+El archivo `firebase.json` define el sitio `frontfoodsave`, la carpeta de publicación `dist/frontend-foodsave/browser` y la redirección de las rutas de la aplicación a `index.html`.
+
+**URL del frontend:** [FoodSave](https://frontfoodsave.web.app/offers).
+
+##### Fake API en Render
+
+La API simulada es un proyecto independiente desarrollado con JSON Server 0.17.4. Su código y datos de muestra se encuentran en el repositorio [FoodSaveFakeAPI](https://github.com/SmilingFood-7747/FoodSaveFakeAPI), en la rama `main`.
+
+En Render se configura un **Web Service** con entorno Node.js, comando de compilación `npm ci` y comando de inicio `npm start`. El script de inicio expone `db.json` y utiliza el puerto asignado por Render mediante la variable `PORT`:
+
+```bash
+json-server --watch db.json --host 0.0.0.0 --port $PORT
+```
+
+**URL de la fake API:** [FoodSave Fake API](https://foodsavefakeapi.onrender.com/).
+
+Los archivos `environment.ts` y `environment.development.ts` del frontend tienen configurada esa URL y las rutas de los recursos. Los dos componentes están desplegados por separado; el frontend todavía utiliza almacenamiento del navegador y la conexión HTTP con la API está pendiente. Las actualizaciones del frontend requieren una nueva compilación y publicación en Firebase; las actualizaciones de la API requieren un nuevo despliegue en Render.
+
+En el servicio gratuito de Render, los cambios realizados en `db.json` durante la ejecución no son persistentes entre reinicios o despliegues. Los datos de muestra versionados en el repositorio sirven como estado inicial.
+
 ## 5.2. Landing Page, Services & Applications Implementation
 
 ### 5.2.1. Sprint 1
@@ -2072,15 +2106,15 @@ En el Sprint Planning 2 el equipo definió el objetivo del Sprint y seleccionó 
 | **Sprint 1 Retrospective Summary** | El equipo logró cumplir con los principales objetivos planteados, aunque se identificó la necesidad de mejorar la coordinación de tareas y la integración de los avances para los siguientes sprints. |
 | **Sprint Goal & User Stories** | |
 | **Sprint 2 Goal** | Desarrollar una primera versión funcional del frontend de FoodSave utilizando Angular, implementando las principales interfaces y flujos de navegación definidos para la aplicación. El objetivo se considerará cumplido cuando las vistas correspondientes a las User Stories seleccionadas puedan ejecutarse y navegarse correctamente. |
-| **Sprint 2 Velocity** | **Por definir según las User Stories seleccionadas.** |
-| **Sum of Story Points** | **Por definir según la suma de Story Points del Sprint 2.** |
+| **Sprint 2 Velocity** | US03 (5); US04 (3); US05 (3); US09 (5); US10 (8); US11 (3); US12 (5); US13 (5); US14 (3); US20 (3); US23 (3). **11 historias completadas, 46 story points**, correspondientes al alcance frontend del Sprint Backlog 2. |
+| **Sum of Story Points** | **46 story points**. |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
-En esta sección se presentan los líderes y colaboradores responsables de los principales aspectos desarrollados durante el Sprint 2.
+En el siguiente cuadro se identifican los aspectos del frontend y de su despliegue desarrollados durante el Sprint 2. **L** identifica al líder del aspecto y **C** a sus colaboradores.
 
-| Team Member (Last Name, First Name) | GitHub Username | Aspect 1 (L/C) | Aspect 2 (L/C) | Aspect 3 (L/C) |
-| :--- | :--- | :---: | :---: | :---: |
+| Team Member (Last Name, First Name) | GitHub Username | Catálogo y filtros (L/C) | Registro, sesión y recojos (L/C) | Publicación y reservas del negocio (L/C) | Fake API y despliegue (L/C) |
+| :--- | :--- | :---: | :---: | :---: | :---: |
 | Huayra, José | TheJos9 | C | L | C | C |
 | Peláez, Giuliano | SimpleGP | L | C | C | L |
 | Martínez, Bryan | BryanMR1 | C | C | L | C |
@@ -2089,8 +2123,6 @@ En esta sección se presentan los líderes y colaboradores responsables de los p
 #### 5.2.2.3. Sprint Backlog 2
 
 En esta sección se detallan las User Stories y las tareas seleccionadas para el Sprint 2, incluyendo su estimación, responsable y estado.
-
-**URL público del Board:** [Agregar URL del Board](URL)
 
 | User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
@@ -2169,28 +2201,37 @@ En esta sección se presentan las evidencias de ejecución de las funcionalidade
 
 <img src="./img/chapter05/Sprint2/evidencia06.png">
 
-**Video de navegación del Sprint 2:** [Agregar video](URL)
-
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-En esta sección se presentan las evidencias de documentación de los servicios implementados durante el Sprint 2.
+La fake API desplegada en Render expone los recursos de FoodSave mediante JSON Server. Los datos de muestra y la configuración están versionados en [FoodSaveFakeAPI](https://github.com/SmilingFood-7747/FoodSaveFakeAPI).
 
 | Endpoint / Service | Method | Description | Documentation Evidence |
-| :--- | :---: | :--- | :--- |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
+| :--- | :--- | :--- | :--- |
+| `/accounts` | GET, POST; PUT, PATCH y DELETE en `/accounts/:id` | Cuentas de clientes, responsables de negocio y administrador. | [Recurso publicado](https://foodsavefakeapi.onrender.com/accounts) |
+| `/businesses` | GET, POST; PUT, PATCH y DELETE en `/businesses/:id` | Establecimientos, propietarios, ubicación y condiciones de recojo. | [Recurso publicado](https://foodsavefakeapi.onrender.com/businesses) |
+| `/offers` | GET, POST; PUT, PATCH y DELETE en `/offers/:id` | Ofertas, precios, unidades disponibles y horarios de recojo. | [Recurso publicado](https://foodsavefakeapi.onrender.com/offers) |
+| `/reservations` | GET, POST; PUT, PATCH y DELETE en `/reservations/:id` | Reservas, códigos de recojo, estados e importes registrados. | [Recurso publicado](https://foodsavefakeapi.onrender.com/reservations) |
+| `/notifications` | GET, POST; PUT, PATCH y DELETE en `/notifications/:id` | Avisos de reservas, cancelaciones y recordatorios por cuenta. | [Recurso publicado](https://foodsavefakeapi.onrender.com/notifications) |
+| `/reviews` | GET, POST; PUT, PATCH y DELETE en `/reviews/:id` | Calificaciones y comentarios asociados a reservas recogidas. | [Recurso publicado](https://foodsavefakeapi.onrender.com/reviews) |
+| `/requests` | GET, POST; PUT, PATCH y DELETE en `/requests/:id` | Solicitudes de ayuda o soporte, con estado abierto o cerrado. | [Recurso publicado](https://foodsavefakeapi.onrender.com/requests) |
+| `/preferences` | GET, POST; PUT, PATCH y DELETE en `/preferences/:id` | Preferencias de notificaciones y recordatorios por cuenta. | [Recurso publicado](https://foodsavefakeapi.onrender.com/preferences) |
+| `/subscriptions` | GET, POST; PUT, PATCH y DELETE en `/subscriptions/:id` | Planes foodSaveFREE y foodSavePlus, cuenta y periodo de vigencia. | [Recurso publicado](https://foodsavefakeapi.onrender.com/subscriptions) |
+| `/subscriptionCharges` | GET, POST; PUT, PATCH y DELETE en `/subscriptionCharges/:id` | Historial de contrataciones y pagos simulados de suscripciones. | [Recurso publicado](https://foodsavefakeapi.onrender.com/subscriptionCharges) |
+
+`GET /recurso` consulta una colección y `GET /recurso/:id` consulta un registro. `POST` crea registros, `PUT` los reemplaza, `PATCH` actualiza campos y `DELETE` los elimina. `OPTIONS` permite consultar los métodos admitidos y gestionar las solicitudes previas de CORS.
+
+Los endpoints son recursos CRUD simulados; no implementan autenticación, permisos ni reglas de negocio de un backend real. Los registros de pagos son simulados. El frontend ya tiene configurada la URL de Render en sus entornos, pero todavía no consume estos endpoints mediante HTTP.
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-En esta sección se presentan las evidencias relacionadas con el despliegue del software desarrollado durante el Sprint 2.
+Los componentes del Sprint 2 se encuentran publicados en plataformas independientes:
 
 | Software Component | Deployment Platform | Repository / Branch | Deployment URL | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| | | | | |
-| | | | | |
-| | | | | |
+| Frontend Angular 22 | Firebase Hosting, sitio `frontfoodsave` | [FoodSaveFrontEnd](https://github.com/SmilingFood-7747/FoodSaveFrontEnd) / `main` | [Frontend FoodSave](https://frontfoodsave.web.app/offers) | Desplegado |
+| Fake API con JSON Server 0.17.4 | Render, Web Service | [FoodSaveFakeAPI](https://github.com/SmilingFood-7747/FoodSaveFakeAPI) / `main` | [FoodSave Fake API](https://foodsavefakeapi.onrender.com/) | Desplegada |
+
+El frontend publica la compilación de Angular y sus rutas en Firebase Hosting. Render ejecuta JSON Server para consultar y modificar los datos de muestra de la fake API. La conexión HTTP entre el frontend y la API sigue pendiente; el estado de despliegue no implica que ambos componentes ya estén integrados.
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
@@ -2198,10 +2239,11 @@ En esta sección se presentan las evidencias de colaboración del equipo durante
 
 **Logros Destacados:**
 
-- Implementación exitosa de los cuatro bounded contexts principales
-- Desarrollo ágil con PrimeVue components
-- Validación temprana mediante Fake API
-Los gráficos de Contributors muestran las contribuciones realizadas por cada integrante durante el Sprint 2.
+- Desarrollo de las interfaces de catálogo, ofertas, cuentas, reservas y recojos seleccionadas para el Sprint 2.
+- Uso de Angular 22 y Angular Material para los componentes de la interfaz.
+- Publicación del frontend en Firebase Hosting y de la fake API con datos de muestra en Render.
+
+El resumen de GitHub Insights muestra la actividad de commits del repositorio durante el Sprint 2.
 
 <img src="./img/chapter05/Sprint2/front-evidence.png" alt="GitHub Insights - Sprint 2 contributors" width="800">
 
