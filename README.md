@@ -2114,31 +2114,68 @@ En esta sección se detallan las User Stories y las tareas seleccionadas para el
 #### 5.2.2.4. Development Evidence for Sprint Review
 
 En esta sección se presentan las evidencias de desarrollo correspondientes al Sprint 2. La siguiente tabla registra los principales commits realizados en los repositorios del proyecto.
-
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| Repository | Branch | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- |
+| FoodSave Frontend | develop | fix foddsaveplus | Corrección de errores relacionados con la funcionalidad FoodSave Plus. | 06/10/2026 |
+| FoodSave Frontend | develop | fix bug | Corrección de errores detectados durante las pruebas de la aplicación. | 06/10/2026 |
+| FoodSave Frontend | develop | Implement fake API | Implementación de una API simulada para permitir pruebas e integración de funcionalidades del frontend. | 06/10/2026 |
+| FoodSave Frontend | develop | fix bugs | Corrección de errores de funcionamiento e integración encontrados durante el desarrollo. | 06/10/2026 |
+| FoodSave Frontend | develop | feat: implementar planes de suscripción | Implementación de los planes de suscripción disponibles dentro de la plataforma FoodSave. | 06/10/2026 |
+| FoodSave Frontend | develop | fix bugs | Corrección de errores relacionados con las nuevas funcionalidades implementadas. | 06/10/2026 |
+| FoodSave Frontend | develop | fix bugs | Ajustes y correcciones de errores encontrados durante las pruebas del frontend. | 06/10/2026 |
+| FoodSave Frontend | develop | fix bugs | Corrección de problemas de funcionamiento en componentes de la aplicación. | 06/10/2026 |
+| FoodSave Frontend | develop | fix bugs | Corrección de errores derivados de la integración de funcionalidades. | 06/10/2026 |
+| FoodSave Frontend | develop | Revert "fix bugs" | Reversión de una corrección previa debido a problemas generados por los cambios realizados. | 06/10/2026 |
+| FoodSave Frontend | develop | fix bugs | Aplicación de nuevas correcciones luego de revertir cambios anteriores. | 06/10/2026 |
+| FoodSave Frontend | develop | fix bugs | Corrección de errores detectados durante la validación de la aplicación. | 06/10/2026 |
+| FoodSave Frontend | develop | fix bugs | Ajustes de estabilidad y corrección de errores del frontend. | 06/10/2026 |
+| FoodSave Frontend | develop | fix bugs | Corrección de problemas encontrados durante las pruebas funcionales. | 06/10/2026 |
+| FoodSave Frontend | develop | fix bugs | Corrección de errores en componentes y funcionalidades de la aplicación. | 06/10/2026 |
+| FoodSave Frontend | develop | fix bugs | Ajustes generales para mejorar el funcionamiento de la aplicación. | 06/10/2026 |
+| FoodSave Frontend | develop | fix bugs | Corrección de errores encontrados durante el proceso de desarrollo. | 06/10/2026 |
+| FoodSave Frontend | develop | fix bugs | Corrección inicial de errores detectados durante la integración de funcionalidades. | 06/10/2026 |
+| FoodSave Frontend | develop | fix bugs | Corrección de errores encontrados después de la implementación de nuevas funcionalidades. | 04/10/2026 |
+| FoodSave Frontend | develop | update name | Actualización de nombres y textos utilizados dentro de la aplicación. | 04/10/2026 |
+| FoodSave Frontend | develop | update name | Ajustes adicionales en los nombres utilizados en componentes y vistas. | 04/10/2026 |
+| FoodSave Frontend | develop | chore: update Angular to version 22 | Actualización del proyecto y sus configuraciones para utilizar Angular 22. | 04/10/2026 |
+| FoodSave Frontend | develop | chore: configure Firebase hosting | Configuración de Firebase Hosting para el despliegue del frontend. | 04/10/2026 |
+| FoodSave Frontend | develop | fix: deploy Angular frontend to Azure | Corrección de la configuración necesaria para desplegar el frontend Angular en Azure. | 04/10/2026 |
+| FoodSave Frontend | develop | Add or update the Azure App Service build and deployment workflow config | Configuración y actualización del workflow de compilación y despliegue mediante Azure App Service. | 04/10/2026 |
+| FoodSave Frontend | develop | chore: configure Azure hosting | Configuración inicial del servicio de hosting de la aplicación en Azure. | 04/10/2026 |
+| FoodSave Frontend | develop | feat: add customer and business workflows | Implementación de los principales flujos de navegación y operación para consumidores y negocios. | 04/10/2026 |
+| FoodSave Frontend | develop | feat: add DDD structure and supporting pages | Incorporación de la estructura basada en Domain-Driven Design y páginas de soporte de la aplicación. | 04/10/2026 |
+| FoodSave Frontend | develop | feat: add catalog page and refresh favicon | Implementación de la página de catálogo y actualización del favicon de FoodSave. | 04/10/2026 |
+| FoodSave Frontend | develop | feat: complete i18n and add FoodSave favicon | Finalización de la internacionalización de la aplicación e incorporación del favicon de FoodSave. | 04/10/2026 |
+| FoodSave Frontend | develop | feat: add layout and header | Implementación del layout principal y del encabezado de navegación de la aplicación. | 04/10/2026 |
+| FoodSave Frontend | develop | Configurar el editor y el formato del proyecto | Configuración del editor y de las reglas de formato utilizadas en el proyecto. | 04/10/2026 |
+| FoodSave Frontend | develop | fix: make the initial frontend runnable with Angular welcome page | Corrección de la configuración inicial para permitir la ejecución correcta del frontend Angular. | 04/10/2026 |
+| FoodSave Frontend | develop | chore: set up Angular dependencies and Node version | Configuración de las dependencias de Angular y de la versión de Node.js requerida por el proyecto. | 04/10/2026 |
+| FoodSave Frontend | develop | chore: clear repository for an approved step-by-step restart | Limpieza y reorganización inicial del repositorio para reiniciar la implementación del proyecto de forma controlada. | 04/10/2026 |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
 En esta sección se presentan las evidencias de ejecución de las funcionalidades implementadas durante el Sprint 2.
-
-| Evidence | Description | Related User Story | Status |
-| :--- | :--- | :--- | :--- |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-
 <div align="center">
 
-  <!-- Agregar aquí las imágenes correspondientes a la ejecución del Sprint 2 -->
+  <img src="./img/chapter05/Sprint2/evidencia01.png">
+  <br><br>
 
-  <img src="../assets/images/chapter5/" alt="Sprint 2 - Execution Evidence" width="800">
+  <img src="./img/chapter05/Sprint2/Evidencia02.png">
+  <br><br>
+
+  <img src="./img/chapter05/Sprint2/evidencia1.2.png">
+  <br><br>
+
+  <img src="./img/chapter05/Sprint2/evidencia1.3.png">
+  <br><br>
+
+  <img src="./img/chapter05/Sprint2/evidencia4.png">
+  <br><br>
+
+  <img src="./img/chapter05/Sprint2/evidencia05.png">
+  <br><br>
+
+  <img src="./img/chapter05/Sprint2/evidencia06.png">
 
 </div>
 
@@ -2279,4 +2316,20 @@ https://www.figma.com/design/d9zxHR849EJYIkoBxsCFEM/Mock-Ups-FoodSave?node-id=0-
 <!-- Salto de Pagina -->
 <div style="page-break-after: always;"></div>
 
-### Anexo B. 
+### Anexo B. Enlaces de despliegue de la solución FoodSave
+
+A continuación, se presentan los enlaces correspondientes al despliegue de los principales componentes desarrollados para la solución FoodSave:
+
+**Frontend Web**
+Aplicación web de FoodSave desplegada en Firebase, desde la cual los usuarios pueden visualizar e interactuar con las ofertas disponibles.
+
+https://frontfoodsave.web.app/offers
+
+**Fake API**
+
+API simulada desplegada en Render, utilizada como fuente de datos para las funcionalidades implementadas durante el desarrollo y las pruebas de la aplicación.
+
+https://foodsavefakeapi.onrender.com/
+
+Estos despliegues permiten evidenciar la ejecución e integración de los componentes desarrollados durante el proyecto FoodSave.
+
