@@ -2302,7 +2302,10 @@ Se recomienda continuar validando la propuesta mediante entrevistas y pruebas co
 |Sección|Características del video|
 |---|---|
 |Entrevistas| **Cantidad de videos:** 4 <br> **Nomenclatura:** upc-pre-202620-1asi0729-7747-SmilingFood-needfinding-av1  <br> **Duración:** cada entrevista dura entre 3 a 10 minutos <br> **URL:** https://acortar.link/vXBJIf|
-|Video Exposición AV1| **Cantidad de videos:** 1 <br> **Nomenclatura:** upc-pre-202620-1asi0729-7747-SmilingFood-expo-av1  <br> **Duración:** 10:59 minutos <br> **URL:** https://acortar.link/vXBJIf  |  |
+|Video Exposición AV1| **Cantidad de videos:** 1 <br> **Nomenclatura:** upc-pre-202620-1asi0729-7747-SmilingFood-expo-av1  <br> **Duración:** 10:59 minutos <br> **URL:** https://acortar.link/vXBJIf  |
+|Video Exposición TB1| **Cantidad de videos:** 1 <br> **Nomenclatura:** upc-pre-202620-1asi0729-7747-SmilingFood-expo-tb1  <br> **Duración:** 16:26 minutos <br> **URL:** https://acortar.link/vXBJIf  |
+|Video Exposición pith elevator| **Cantidad de videos:** 1 <br> **Nomenclatura:** upc-pre-202620-1asi0729-7747-SmilingFood-expo-av1  <br> **Duración:** 00:40 minutos <br> **URL:** https://acortar.link/vXBJIf  |
+|Video Exposición Funcionalidad_Aplicacion| **Cantidad de videos:** 1 <br> **Nomenclatura:** upc-pre-202620-1asi0729-7747-SmilingFood-expo-av1  <br> **Duración:** 5:49 minutos <br> **URL:** https://acortar.link/vXBJIf  |
 
 <!-- Salto de Pagina -->
 <div style="page-break-after: always;"></div>
