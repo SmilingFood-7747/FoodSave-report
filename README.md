@@ -1397,8 +1397,35 @@ En términos generales, el recorrido propuesto para el usuario comienza en Home,
 
 Presentaremos la propuesta de los Wireflows, elaborados usando las User Stories definidas para las aplicaciones del proyecto de FoodSave
 
-Secuencia:
-Task Flow 1: Exploración y selección de ofertas
+Task Flow 1: Registro de cuenta de usuario
+Objetivo del usuario: Permitir al usuario poder crear una cuenta para utilizar la aplicacion
+Pasos del Task Flow:
+1. Ingresar a la aplicacion.
+2. Presionar el botón Sing in.
+3. Elegir la opción:"Create account".
+4. Completar los datos solicitados
+5. Aceptar los terminos y condiciones.
+6. Presionar el botón de crear cuenta
+User Goal 1: Como cliente comprador, quiero crear una cuenta para guardar y gestionar mis reservas.” Incluye registro exitoso y el caso de correo ya registrado 
+User Persona: Consumidor
+Desde la sección de registro, el usuario puede completar sus datos para ingresar a la plataforma
+
+Task Flow 2: Inicio de sesion
+Objetivo del usuario: Permitir ingresar a la aplicacion una vez registrado
+Pasos del Task Flow:
+1. Ingresar a la aplicacion.
+2. Presionar el botón Sing in.
+3. Elegir la opción:"Create account".
+4. Completar los datos solicitados
+5. Aceptar los terminos y condiciones.
+6. Presionar el botón de crear cuenta
+User Goal 1: Como cliente comprador, quiero crear una cuenta para guardar y gestionar mis reservas.” Incluye registro exitoso y el caso de correo ya registrado 
+User Persona: Consumidor
+Desde la sección de registro, el usuario puede completar sus datos para ingresar a la plataforma
+
+
+:
+Task Flow 2: Exploración y selección de ofertas
 Objetivo del usuario: Permitir al consumidor explorar las ofertas disponibles y consultar el detalle de una oferta.
 Pasos del Task Flow:
 1. Acceder a la sección de Ofertas.
@@ -1411,8 +1438,8 @@ User Goal 1: Como consumidor, deseo explorar las ofertas disponibles, para encon
 User Persona: Consumidor
 Desde Ofertas, el consumidor visualiza las ofertas disponibles y selecciona una para acceder al Detalle de ofertas, donde puede revisar su información y seleccionar "Reservar oferta".
 
-Secuencia:
-Task Flow 2: Reserva y confirmación de oferta
+:
+Task Flow 3: Reserva y confirmación de oferta
 Objetivo del usuario: Permitir al cliente comprador reservar una oferta disponible y obtener su código de recojo.
 Pasos del Task Flow:
 1. Acceder al detalle de una oferta.
@@ -1425,8 +1452,8 @@ User Goal 2: Como cliente comprador, quiero reservar una oferta para asegurar un
 User Persona: Cliente comprador
 Desde Detalle de ofertas, el cliente comprador selecciona "Reservar oferta" y accede a Reserva. Luego confirma la reserva y el sistema muestra la Confirmación de reserva con el código correspondiente.
 
-Secuencia:
-Task Flow 3: Consulta de reserva
+
+Task Flow 4: Consulta de reserva
 Objetivo del usuario: Permitir al cliente comprador consultar su reserva y visualizar su estado y código.
 Pasos del Task Flow:
 1. Acceder a Mis Reservas.
@@ -1437,8 +1464,7 @@ User Goal 3: Como cliente comprador, quiero revisar una reserva para consultar s
 User Persona: Cliente comprador
 Desde Mis Reservas, el cliente comprador puede visualizar su reserva actual, consultar su estado y acceder al código de recojo correspondiente.
 
-Secuencia:
-Task Flow 4: Publicación de una nueva oferta
+Task Flow 5: Publicación de una nueva oferta
 Objetivo del usuario: Permitir al responsable de negocio publicar una nueva oferta para vender un excedente.
 Pasos del Task Flow:
 1. Acceder al Business Dashboard.
@@ -1450,8 +1476,7 @@ User Goal 4: Como responsable de negocio, quiero publicar una oferta con informa
 User Persona: Responsable de negocio
 Desde Business Dashboard, el responsable de negocio selecciona "Publicar nueva oferta" y accede a Create New Offer, donde completa la información correspondiente y publica la oferta.
 
-Secuencia:
-Task Flow 5: Consulta de reservas del negocio
+Task Flow 6: Consulta de reservas del negocio
 Objetivo del usuario: Permitir al responsable de negocio consultar las reservas de sus ofertas para atender los recojos.
 Pasos del Task Flow:
 1. Acceder a Reservaciones.
@@ -1463,8 +1488,7 @@ User Goal 5: Como responsable de negocio, quiero ver las reservas activas de mis
 User Persona: Responsable de negocio
 Desde Reservaciones, el responsable de negocio puede visualizar las reservas pendientes de entrega y aquellas que ya fueron entregadas, junto con la información y el código correspondiente.
 
-Secuencia:
-Task Flow 6: Confirmación de recojo mediante código
+Task Flow 7: Confirmación de recojo mediante código
 Objetivo del usuario: Permitir al responsable de negocio validar el código de una reserva para confirmar correctamente el recojo.
 Pasos del Task Flow:
 1. Acceder a Validación de código.
