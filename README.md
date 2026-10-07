@@ -1819,35 +1819,23 @@ Cualquier commit realizado en la rama `main` será desplegado automáticamente e
 
 ##### Frontend Angular en Firebase Hosting
 
-El frontend de FoodSave utiliza Angular 22 y Angular Material. Su código se encuentra en el repositorio [FoodSaveFrontEnd](https://github.com/SmilingFood-7747/FoodSaveFrontEnd), en la rama `main`.
+El frontend de FoodSave utiliza Angular 22 y Angular Material. Su código se encuentra en la rama `main` del repositorio:
 
-Para publicar una versión, se instalan las dependencias con Node.js 24, se genera la compilación de producción y se despliegan los archivos en Firebase Hosting:
+https://github.com/SmilingFood-7747/FoodSaveFrontEnd
 
-```bash
-npm ci
-node ./node_modules/@angular/cli/bin/ng.js build
-firebase deploy --only hosting --project foodsave2502
-```
+**URL del frontend:**
 
-El archivo `firebase.json` define el sitio `frontfoodsave`, la carpeta de publicación `dist/frontend-foodsave/browser` y la redirección de las rutas de la aplicación a `index.html`.
-
-**URL del frontend:** [FoodSave](https://frontfoodsave.web.app/offers).
+https://frontfoodsave.web.app/offers
 
 ##### Fake API en Render
 
-La API simulada es un proyecto independiente desarrollado con JSON Server 0.17.4. Su código y datos de muestra se encuentran en el repositorio [FoodSaveFakeAPI](https://github.com/SmilingFood-7747/FoodSaveFakeAPI), en la rama `main`.
+La API simulada es un proyecto independiente desarrollado con JSON Server 0.17.4. Su código y datos de muestra se encuentran en la rama `main` del repositorio:
 
-En Render se configura un **Web Service** con entorno Node.js, comando de compilación `npm ci` y comando de inicio `npm start`. El script de inicio expone `db.json` y utiliza el puerto asignado por Render mediante la variable `PORT`:
+https://github.com/SmilingFood-7747/FoodSaveFakeAPI
 
-```bash
-json-server --watch db.json --host 0.0.0.0 --port $PORT
-```
+**URL de la fake API:**
 
-**URL de la fake API:** [FoodSave Fake API](https://foodsavefakeapi.onrender.com/).
-
-Los archivos `environment.ts` y `environment.development.ts` del frontend tienen configurada esa URL y las rutas de los recursos. Los dos componentes están desplegados por separado; el frontend todavía utiliza almacenamiento del navegador y la conexión HTTP con la API está pendiente. Las actualizaciones del frontend requieren una nueva compilación y publicación en Firebase; las actualizaciones de la API requieren un nuevo despliegue en Render.
-
-En el servicio gratuito de Render, los cambios realizados en `db.json` durante la ejecución no son persistentes entre reinicios o despliegues. Los datos de muestra versionados en el repositorio sirven como estado inicial.
+https://foodsavefakeapi.onrender.com/
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -1927,11 +1915,24 @@ En el siguiente cuadro definimos los roles y responsabilidades del equipo de Foo
  
 
 #### 5.2.1.4. Development Evidence for Sprint Review
-| Repository | Branch | Commit Id | Commit Message  | Commit Message Body  | Commited on (Date) |
+
+La siguiente tabla presenta los commits de la Landing Page correspondientes al Sprint 1.
+
+**Repositorio:** https://github.com/SmilingFood-7747/FoodSave-LandingPage
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | --- | --- | --- | --- | --- | --- |
-|  |   |  |  |  |  |
-|  |   |  |  |  |  |
-|  |   |  |  |  |  |
+| FoodSave Landing Page | main | `aea3b09` | change validEmail | — | 15/09/2026 |
+| FoodSave Landing Page | main | `66b5dc7` | merge: improve FoodSave landing experience | — | 15/09/2026 |
+| FoodSave Landing Page | main | `cb60cde` | update landingv2 | — | 15/09/2026 |
+| FoodSave Landing Page | main | `0fd4889` | feat(landing): improve FoodSave landing experience | — | 15/09/2026 |
+| FoodSave Landing Page | main | `3b64889` | update landing page | — | 15/09/2026 |
+| FoodSave Landing Page | main | `f846aac` | feat: landing page corregida y estilos aplicados | — | 15/09/2026 |
+| FoodSave Landing Page | main | `036fd92` | feat(application): implement LandingFacade for state management | — | 15/09/2026 |
+| FoodSave Landing Page | main | `98c8353` | feat(infrastructure): implement InMemoryOfferRepository with mock data | — | 15/09/2026 |
+| FoodSave Landing Page | main | `3cfe500` | feat(domain): define Offer interface and OfferRepository contract | — | 15/09/2026 |
+| FoodSave Landing Page | main | `2773de2` | Initial commit: estructura base del proyecto | — | 15/09/2026 |
+| FoodSave Landing Page | main | `a071409` | initial commit | — | 15/09/2026 |
 
 #### 5.2.1.5 Execution Evidence for Sprint Review
 
@@ -2187,19 +2188,19 @@ En esta sección se presentan las evidencias de ejecución de las funcionalidade
 
 
 
-<img src="./img/chapter05/Sprint2/evidencia01.png">
+<img src="./img/capitulo5/Sprint2/evidencia01.png">
 
-<img src="./img/chapter05/Sprint2/evidencia02.png">
+<img src="./img/capitulo5/Sprint2/evidencia02.png">
 
-<img src="./img/chapter05/Sprint2/evidencia1.2.png">
+<img src="./img/capitulo5/Sprint2/evidencia1.2.png">
 
-<img src="./img/chapter05/Sprint2/evidencia1.3.png">
+<img src="./img/capitulo5/Sprint2/evidencia1.3.png">
 
-<img src="./img/chapter05/Sprint2/evidencia4.png">
+<img src="./img/capitulo5/Sprint2/evidencia4.png">
 
-<img src="./img/chapter05/Sprint2/evidencia05.png">
+<img src="./img/capitulo5/Sprint2/evidencia05.png">
 
-<img src="./img/chapter05/Sprint2/evidencia06.png">
+<img src="./img/capitulo5/Sprint2/evidencia06.png">
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -2245,7 +2246,7 @@ En esta sección se presentan las evidencias de colaboración del equipo durante
 
 El resumen de GitHub Insights muestra la actividad de commits del repositorio durante el Sprint 2.
 
-<img src="./img/chapter05/Sprint2/front-evidence.png" alt="GitHub Insights - Sprint 2 contributors" width="800">
+<img src="./img/capitulo5/Sprint2/front-evidence.png" alt="GitHub Insights - Sprint 2 contributors" width="800">
 
 <!-- Salto de Pagina -->
 <div style="page-break-after: always;"></div>
