@@ -2090,15 +2090,19 @@ En esta sección se detallan las User Stories y las tareas seleccionadas para el
 
 **URL público del Board:** [Agregar URL del Board](URL)
 
-| Sprint # | Sprint 2 | | | | | | |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **User Story** | | **Work-Item / Task** | | | | | |
-| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| | | | | | | | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
+| User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
+| US03 | Explorar ofertas activas | T01 | Implementar catálogo de ofertas | Desarrollar la interfaz frontend para visualizar las ofertas activas disponibles para el cliente comprador. | 5 | Bryan Martinez | Complete |
+| US04 | Filtrar ofertas | T02 | Implementar filtros de ofertas | Desarrollar los componentes frontend necesarios para filtrar las ofertas mostradas en el catálogo. | 4 | Giuliano Palaéz | Complete |
+| US05 | Consultar detalle | T03 | Implementar detalle de oferta | Desarrollar la vista de detalle de una oferta con la información necesaria para el cliente comprador. | 4 | Medina Ingrid | Complete |
+| US09 | Publicar una oferta | T04 | Implementar creación de ofertas | Desarrollar la interfaz Create New Offer para que el responsable de negocio pueda registrar y publicar una nueva oferta. | 6 | Bryan Martinez | Complete |
+| US10 | Reservar oferta | T05 | Implementar reserva de oferta | Desarrollar la interfaz que permita al cliente comprador seleccionar y confirmar la reserva de una oferta disponible. | 5 | Huayra Jose | Complete |
+| US11 | Confirmar recojo | T06 | Implementar validación de código | Desarrollar la interfaz para ingresar, validar y confirmar el código asociado a una reserva. | 4 | Huayra Jose | Compelte |
+| US12 | Gestionar reserva | T07 | Implementar vista de reservas | Desarrollar la interfaz Mis Reservas para consultar el estado y código de las reservas del cliente comprador. | 4 | Medina ingrid | Complete |
+| US13 | Registrarse como cliente | T08 | Implementar registro de usuario | Desarrollar la interfaz de creación de cuenta para el cliente comprador. | 5 | Huayra Jose | Complete |
+| US14 | Iniciar sesión | T09 | Implementar inicio de sesión | Desarrollar la interfaz de inicio de sesión para permitir el acceso de usuarios registrados. | 4 | Giuliano Palaez | Complete |
+| US20 | Consultar reservas del negocio | T10 | Implementar reservaciones del negocio | Desarrollar la interfaz para visualizar las reservas pendientes y completadas asociadas a las ofertas del negocio. | 5 | Bryan Martinez | Complete |
+| US23 | Recibir confirmación de reserva | T11 | Implementar confirmación de reserva | Desarrollar la vista de confirmación que muestra al cliente comprador la reserva realizada y su código de recojo. | 3 | Giuliano Palaez | Complete |
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
