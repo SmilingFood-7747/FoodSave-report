@@ -2041,6 +2041,152 @@ El trabajo del Sprint 1 refleja una dinámica colaborativa madura para una etapa
 
 En síntesis, la colaboración del equipo durante este sprint fue una base importante para el desarrollo del proyecto, ya que facilitó la transición de la idea inicial a una propuesta digital con estructura, estilo y propósito definidos.
 
+### 5.2.2. Sprint 2
+
+En esta sección se registra el avance en producto y en trabajo colaborativo correspondiente al Sprint 2.
+
+#### 5.2.2.1. Sprint Planning 2
+
+En el Sprint Planning 2 el equipo definió el objetivo del Sprint y seleccionó las User Stories correspondientes de acuerdo con su prioridad dentro del Product Backlog.
+
+| **Sprint #** | Sprint 2 |
+|---|---|
+| **Sprint Planning Background** | |
+| **Date** | 2/10/2026 |
+| **Time** | 18:30 PM |
+| **Location** | Reunión vía Discord |
+| **Prepared By** | Peláez Giuliano |
+| **Attendees (to planning meeting)** | Huayra José / Peláez Giuliano / Martínez Bryan / Medina Ingrid |
+| **Sprint 1 Review Summary** | En el Sprint 1 se logró desarrollar y desplegar la primera versión de la Landing Page de FoodSave, permitiendo presentar la propuesta de valor y el recorrido principal de la solución. |
+| **Sprint 1 Retrospective Summary** | El equipo logró cumplir con los principales objetivos planteados, aunque se identificó la necesidad de mejorar la coordinación de tareas y la integración de los avances para los siguientes sprints. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | Desarrollar una primera versión funcional del frontend de FoodSave utilizando Angular, implementando las principales interfaces y flujos de navegación definidos para la aplicación. El objetivo se considerará cumplido cuando las vistas correspondientes a las User Stories seleccionadas puedan ejecutarse y navegarse correctamente. |
+| **Sprint 2 Velocity** | **Por definir según las User Stories seleccionadas.** |
+| **Sum of Story Points** | **Por definir según la suma de Story Points del Sprint 2.** |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+En esta sección se presentan los líderes y colaboradores responsables de los principales aspectos desarrollados durante el Sprint 2.
+
+| Team Member (Last Name, First Name) | GitHub Username | Aspect 1 (L/C) | Aspect 2 (L/C) | Aspect 3 (L/C) |
+| :--- | :--- | :---: | :---: | :---: |
+| Huayra, José | TheJos9 | C | L | C | C |
+| Peláez, Giuliano | SimpleGP | L | C | C | L |
+| Martínez, Bryan | BryanMR1 | C | C | L | C |
+| Medina, Ingrid | Grini913 | C | C | C | C |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+En esta sección se detallan las User Stories y las tareas seleccionadas para el Sprint 2, incluyendo su estimación, responsable y estado.
+
+**URL público del Board:** [Agregar URL del Board](URL)
+
+| Sprint # | Sprint 2 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| | | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de desarrollo correspondientes al Sprint 2. La siguiente tabla registra los principales commits realizados en los repositorios del proyecto.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de ejecución de las funcionalidades implementadas durante el Sprint 2.
+
+| Evidence | Description | Related User Story | Status |
+| :--- | :--- | :--- | :--- |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+
+<div align="center">
+
+  <!-- Agregar aquí las imágenes correspondientes a la ejecución del Sprint 2 -->
+
+  <img src="../assets/images/chapter5/" alt="Sprint 2 - Execution Evidence" width="800">
+
+</div>
+
+**Video de navegación del Sprint 2:** [Agregar video](URL)
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de documentación de los servicios implementados durante el Sprint 2.
+
+| Endpoint / Service | Method | Description | Documentation Evidence |
+| :--- | :---: | :--- | :--- |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+
+<div align="center">
+
+  <!-- Agregar aquí evidencias de Swagger / OpenAPI / Web Services -->
+
+  <img src="../assets/images/chapter5/" alt="Sprint 2 - Services Documentation Evidence" width="800">
+
+</div>
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+En esta sección se presentan las evidencias relacionadas con el despliegue del software desarrollado durante el Sprint 2.
+
+| Software Component | Deployment Platform | Repository / Branch | Deployment URL | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| | | | | |
+| | | | | |
+| | | | | |
+
+**URL de despliegue:** [Agregar URL](URL)
+
+<div align="center">
+
+  <!-- Agregar aquí las imágenes correspondientes al despliegue -->
+
+  <img src="../assets/images/chapter5/" alt="Sprint 2 - Software Deployment Evidence" width="800">
+
+</div>
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+En esta sección se presentan las evidencias de colaboración del equipo durante el Sprint 2, considerando las contribuciones realizadas por cada integrante en los repositorios del proyecto.
+
+| Team Member | GitHub Username | Repository | Commits | Pull Requests | Main Contribution |
+| :--- | :--- | :--- | :---: | :---: | :--- |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+
+Los gráficos de Contributors muestran las contribuciones realizadas por cada integrante durante el Sprint 2.
+
+<div align="center">
+
+  <img src="../assets/images/chapter5/insights-sprint2-contributors.png" alt="GitHub Insights - Sprint 2 contributors" width="800">
+
+  <br><br>
+
+  <img src="../assets/images/chapter5/sprint2-commits.png" alt="GitHub commits during Sprint 2" width="800">
+
+</div>
+
 <!-- Salto de Pagina -->
 <div style="page-break-after: always;"></div>
 
