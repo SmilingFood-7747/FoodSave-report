@@ -2077,7 +2077,7 @@ En el Sprint Planning 2 el equipo definió el objetivo del Sprint y seleccionó 
 | **Sprint 1 Retrospective Summary** | El equipo logró cumplir con los principales objetivos planteados, aunque se identificó la necesidad de mejorar la coordinación de tareas y la integración de los avances para los siguientes sprints. |
 | **Sprint Goal & User Stories** | |
 | **Sprint 2 Goal** | Desarrollar una primera versión funcional del frontend de FoodSave utilizando Angular, implementando las principales interfaces y flujos de navegación definidos para la aplicación. El objetivo se considerará cumplido cuando las vistas correspondientes a las User Stories seleccionadas puedan ejecutarse y navegarse correctamente. |
-| **Sprint 2 Velocity** | **Por definir según las User Stories seleccionadas.** |
+| **Sprint 2 Velocity** | 10 User Stories |
 | **Sum of Story Points** | **Por definir según la suma de Story Points del Sprint 2.** |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
