@@ -1561,6 +1561,14 @@ Relacionado al User Goal 7: Como responsable de negocio, quiero confirmar el rec
 
 ## 4.5. Web Applications Prototyping
 
+En este punto realizamos la grabacion de la funcionalidad de nuestra aplicacion web, la cual se dejara como evidencia en el siguiente link
+
+Evidencia:![evidence](img/evidencia.png)
+
+**URL:** https://acortar.link/vXBJIf
+
+Video:Funcionalidad_Aplicacion.mp4
+
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level Event Storming
