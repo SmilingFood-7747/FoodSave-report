@@ -40,10 +40,6 @@ Faculta de Ingeniería
 <td>Huayra Moreyra José Maria</td>
 </tr>
 <tr>
-<td>U202321590</td>
-<td>Xin Yu Shi Lin</td>
-</tr>
-<tr>
 <td>U20221e121</td>
 <td>Giuliano Angel Peláez Vargas</td>
 </tr>
@@ -70,12 +66,21 @@ Faculta de Ingeniería
 | Versión | Fecha    | Autor       | Descripción de Modificación            |
 | ------- | -------- | ----------- | -------------------------------------- |
 | 1.0     | 17.09.2026 | Martínez Ramos Bryan Felix, Giuliano Angel Peláez Vargas, Medina Merma, Ingrid Melani, Huayra Moreyra José Maria | Desarrollo inicial del proyecto. Incluye desarrollo del perfil de la Startup y proceso Lean UX; además, se analizaron los competidores y se definieron los Segmentos Objetivos para, posteriormente, elaborar las entrevistas. Luego, se desarrolló  el Event Storming y se definió el Lenguaje Ubicuo. Después se realizó la especificación de requerimientos con las User Stories, Product Backlog e Impact Mapping. Seguidamente se prototipó y desarrolló la Landing Page para el proyecto. Finalmente, se desarrolló el Sprint Planning 1 del proyecto. |
-
+|2.0| 06/10/2026 | Martínez Ramos Bryan Felix, Giuliano Angel Peláez Vargas, Medina Merma, Ingrid Melani, Huayra Moreyra José Maria| Se consideraron las correcciones y se agregaron las partes faltantes, como los diagramas C4. Además, se desarrolló y documentó el avance del frontend de la aplicación.|
 
 <!-- Salto de Pagina -->
 <div style="page-break-after: always;"></div>
 
 ## Project Report Collaboration Insights
+Para el desarrollo del **Project Report**, se utilizó un repositorio dentro de la organización del equipo en GitHub. A continuación, se presenta la evidencia de colaboración correspondiente, en coherencia con el Registro de Versiones del Informe
+
+## AV1 - Informe inicial
+
+
+## TB1 - Actualización del Informe
+A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro segundo sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.
+
+<img src="img/network-tb1.png" >
 
 <!-- Salto de Pagina -->
 <div style="page-break-after: always;"></div>
@@ -178,9 +183,10 @@ Faculta de Ingeniería
 
 | Entregable | Criterio específico | Acciones realizadas | Conclusiones |
 |---|---|---|---|
-|*AV1*| Trabaja en equipo para proporcionar liderazgo en forma conjunta | - **Huayra José:**<br>- **Xin Lin:**<br>- **Peláez Giuliano:**<br>- **Martínez Bryan:** AV1: Participé de manera activa en el desarrollo de FoodSave, aportando ideas y criterios para definir la problemática, los segmentos objetivos y la propuesta del proyecto junto con los demás integrantes. Contribuí en la elaboración de los Lean UX Problem Statements, Lean UX Assumptions y Lean UX Hypothesis Statements, así como en la preparación de las entrevistas y herramientas como User Personas, User Task Matrix y User Journey Mapping. Durante estas actividades compartí aportes con el equipo y participé en la toma conjunta de decisiones para mantener los entregables alineados con las necesidades identificadas en ambos segmentos.**<br>- **Medina Ingrid:** | Durante el desarrollo de las entregas, el equipo fortaleció progresivamente su capacidad para ejercer un liderazgo compartido, coordinando responsabilidades, tomando decisiones de manera conjunta y apoyándose mutuamente para cumplir los objetivos planteados en cada etapa del proyecto. |
-|*AV1*| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | - **Huayra José:**<br>- **Xin Lin:**<br>- **Peláez Giuliano:**<br>- **Martínez Bryan:** Contribuí en la organización de las actividades asignadas para el desarrollo de FoodSave, planificando la elaboración y revisión de los entregables correspondientes dentro de los plazos establecidos. Realicé el seguimiento de mis tareas y mantuve actualizada la documentación del proyecto mediante GitHub, utilizando ramas y commits para registrar los avances y correcciones realizadas. Asimismo, apoyé en la incorporación y revisión de fuentes académicas utilizadas para sustentar la problemática, procurando que la información requerida estuviera correctamente documentada antes de cada entrega. De esta manera, mantuve una participación organizada y coordinada con el equipo para cumplir con los objetivos establecidos. <br>- **Medina Ingrid:** | A lo largo de las entregas, el equipo fortaleció un entorno de trabajo colaborativo e inclusivo mediante la distribución equitativa de responsabilidades, la planificación conjunta de las actividades y el establecimiento de metas claras, logrando cumplir de manera organizada con los objetivos planteados en cada etapa del proyecto. |
-
+|*AV1*| Trabaja en equipo para proporcionar liderazgo en forma conjunta | - **Huayra José:**<br>- **Peláez Giuliano:**<br>- **Martínez Bryan:** AV1: Participé de manera activa en el desarrollo de FoodSave, aportando ideas y criterios para definir la problemática, los segmentos objetivos y la propuesta del proyecto junto con los demás integrantes. Contribuí en la elaboración de los Lean UX Problem Statements, Lean UX Assumptions y Lean UX Hypothesis Statements, así como en la preparación de las entrevistas y herramientas como User Personas, User Task Matrix y User Journey Mapping. Durante estas actividades compartí aportes con el equipo y participé en la toma conjunta de decisiones para mantener los entregables alineados con las necesidades identificadas en ambos segmentos.<br>**Medina Ingrid:** cree el repositorio original, di apoyo en el capitulo 2 en especial con las entrevistas, en capitulo 5 con la parte de Software Configuration Management | Durante el desarrollo de las entregas, el equipo fortaleció progresivamente su capacidad para ejercer un liderazgo compartido, coordinando responsabilidades, tomando decisiones de manera conjunta y apoyándose mutuamente para cumplir los objetivos planteados en cada etapa del proyecto. |
+|*AV1*| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | - **Huayra José:**<br>- **Xin Lin:**<br>- **Peláez Giuliano:**<br>- **Martínez Bryan:** Contribuí en la organización de las actividades asignadas para el desarrollo de FoodSave, planificando la elaboración y revisión de los entregables correspondientes dentro de los plazos establecidos. Realicé el seguimiento de mis tareas y mantuve actualizada la documentación del proyecto mediante GitHub, utilizando ramas y commits para registrar los avances y correcciones realizadas. Asimismo, apoyé en la incorporación y revisión de fuentes académicas utilizadas para sustentar la problemática, procurando que la información requerida estuviera correctamente documentada antes de cada entrega. De esta manera, mantuve una participación organizada y coordinada con el equipo para cumplir con los objetivos establecidos. <br>- **Medina Ingrid:** cree el repositorio original, di apoyo en el capitulo 2 en especial con las entrevistas, en capitulo 5 con la parte de Software Configuration Management | A lo largo de las entregas, el equipo fortaleció un entorno de trabajo colaborativo e inclusivo mediante la distribución equitativa de responsabilidades, la planificación conjunta de las actividades y el establecimiento de metas claras, logrando cumplir de manera organizada con los objetivos planteados en cada etapa del proyecto. |
+|*TB1*| Trabaja en equipo para proporcionar liderazgo en forma conjunta | - **Huayra José:**<br>- **Peláez Giuliano:**<br>- **Martínez Bryan:** <br> **Medina Ingrid:** Ayude con correcciones y añadi diagramas faltantes de contexto, contenedores y componenetes.|  |
+|*TB1*| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | - **Huayra José:**<br>- **Xin Lin:**<br>- **Peláez Giuliano:**<br>- **Martínez Bryan:**  <br>- **Medina Ingrid:**Ayude con correcciones y añadi diagramas faltantes de contexto, contenedores y componenetes. |  |
 
 <!-- Salto de Pagina -->
 <div style="page-break-after: always;"></div>
