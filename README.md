@@ -2068,8 +2068,8 @@ En el Sprint Planning 2 el equipo definió el objetivo del Sprint y seleccionó 
 | **Sprint #** | Sprint 2 |
 |---|---|
 | **Sprint Planning Background** | |
-| **Date** | 2/10/2026 |
-| **Time** | 18:30 PM |
+| **Date** | 6/10/2026 |
+| **Time** | 11:30 PM |
 | **Location** | Reunión vía Discord |
 | **Prepared By** | Peláez Giuliano |
 | **Attendees (to planning meeting)** | Huayra José / Peláez Giuliano / Martínez Bryan / Medina Ingrid |
