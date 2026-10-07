@@ -70,6 +70,7 @@ Faculta de Ingeniería
 | Versión | Fecha    | Autor       | Descripción de Modificación            |
 | ------- | -------- | ----------- | -------------------------------------- |
 | 1.0     | 17.09.2026 | Martínez Ramos Bryan Felix, Giuliano Angel Peláez Vargas, Medina Merma, Ingrid Melani, Huayra Moreyra José Maria | Desarrollo inicial del proyecto. Incluye desarrollo del perfil de la Startup y proceso Lean UX; además, se analizaron los competidores y se definieron los Segmentos Objetivos para, posteriormente, elaborar las entrevistas. Luego, se desarrolló  el Event Storming y se definió el Lenguaje Ubicuo. Después se realizó la especificación de requerimientos con las User Stories, Product Backlog e Impact Mapping. Seguidamente se prototipó y desarrolló la Landing Page para el proyecto. Finalmente, se desarrolló el Sprint Planning 1 del proyecto. |
+| 2.0     | 06.09.2026 | Martínez Ramos Bryan Felix, Giuliano Angel Peláez Vargas, Medina Merma, Ingrid Melani, Huayra Moreyra José Maria | Se añadieron los apartados correspondientes al Sprint 2, incluyendo Sprint Planning, Aspect Leaders and Collaborators, Sprint Backlog, evidencias de desarrollo, ejecución, documentación de servicios y despliegue, así como los insights de colaboración del equipo. Además, se avanzó con las Conclusiones, Bibliografía y Anexos.|
 
 
 <!-- Salto de Pagina -->
