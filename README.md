@@ -2317,6 +2317,11 @@ https://www.figma.com/design/90jUCaHcElRstVZN7W3oNA/Web-Application-Wireframes-F
 * **Mock Ups FoodSave** 
 https://www.figma.com/design/d9zxHR849EJYIkoBxsCFEM/Mock-Ups-FoodSave?node-id=0-1&t=5D6qbTCzcIyhA8zz-1
 
+* **Frontend** 
+https://frontfoodsave.web.app/offers
+
+* **fakeapi deployada** 
+https://foodsavefakeapi.onrender.com/
 
 <!-- Salto de Pagina -->
 <div style="page-break-after: always;"></div>
