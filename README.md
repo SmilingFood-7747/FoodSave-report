@@ -1410,6 +1410,8 @@ User Goal 1: Como cliente comprador, quiero crear una cuenta para guardar y gest
 User Persona: Consumidor
 Desde la sección de registro, el usuario puede completar sus datos para ingresar a la plataforma
 
+![TF1](img/capitulo4/Web_Applications_Wireframes/T1.png)
+
 Task Flow 2: Inicio de sesion
 Objetivo del usuario: Permitir ingresar a la aplicacion una vez registrado
 Pasos del Task Flow:
@@ -1423,6 +1425,7 @@ User Goal 1: Como cliente comprador, quiero crear una cuenta para guardar y gest
 User Persona: Consumidor
 Desde la sección de registro, el usuario puede completar sus datos para ingresar a la plataforma
 
+![TF2](img/capitulo4/Web_Applications_Wireframes/T2.png)
 
 :
 Task Flow 3: Exploración y selección de ofertas
@@ -1438,6 +1441,9 @@ User Goal 1: Como consumidor, deseo explorar las ofertas disponibles, para encon
 User Persona: Consumidor
 Desde Ofertas, el consumidor visualiza las ofertas disponibles y selecciona una para acceder al Detalle de ofertas, donde puede revisar su información y seleccionar "Reservar oferta".
 
+![TF3](img/capitulo4/Web_Applications_Wireframes/T3.png)
+
+
 :
 Task Flow 4: Reserva y confirmación de oferta
 Objetivo del usuario: Permitir al cliente comprador reservar una oferta disponible y obtener su código de recojo.
@@ -1452,6 +1458,9 @@ User Goal 2: Como cliente comprador, quiero reservar una oferta para asegurar un
 User Persona: Cliente comprador
 Desde Detalle de ofertas, el cliente comprador selecciona "Reservar oferta" y accede a Reserva. Luego confirma la reserva y el sistema muestra la Confirmación de reserva con el código correspondiente.
 
+![TF4](img/capitulo4/Web_Applications_Wireframes/TK4.png)
+
+
 Task Flow 5: Publicación de una nueva oferta
 Objetivo del usuario: Permitir al responsable de negocio publicar una nueva oferta para vender un excedente.
 Pasos del Task Flow:
@@ -1463,6 +1472,9 @@ Pasos del Task Flow:
 User Goal 4: Como responsable de negocio, quiero publicar una oferta con información clara para vender un excedente.
 User Persona: Responsable de negocio
 Desde Business Dashboard, el responsable de negocio selecciona "Publicar nueva oferta" y accede a Create New Offer, donde completa la información correspondiente y publica la oferta.
+
+![TF5](img/capitulo4/Web_Applications_Wireframes/TK5.png)
+
 
 Task Flow 6: Consulta de reservas del negocio
 Objetivo del usuario: Permitir al responsable de negocio consultar las reservas de sus ofertas para atender los recojos.
@@ -1476,6 +1488,9 @@ User Goal 5: Como responsable de negocio, quiero ver las reservas activas de mis
 User Persona: Responsable de negocio
 Desde Reservaciones, el responsable de negocio puede visualizar las reservas pendientes de entrega y aquellas que ya fueron entregadas, junto con la información y el código correspondiente.
 
+![TF6](img/capitulo4/Web_Applications_Wireframes/TK6.png)
+
+
 Task Flow 7: Confirmación de recojo mediante código
 Objetivo del usuario: Permitir al responsable de negocio validar el código de una reserva para confirmar correctamente el recojo.
 Pasos del Task Flow:
@@ -1488,6 +1503,9 @@ User Goal 6: Como responsable de negocio, quiero confirmar el recojo mediante un
 User Persona: Responsable de negocio
 Desde Validación de código, el responsable de negocio ingresa el código de la reserva. El sistema muestra el Resultado de la validación y, si el código corresponde a una reserva válida, permite confirmar el recojo.
 Ahora sí queda alineado con las personas/roles y objetivos que realmente aparecen en tus User Stories, sin meter nombres como Andrea/Carlos ni cambiar la estructura de la plantilla.
+
+![TF7](img/capitulo4/Web_Applications_Wireframes/TK7.png)
+
 
 ### 4.4.3. Web Applications Mock-ups
 
