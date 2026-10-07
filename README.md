@@ -1425,7 +1425,7 @@ Desde la sección de registro, el usuario puede completar sus datos para ingresa
 
 
 :
-Task Flow 2: Exploración y selección de ofertas
+Task Flow 3: Exploración y selección de ofertas
 Objetivo del usuario: Permitir al consumidor explorar las ofertas disponibles y consultar el detalle de una oferta.
 Pasos del Task Flow:
 1. Acceder a la sección de Ofertas.
@@ -1439,7 +1439,7 @@ User Persona: Consumidor
 Desde Ofertas, el consumidor visualiza las ofertas disponibles y selecciona una para acceder al Detalle de ofertas, donde puede revisar su información y seleccionar "Reservar oferta".
 
 :
-Task Flow 3: Reserva y confirmación de oferta
+Task Flow 4: Reserva y confirmación de oferta
 Objetivo del usuario: Permitir al cliente comprador reservar una oferta disponible y obtener su código de recojo.
 Pasos del Task Flow:
 1. Acceder al detalle de una oferta.
@@ -1451,18 +1451,6 @@ Pasos del Task Flow:
 User Goal 2: Como cliente comprador, quiero reservar una oferta para asegurar una unidad antes de llegar al negocio.
 User Persona: Cliente comprador
 Desde Detalle de ofertas, el cliente comprador selecciona "Reservar oferta" y accede a Reserva. Luego confirma la reserva y el sistema muestra la Confirmación de reserva con el código correspondiente.
-
-
-Task Flow 4: Consulta de reserva
-Objetivo del usuario: Permitir al cliente comprador consultar su reserva y visualizar su estado y código.
-Pasos del Task Flow:
-1. Acceder a Mis Reservas.
-2. Visualizar la reserva actual.
-3. Consultar el estado de la reserva.
-4. Visualizar el código de recojo.
-User Goal 3: Como cliente comprador, quiero revisar una reserva para consultar su estado y código.
-User Persona: Cliente comprador
-Desde Mis Reservas, el cliente comprador puede visualizar su reserva actual, consultar su estado y acceder al código de recojo correspondiente.
 
 Task Flow 5: Publicación de una nueva oferta
 Objetivo del usuario: Permitir al responsable de negocio publicar una nueva oferta para vender un excedente.
